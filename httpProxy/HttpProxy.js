@@ -1,1 +1,275 @@
-'use strict';function a13_0x7228(){const _0x28881c=['configManager','remotePort','failedAuthAttempts','method','set','./HttpSession','HttpProxy','Malformed\x20HTTPS\x20request:\x20Missing\x20URL','2428wYqOEf','getOwnPropertyDescriptor','write','serverIP','serverIpFiltering','Remote\x20server\x20','11224LJfuYr','prototype','credentials','close','isWhitelistedServer','length','Unauthorized','size','activeConnections','../Auth','next','throw','5409XOqeoX','Maximum\x20concurrent\x20sessions\x20reached\x20(','whitelist','UserPassAuth','isBlockedServer','4513092nwZPwI','Error\x20starting\x20HTTP/HTTPS\x20proxy\x20server:\x20','Bad\x20Request:\x20Missing\x20URL',').\x20Rejecting\x20new\x20connection.','New\x20connection\x20from\x20','Authentication\x20error:\x20','handleHttpRequest','connection','isBlockedIP','writeHead','push','processRequest','config','HttpSession','Access\x20to\x20the\x20requested\x20URL\x20is\x20blocked:\x20','debug','Remote\x20server\x20URL:\x20','3357RtwWoa','authHandler','forEach','Error\x20handling\x20HTTP\x20request:\x20','split','30875840ijgjcv','Closing\x20the\x20server...','Malformed\x20HTTP\x20request:\x20Missing\x20URL','maxConcurrentConnections','get','isWhitelistedIP','Is\x20Blocked\x20:\x20','Internal\x20Server\x20Error','HTTP/1.1\x20403\x20Forbidden\x0d\x0a\x0d\x0a','__importStar','socket','destroy','Access\x20to\x20the\x20requested\x20URL\x20is\x20blocked','done','Parsed\x20target\x20host:\x20','httpServer','Received\x20HTTPS\x20request','hasOwnProperty','listen','incrementAuthFailure','Rejected\x20target\x20IP:\x20','defineProperty','info','HTTP/1.1\x20400\x20Bad\x20Request\x0d\x0a\x0d\x0a','4412460AIfEuk','Malformed\x20HTTPS\x20request:\x20Invalid\x20URL\x20-\x20','includes','createServer','writable','Received\x20HTTPS\x20header:\x20','443','clientIpFiltering','SessionMonitor','handleHttpsRequest','Bad\x20Request:\x20Invalid\x20URL','log','logger','blacklist','__setModuleDefault','port','remoteAddress','HttpsSession','server','authentication','7KWJOWS','create','../ConfigManager','default','__esModule','../SessionMonitor','Error\x20handling\x20HTTPS\x20request:\x20','end','6665785WPBNKK','url','HTTP/1.1\x20500\x20Internal\x20Server\x20Error\x0d\x0a\x0d\x0a','No\x20error\x20in\x20instantiation\x20of\x20httpSession','http','Bad\x20Request','authenticate','Rejected\x20blacklisted\x20IP:\x20','error','786349sARChB'];a13_0x7228=function(){return _0x28881c;};return a13_0x7228();}const a13_0x39b4c3=a13_0x4725;(function(_0x3685e3,_0x4de685){const _0x5a202d=a13_0x4725,_0x24ad22=_0x3685e3();while(!![]){try{const _0x2ed58e=parseInt(_0x5a202d(0x1ca))/0x1+parseInt(_0x5a202d(0x1d3))/0x2*(-parseInt(_0x5a202d(0x1fb))/0x3)+parseInt(_0x5a202d(0x1ea))/0x4+-parseInt(_0x5a202d(0x1c1))/0x5+-parseInt(_0x5a202d(0x1a5))/0x6*(parseInt(_0x5a202d(0x1b9))/0x7)+parseInt(_0x5a202d(0x1d9))/0x8*(-parseInt(_0x5a202d(0x1e5))/0x9)+parseInt(_0x5a202d(0x200))/0xa;if(_0x2ed58e===_0x4de685)break;else _0x24ad22['push'](_0x24ad22['shift']());}catch(_0x452ead){_0x24ad22['push'](_0x24ad22['shift']());}}}(a13_0x7228,0xb2b42));var __createBinding=this&&this['__createBinding']||(Object[a13_0x39b4c3(0x1ba)]?function(_0x1d20ce,_0x28338b,_0x182c06,_0x16f6f2){const _0x554e9e=a13_0x39b4c3;if(_0x16f6f2===undefined)_0x16f6f2=_0x182c06;var _0x11a291=Object[_0x554e9e(0x1d4)](_0x28338b,_0x182c06);(!_0x11a291||(_0x554e9e(0x204)in _0x11a291?!_0x28338b['__esModule']:_0x11a291[_0x554e9e(0x1a9)]||_0x11a291['configurable']))&&(_0x11a291={'enumerable':!![],'get':function(){return _0x28338b[_0x182c06];}}),Object[_0x554e9e(0x215)](_0x1d20ce,_0x16f6f2,_0x11a291);}:function(_0x2fb1ed,_0x50052f,_0x48f04c,_0x2b0624){if(_0x2b0624===undefined)_0x2b0624=_0x48f04c;_0x2fb1ed[_0x2b0624]=_0x50052f[_0x48f04c];}),__setModuleDefault=this&&this[a13_0x39b4c3(0x1b3)]||(Object[a13_0x39b4c3(0x1ba)]?function(_0x5ca42d,_0x33f939){const _0x37f9a7=a13_0x39b4c3;Object[_0x37f9a7(0x215)](_0x5ca42d,_0x37f9a7(0x1bc),{'enumerable':!![],'value':_0x33f939});}:function(_0x57f159,_0x20c660){const _0xfd8861=a13_0x39b4c3;_0x57f159[_0xfd8861(0x1bc)]=_0x20c660;}),__importStar=this&&this[a13_0x39b4c3(0x209)]||function(_0x5c0974){const _0x18dcc7=a13_0x39b4c3;if(_0x5c0974&&_0x5c0974[_0x18dcc7(0x1bd)])return _0x5c0974;var _0x405c52={};if(_0x5c0974!=null){for(var _0x149a49 in _0x5c0974)if(_0x149a49!==_0x18dcc7(0x1bc)&&Object[_0x18dcc7(0x1da)][_0x18dcc7(0x211)]['call'](_0x5c0974,_0x149a49))__createBinding(_0x405c52,_0x5c0974,_0x149a49);}return __setModuleDefault(_0x405c52,_0x5c0974),_0x405c52;},__awaiter=this&&this['__awaiter']||function(_0x1abcfe,_0x476ef2,_0x4bfc47,_0x182246){function _0x1c5e8a(_0x197e02){return _0x197e02 instanceof _0x4bfc47?_0x197e02:new _0x4bfc47(function(_0x353e62){_0x353e62(_0x197e02);});}return new(_0x4bfc47||(_0x4bfc47=Promise))(function(_0x3bdeed,_0x28723b){const _0x550e0c=a13_0x4725;function _0x16f252(_0x4c2436){const _0x34356c=a13_0x4725;try{_0x1fbd45(_0x182246[_0x34356c(0x1e3)](_0x4c2436));}catch(_0x436996){_0x28723b(_0x436996);}}function _0x3f5221(_0x3a5137){const _0x186198=a13_0x4725;try{_0x1fbd45(_0x182246[_0x186198(0x1e4)](_0x3a5137));}catch(_0x4352f3){_0x28723b(_0x4352f3);}}function _0x1fbd45(_0x2c000d){const _0x57c807=a13_0x4725;_0x2c000d[_0x57c807(0x20d)]?_0x3bdeed(_0x2c000d['value']):_0x1c5e8a(_0x2c000d['value'])['then'](_0x16f252,_0x3f5221);}_0x1fbd45((_0x182246=_0x182246['apply'](_0x1abcfe,_0x476ef2||[]))[_0x550e0c(0x1e3)]());});};Object[a13_0x39b4c3(0x215)](exports,'__esModule',{'value':!![]}),exports[a13_0x39b4c3(0x1d1)]=void 0x0;function a13_0x4725(_0x45b968,_0x2433c3){const _0x722890=a13_0x7228();return a13_0x4725=function(_0x4725ed,_0x55e1e0){_0x4725ed=_0x4725ed-0x1a4;let _0x64c7e2=_0x722890[_0x4725ed];return _0x64c7e2;},a13_0x4725(_0x45b968,_0x2433c3);}const http=__importStar(require(a13_0x39b4c3(0x1c5))),Auth_1=require(a13_0x39b4c3(0x1e2)),SessionMonitor_1=require(a13_0x39b4c3(0x1be)),HttpSession_1=require(a13_0x39b4c3(0x1d0)),ConfigManager_1=require(a13_0x39b4c3(0x1bb));class HttpProxy{constructor(_0x26d67e,_0x48dbb3){const _0xca7ace=a13_0x39b4c3;this[_0xca7ace(0x1cb)]=new ConfigManager_1['ConfigManager'](_0x26d67e),this[_0xca7ace(0x1b1)]=_0x48dbb3,this['failedAuthAttempts']=new Map(),this['activeConnections']=new Map(),this[_0xca7ace(0x1cb)]['config'][_0xca7ace(0x1b8)][_0xca7ace(0x1ce)]==='password'?this[_0xca7ace(0x1fc)]=new Auth_1[(_0xca7ace(0x1e8))](this[_0xca7ace(0x1cb)][_0xca7ace(0x1f6)][_0xca7ace(0x1db)]):this[_0xca7ace(0x1fc)]=null,this[_0xca7ace(0x20f)]=http[_0xca7ace(0x1a8)]((_0x2d972a,_0x4e83c7)=>this[_0xca7ace(0x1f0)](_0x2d972a,_0x4e83c7)),this[_0xca7ace(0x20f)]['on']('connect',(_0x5a3c5b,_0xd543ed,_0x22699b)=>this['handleHttpsRequest'](_0x5a3c5b,_0xd543ed,_0x22699b)),this[_0xca7ace(0x20f)]['on'](_0xca7ace(0x1f1),_0xbd0a2a=>{const _0x5b922f=_0xca7ace;if(this[_0x5b922f(0x1e1)][_0x5b922f(0x1e0)]>=this[_0x5b922f(0x1cb)][_0x5b922f(0x1f6)][_0x5b922f(0x1b7)]['maxConcurrentConnections'])this[_0x5b922f(0x1b1)][_0x5b922f(0x216)](_0x5b922f(0x1e6)+this['configManager'][_0x5b922f(0x1f6)][_0x5b922f(0x1b7)][_0x5b922f(0x203)]+_0x5b922f(0x1ed)),_0xbd0a2a['destroy']();else{this[_0x5b922f(0x1b1)][_0x5b922f(0x216)](_0x5b922f(0x1ee)+_0xbd0a2a[_0x5b922f(0x1b5)]+':'+_0xbd0a2a[_0x5b922f(0x1cc)]);const _0x3dc8ca=new SessionMonitor_1[(_0x5b922f(0x1ad))](_0xbd0a2a);this[_0x5b922f(0x1e1)][_0x5b922f(0x1cf)](_0xbd0a2a,_0x3dc8ca),_0xbd0a2a['on'](_0x5b922f(0x1dc),()=>{const _0xe362b8=_0x5b922f;this[_0xe362b8(0x1b1)][_0xe362b8(0x216)]('Closing\x20connection\x20for\x20'+_0xbd0a2a[_0xe362b8(0x1b5)]+':'+_0xbd0a2a[_0xe362b8(0x1cc)]),this[_0xe362b8(0x1e1)]['delete'](_0xbd0a2a);});}});}['handleHttpRequest'](_0x53fba9,_0x2cb6cc){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x2b56c9=a13_0x4725;this[_0x2b56c9(0x1b1)][_0x2b56c9(0x1f9)]('Receveid\x20HTTP\x20request'),this[_0x2b56c9(0x1b1)]['debug'](_0x2b56c9(0x1d8)+_0x53fba9['url']),console[_0x2b56c9(0x1b0)](this[_0x2b56c9(0x1cb)][_0x2b56c9(0x1f6)][_0x2b56c9(0x1ac)][_0x2b56c9(0x1e7)]),console[_0x2b56c9(0x1b0)](this[_0x2b56c9(0x1cb)][_0x2b56c9(0x1f6)][_0x2b56c9(0x1ac)][_0x2b56c9(0x1b2)]),console['log'](this['configManager'][_0x2b56c9(0x1f6)]['serverIpFiltering'][_0x2b56c9(0x1e7)]),console[_0x2b56c9(0x1b0)](this[_0x2b56c9(0x1cb)][_0x2b56c9(0x1f6)]['serverIpFiltering'][_0x2b56c9(0x1b2)]);try{if(!_0x53fba9['url']){this[_0x2b56c9(0x1b1)][_0x2b56c9(0x1c9)](_0x2b56c9(0x202)),_0x2cb6cc['writeHead'](0x190,_0x2b56c9(0x1c6)),_0x2cb6cc['end'](_0x2b56c9(0x1ec));return;}const _0x4c50f9=new URL(_0x53fba9[_0x2b56c9(0x1c2)])['hostname'];if(!_0x4c50f9){this['logger'][_0x2b56c9(0x1c9)]('Malformed\x20HTTP\x20request:\x20Invalid\x20URL\x20-\x20'+_0x53fba9[_0x2b56c9(0x1c2)]),_0x2cb6cc['writeHead'](0x190,_0x2b56c9(0x1c6)),_0x2cb6cc[_0x2b56c9(0x1c0)](_0x2b56c9(0x1af));return;}if(this[_0x2b56c9(0x1f2)](_0x53fba9[_0x2b56c9(0x20a)][_0x2b56c9(0x1b5)])){this[_0x2b56c9(0x1b1)][_0x2b56c9(0x216)](_0x2b56c9(0x1c8)+_0x53fba9[_0x2b56c9(0x20a)][_0x2b56c9(0x1b5)]),_0x2cb6cc[_0x2b56c9(0x1f3)](0x193),_0x2cb6cc['end']('Access\x20Denied');return;}if(!this[_0x2b56c9(0x205)](_0x53fba9[_0x2b56c9(0x20a)][_0x2b56c9(0x1b5)])){this[_0x2b56c9(0x1b1)][_0x2b56c9(0x216)]('IP\x20not\x20whitelisted:\x20'+_0x53fba9[_0x2b56c9(0x20a)][_0x2b56c9(0x1b5)]),_0x2cb6cc[_0x2b56c9(0x1f3)](0x193),_0x2cb6cc['end']('Access\x20Denied');return;}if(!(yield this[_0x2b56c9(0x1c7)](_0x53fba9))){_0x2cb6cc[_0x2b56c9(0x1f3)](0x191),_0x2cb6cc[_0x2b56c9(0x1c0)](_0x2b56c9(0x1df));return;}if(yield this[_0x2b56c9(0x1e9)](_0x4c50f9)){_0x2cb6cc[_0x2b56c9(0x1f3)](0x193),_0x2cb6cc[_0x2b56c9(0x1c0)](_0x2b56c9(0x20c)),this['logger'][_0x2b56c9(0x216)](_0x2b56c9(0x214)+_0x4c50f9);return;}if(yield!this[_0x2b56c9(0x1dd)](_0x4c50f9)){_0x2cb6cc[_0x2b56c9(0x1f3)](0x193),_0x2cb6cc[_0x2b56c9(0x1c0)]('Access\x20to\x20the\x20requested\x20URL\x20is\x20not\x20allowed'),this['logger'][_0x2b56c9(0x216)](_0x2b56c9(0x214)+_0x4c50f9);return;}this[_0x2b56c9(0x1b1)][_0x2b56c9(0x1f9)](_0x2b56c9(0x206)+(yield this[_0x2b56c9(0x1e9)](_0x4c50f9)));const _0x223e79=new HttpSession_1[(_0x2b56c9(0x1f7))](_0x53fba9,_0x2cb6cc,this['logger'],this[_0x2b56c9(0x1cb)]);this[_0x2b56c9(0x1b1)]['debug'](_0x2b56c9(0x1c4)),_0x223e79[_0x2b56c9(0x1f5)]();}catch(_0x2d67a0){this[_0x2b56c9(0x1b1)]['error'](_0x2b56c9(0x1fe)+_0x2d67a0),_0x2cb6cc['writeHead'](0x1f4,_0x2b56c9(0x207)),_0x2cb6cc['end']('Internal\x20Server\x20Error');}});}[a13_0x39b4c3(0x1ae)](_0x26260b,_0xd43c47,_0x14f24e){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x34e84a=a13_0x4725;this['logger'][_0x34e84a(0x1f9)](_0x34e84a(0x210)),this[_0x34e84a(0x1b1)][_0x34e84a(0x1f9)](_0x34e84a(0x1aa)+_0x14f24e),this[_0x34e84a(0x1b1)][_0x34e84a(0x1f9)](_0x34e84a(0x1fa)+_0x26260b[_0x34e84a(0x1c2)]);try{if(!_0x26260b[_0x34e84a(0x1c2)]){this[_0x34e84a(0x1b1)][_0x34e84a(0x1c9)](_0x34e84a(0x1d2)),_0xd43c47[_0x34e84a(0x1d5)](_0x34e84a(0x1a4)),_0xd43c47['destroy']();return;}let _0x41f4e8,_0x2e8a62;[_0x41f4e8,_0x2e8a62]=_0x26260b[_0x34e84a(0x1c2)][_0x34e84a(0x1ff)](':'),_0x2e8a62=_0x2e8a62||_0x34e84a(0x1ab);if(!_0x41f4e8){this[_0x34e84a(0x1b1)][_0x34e84a(0x1c9)](_0x34e84a(0x1a6)+_0x26260b[_0x34e84a(0x1c2)]),_0xd43c47[_0x34e84a(0x1d5)]('HTTP/1.1\x20400\x20Bad\x20Request\x0d\x0a\x0d\x0a'),_0xd43c47[_0x34e84a(0x20b)]();return;}this[_0x34e84a(0x1b1)]['info'](_0x34e84a(0x20e)+_0x41f4e8+',\x20Port:\x20'+_0x2e8a62);if(this[_0x34e84a(0x1f2)](_0xd43c47['remoteAddress'])){this['logger']['info'](_0x34e84a(0x1c8)+_0xd43c47[_0x34e84a(0x1b5)]),_0xd43c47[_0x34e84a(0x1d5)](_0x34e84a(0x208)),_0xd43c47[_0x34e84a(0x20b)]();return;}if(!(yield this['authenticate'](_0x26260b))){_0xd43c47[_0x34e84a(0x1d5)]('HTTP/1.1\x20401\x20Unauthorized\x0d\x0a\x0d\x0a'),_0xd43c47[_0x34e84a(0x20b)]();return;}if(yield this[_0x34e84a(0x1e9)](_0x41f4e8)){this[_0x34e84a(0x1b1)]['info'](_0x34e84a(0x1f8)+_0x41f4e8),_0xd43c47[_0x34e84a(0x1d5)](_0x34e84a(0x208)),_0xd43c47['destroy']();return;}const _0x4ac064=new HttpSession_1[(_0x34e84a(0x1b6))](_0x26260b,_0xd43c47,_0x14f24e,this[_0x34e84a(0x1b1)],this[_0x34e84a(0x1cb)]);_0x4ac064[_0x34e84a(0x1f5)]();}catch(_0x5149c3){this['logger']['error'](_0x34e84a(0x1bf)+_0x5149c3),_0xd43c47['write'](_0x34e84a(0x1c3)),_0xd43c47[_0x34e84a(0x20b)]();}});}[a13_0x39b4c3(0x1e9)](_0xf47090){const _0x556be8=a13_0x39b4c3;return this[_0x556be8(0x1cb)]['config'][_0x556be8(0x1d7)][_0x556be8(0x1b2)][_0x556be8(0x1a7)](_0xf47090['replace'](/[\[\]]/g,'')['replace'](/^www\./,''));}[a13_0x39b4c3(0x1dd)](_0x3877c4){const _0x77b080=a13_0x39b4c3,_0x1bd26b=this[_0x77b080(0x1cb)][_0x77b080(0x1f6)][_0x77b080(0x1d7)][_0x77b080(0x1e7)];if(!_0x1bd26b||_0x1bd26b[_0x77b080(0x1de)]===0x0)return!![];return _0x1bd26b[_0x77b080(0x1a7)](_0x3877c4);}[a13_0x39b4c3(0x1f2)](_0xf7b49f){const _0x5c7c1f=a13_0x39b4c3;return this[_0x5c7c1f(0x1cb)][_0x5c7c1f(0x1f6)][_0x5c7c1f(0x1ac)][_0x5c7c1f(0x1b2)][_0x5c7c1f(0x1a7)](_0xf7b49f||'');}[a13_0x39b4c3(0x205)](_0x423bbd){const _0x124467=a13_0x39b4c3,_0x271fc0=this[_0x124467(0x1cb)][_0x124467(0x1f6)]['clientIpFiltering']['whitelist'];if(!_0x271fc0||_0x271fc0[_0x124467(0x1de)]===0x0)return!![];return _0x271fc0['includes'](_0x423bbd||'');}[a13_0x39b4c3(0x1c7)](_0x4cfdf8){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x311fe6=a13_0x4725;try{const _0x4bce10=_0x4cfdf8[_0x311fe6(0x20a)]['remoteAddress']||'';let _0x30e8a4=![];return this[_0x311fe6(0x1fc)]?(_0x30e8a4=yield this[_0x311fe6(0x1fc)][_0x311fe6(0x1c7)](_0x311fe6(0x1c5),{'headers':_0x4cfdf8['headers']}),!_0x30e8a4&&this[_0x311fe6(0x213)](_0x4bce10)):_0x30e8a4=!![],_0x30e8a4;}catch(_0x490c54){return this[_0x311fe6(0x1b1)][_0x311fe6(0x1c9)](_0x311fe6(0x1ef)+_0x490c54),![];}});}[a13_0x39b4c3(0x213)](_0x360211){const _0x5d8bd0=a13_0x39b4c3,_0x49b40d=(this['failedAuthAttempts']['get'](_0x360211)||0x0)+0x1;this[_0x5d8bd0(0x1cd)][_0x5d8bd0(0x1cf)](_0x360211,_0x49b40d),_0x49b40d>=this[_0x5d8bd0(0x1cb)][_0x5d8bd0(0x1f6)][_0x5d8bd0(0x1b8)]['maxFailedAttempts']&&(this[_0x5d8bd0(0x1b1)]['info']('Blacklisting\x20IP\x20due\x20to\x20too\x20many\x20failed\x20attempts:\x20'+_0x360211),this[_0x5d8bd0(0x1cb)][_0x5d8bd0(0x1f6)][_0x5d8bd0(0x1ac)][_0x5d8bd0(0x1b2)][_0x5d8bd0(0x1f4)](_0x360211));}['start'](){return __awaiter(this,void 0x0,void 0x0,function*(){return new Promise((_0x25e0dd,_0xa6f935)=>{const _0x8e636e=a13_0x4725;this[_0x8e636e(0x20f)][_0x8e636e(0x212)](this[_0x8e636e(0x1cb)][_0x8e636e(0x1f6)][_0x8e636e(0x1b7)][_0x8e636e(0x1c5)][_0x8e636e(0x1b4)],this[_0x8e636e(0x1cb)]['config'][_0x8e636e(0x1b7)][_0x8e636e(0x1c5)][_0x8e636e(0x1d6)],()=>{const _0x3b4e27=_0x8e636e;this[_0x3b4e27(0x1b1)][_0x3b4e27(0x216)]('HTTP/HTTPS\x20proxy\x20server\x20listening\x20on\x20'+this[_0x3b4e27(0x1cb)][_0x3b4e27(0x1f6)][_0x3b4e27(0x1b7)]['http'][_0x3b4e27(0x1d6)]+':'+this[_0x3b4e27(0x1cb)][_0x3b4e27(0x1f6)][_0x3b4e27(0x1b7)]['http']['port']),_0x25e0dd();}),this[_0x8e636e(0x20f)]['on'](_0x8e636e(0x1c9),_0x222de0=>{const _0x13859c=_0x8e636e;this[_0x13859c(0x1b1)][_0x13859c(0x1c9)](_0x13859c(0x1eb)+_0x222de0),_0xa6f935(_0x222de0);});});});}['close'](){return __awaiter(this,void 0x0,void 0x0,function*(){return new Promise((_0x1b7641,_0x1a3837)=>{const _0x1ace4f=a13_0x4725;this['activeConnections'][_0x1ace4f(0x1fd)]((_0x1fa94e,_0x16b274)=>{const _0x46136c=_0x1ace4f;_0x16b274[_0x46136c(0x20b)]();}),this[_0x1ace4f(0x1e1)]['clear'](),this['logger']['info']('Closed\x20active\x20connections'),this[_0x1ace4f(0x20f)][_0x1ace4f(0x1dc)](_0x446499=>{const _0x3fc9f2=_0x1ace4f;_0x446499?(this[_0x3fc9f2(0x1b1)][_0x3fc9f2(0x1c9)]('Error\x20closing\x20HTTP/HTTPS\x20proxy\x20server:\x20'+_0x446499),_0x1a3837(_0x446499)):(this[_0x3fc9f2(0x1b1)][_0x3fc9f2(0x216)](_0x3fc9f2(0x201)),_0x1b7641());});});});}}exports[a13_0x39b4c3(0x1d1)]=HttpProxy;
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.HttpProxy = void 0;
+const http = __importStar(require("http"));
+const Auth_1 = require("../Auth");
+const SessionMonitor_1 = require("../SessionMonitor");
+const HttpSession_1 = require("./HttpSession");
+const ConfigManager_1 = require("../ConfigManager");
+class HttpProxy {
+    constructor(configPath, logger) {
+        this.configManager = new ConfigManager_1.ConfigManager(configPath);
+        this.logger = logger;
+        this.failedAuthAttempts = new Map();
+        this.activeConnections = new Map();
+        if (this.configManager.config.authentication.method === 'password') {
+            this.authHandler = new Auth_1.UserPassAuth(this.configManager.config.credentials);
+        }
+        else {
+            this.authHandler = null;
+        }
+        this.httpServer = http.createServer((req, res) => this.handleHttpRequest(req, res));
+        this.httpServer.on('connect', (req, socket, head) => this.handleHttpsRequest(req, socket, head));
+        // Listener for the 'connection' event to manage the active connections
+        this.httpServer.on('connection', (socket) => {
+            if (this.activeConnections.size >= this.configManager.config.server.maxConcurrentConnections) {
+                this.logger.info(`Maximum concurrent sessions reached (${this.configManager.config.server.maxConcurrentConnections}). Rejecting new connection.`);
+                socket.destroy();
+            }
+            else {
+                this.logger.info(`New connection from ${socket.remoteAddress}:${socket.remotePort}`);
+                const sessionMonitor = new SessionMonitor_1.SessionMonitor(socket); // Create a new SessionMonitor for this connection
+                this.activeConnections.set(socket, sessionMonitor); // Store the socket and its SessionMonitor
+                socket.on('close', () => {
+                    this.logger.info(`Closing connection for ${socket.remoteAddress}:${socket.remotePort}`);
+                    this.activeConnections.delete(socket); // Remove from the map when the socket closes
+                });
+            }
+        });
+    }
+    handleHttpRequest(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            this.logger.debug(`Receveid HTTP request`);
+            this.logger.debug(`Remote server ${req.url}`);
+            console.log(this.configManager.config.clientIpFiltering.whitelist);
+            console.log(this.configManager.config.clientIpFiltering.blacklist);
+            console.log(this.configManager.config.serverIpFiltering.whitelist);
+            console.log(this.configManager.config.serverIpFiltering.blacklist);
+            try {
+                if (!req.url) {
+                    this.logger.error('Malformed HTTP request: Missing URL');
+                    res.writeHead(400, 'Bad Request');
+                    res.end('Bad Request: Missing URL');
+                    return;
+                }
+                const targetHost = new URL(req.url).hostname;
+                if (!targetHost) {
+                    this.logger.error(`Malformed HTTP request: Invalid URL - ${req.url}`);
+                    res.writeHead(400, 'Bad Request');
+                    res.end('Bad Request: Invalid URL');
+                    return;
+                }
+                if (this.isBlockedIP(req.socket.remoteAddress)) {
+                    this.logger.info(`Rejected blacklisted IP: ${req.socket.remoteAddress}`);
+                    res.writeHead(403);
+                    res.end('Access Denied');
+                    return;
+                }
+                if (!this.isWhitelistedIP(req.socket.remoteAddress)) {
+                    this.logger.info(`IP not whitelisted: ${req.socket.remoteAddress}`);
+                    res.writeHead(403);
+                    res.end('Access Denied');
+                    return;
+                }
+                if (!(yield this.authenticate(req))) {
+                    res.writeHead(401);
+                    res.end('Unauthorized');
+                    return;
+                }
+                if (yield this.isBlockedServer(targetHost)) {
+                    res.writeHead(403);
+                    res.end('Access to the requested URL is blocked');
+                    this.logger.info(`Rejected target IP: ${targetHost}`);
+                    return;
+                }
+                if (yield !this.isWhitelistedServer(targetHost)) {
+                    res.writeHead(403);
+                    res.end('Access to the requested URL is not allowed');
+                    this.logger.info(`Rejected target IP: ${targetHost}`);
+                    return;
+                }
+                this.logger.debug(`Is Blocked : ${yield this.isBlockedServer(targetHost)}`);
+                const httpSession = new HttpSession_1.HttpSession(req, res, this.logger, this.configManager);
+                this.logger.debug(`No error in instantiation of httpSession`);
+                httpSession.processRequest();
+            }
+            catch (error) {
+                this.logger.error(`Error handling HTTP request: ${error}`);
+                res.writeHead(500, 'Internal Server Error');
+                res.end('Internal Server Error');
+            }
+        });
+    }
+    handleHttpsRequest(req, socket, head) {
+        return __awaiter(this, void 0, void 0, function* () {
+            this.logger.debug(`Received HTTPS request`);
+            this.logger.debug(`Received HTTPS header: ${head}`);
+            this.logger.debug(`Remote server URL: ${req.url}`);
+            try {
+                if (!req.url) {
+                    this.logger.error('Malformed HTTPS request: Missing URL');
+                    socket.write('HTTP/1.1 400 Bad Request\r\n\r\n');
+                    socket.destroy();
+                    return;
+                }
+                let targetHost, targetPort;
+                [targetHost, targetPort] = req.url.split(':');
+                targetPort = targetPort || '443';
+                if (!targetHost) {
+                    this.logger.error(`Malformed HTTPS request: Invalid URL - ${req.url}`);
+                    socket.write('HTTP/1.1 400 Bad Request\r\n\r\n');
+                    socket.destroy();
+                    return;
+                }
+                this.logger.info(`Parsed target host: ${targetHost}, Port: ${targetPort}`);
+                if (this.isBlockedIP(socket.remoteAddress)) {
+                    this.logger.info(`Rejected blacklisted IP: ${socket.remoteAddress}`);
+                    socket.write('HTTP/1.1 403 Forbidden\r\n\r\n');
+                    socket.destroy();
+                    return;
+                }
+                if (!(yield this.authenticate(req))) {
+                    socket.write('HTTP/1.1 401 Unauthorized\r\n\r\n');
+                    socket.destroy();
+                    return;
+                }
+                if (yield this.isBlockedServer(targetHost)) {
+                    this.logger.info(`Access to the requested URL is blocked: ${targetHost}`);
+                    socket.write('HTTP/1.1 403 Forbidden\r\n\r\n');
+                    socket.destroy();
+                    return;
+                }
+                const httpsSession = new HttpSession_1.HttpsSession(req, socket, head, this.logger, this.configManager);
+                httpsSession.processRequest();
+            }
+            catch (error) {
+                this.logger.error(`Error handling HTTPS request: ${error}`);
+                socket.write('HTTP/1.1 500 Internal Server Error\r\n\r\n');
+                socket.destroy();
+            }
+        });
+    }
+    isBlockedServer(hostname) {
+        return this.configManager.config.serverIpFiltering.blacklist.includes(hostname.replace(/[\[\]]/g, '').replace(/^www\./, ''));
+    }
+    isWhitelistedServer(hostname) {
+        const whitelist = this.configManager.config.serverIpFiltering.whitelist;
+        if (!whitelist || whitelist.length === 0) {
+            return true;
+        }
+        return whitelist.includes(hostname);
+    }
+    isBlockedIP(ip) {
+        return this.configManager.config.clientIpFiltering.blacklist.includes(ip || '');
+    }
+    isWhitelistedIP(ip) {
+        const whitelist = this.configManager.config.clientIpFiltering.whitelist;
+        // If the whitelist is undefined or empty, return true
+        if (!whitelist || whitelist.length === 0) {
+            return true;
+        }
+        // Otherwise, check if the IP is in the whitelist
+        return whitelist.includes(ip || '');
+    }
+    authenticate(req) {
+        return __awaiter(this, void 0, void 0, function* () {
+            try {
+                const clientIP = req.socket.remoteAddress || '';
+                let isAuthenticated = false;
+                if (this.authHandler) {
+                    isAuthenticated = yield this.authHandler.authenticate('http', { headers: req.headers });
+                    if (!isAuthenticated) {
+                        this.incrementAuthFailure(clientIP);
+                    }
+                }
+                else {
+                    isAuthenticated = true;
+                }
+                return isAuthenticated;
+            }
+            catch (error) {
+                this.logger.error(`Authentication error: ${error}`);
+                return false;
+            }
+        });
+    }
+    incrementAuthFailure(clientIP) {
+        const attempts = (this.failedAuthAttempts.get(clientIP) || 0) + 1;
+        this.failedAuthAttempts.set(clientIP, attempts);
+        if (attempts >= this.configManager.config.authentication.maxFailedAttempts) {
+            this.logger.info(`Blacklisting IP due to too many failed attempts: ${clientIP}`);
+            this.configManager.config.clientIpFiltering.blacklist.push(clientIP);
+        }
+    }
+    start() {
+        return __awaiter(this, void 0, void 0, function* () {
+            return new Promise((resolve, reject) => {
+                this.httpServer.listen(this.configManager.config.server.http.port, this.configManager.config.server.http.serverIP, () => {
+                    this.logger.info(`HTTP/HTTPS proxy server listening on ${this.configManager.config.server.http.serverIP}:${this.configManager.config.server.http.port}`);
+                    resolve();
+                });
+                // Handle potential errors
+                this.httpServer.on('error', (error) => {
+                    this.logger.error(`Error starting HTTP/HTTPS proxy server: ${error}`);
+                    reject(error);
+                });
+            });
+        });
+    }
+    close() {
+        return __awaiter(this, void 0, void 0, function* () {
+            return new Promise((resolve, reject) => {
+                // Ensure all connections are terminated
+                this.activeConnections.forEach((sessionMonitor, socket) => {
+                    socket.destroy();
+                });
+                this.activeConnections.clear();
+                this.logger.info(`Closed active connections`);
+                // Close the HTTP server
+                this.httpServer.close((error) => {
+                    if (error) {
+                        this.logger.error(`Error closing HTTP/HTTPS proxy server: ${error}`);
+                        reject(error);
+                    }
+                    else {
+                        this.logger.info(`Closing the server...`);
+                        resolve();
+                    }
+                });
+            });
+        });
+    }
+}
+exports.HttpProxy = HttpProxy;

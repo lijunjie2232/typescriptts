@@ -1,1 +1,74 @@
-'use strict';var a2_0x11b045=a2_0x28aa;(function(_0x3c9139,_0xa2dfd2){var _0x43e371=a2_0x28aa,_0x5317d5=_0x3c9139();while(!![]){try{var _0x425b54=-parseInt(_0x43e371(0xcb))/0x1+-parseInt(_0x43e371(0xe0))/0x2*(parseInt(_0x43e371(0xf0))/0x3)+-parseInt(_0x43e371(0xe6))/0x4+parseInt(_0x43e371(0xd0))/0x5*(parseInt(_0x43e371(0xed))/0x6)+-parseInt(_0x43e371(0xe2))/0x7*(parseInt(_0x43e371(0xcc))/0x8)+parseInt(_0x43e371(0xdb))/0x9+-parseInt(_0x43e371(0xc8))/0xa*(-parseInt(_0x43e371(0xf1))/0xb);if(_0x425b54===_0xa2dfd2)break;else _0x5317d5['push'](_0x5317d5['shift']());}catch(_0x217994){_0x5317d5['push'](_0x5317d5['shift']());}}}(a2_0x2e48,0xc1b69));function a2_0x28aa(_0x2bad9c,_0x19f801){var _0x2e48e3=a2_0x2e48();return a2_0x28aa=function(_0x28aa5d,_0x3afa50){_0x28aa5d=_0x28aa5d-0xc6;var _0x102736=_0x2e48e3[_0x28aa5d];return _0x102736;},a2_0x28aa(_0x2bad9c,_0x19f801);}var __createBinding=this&&this[a2_0x11b045(0xc9)]||(Object[a2_0x11b045(0xd8)]?function(_0x3e28de,_0x2af2b5,_0x134242,_0x35d30e){var _0x5eee6d=a2_0x11b045;if(_0x35d30e===undefined)_0x35d30e=_0x134242;var _0x4e5e13=Object['getOwnPropertyDescriptor'](_0x2af2b5,_0x134242);(!_0x4e5e13||(_0x5eee6d(0xdd)in _0x4e5e13?!_0x2af2b5['__esModule']:_0x4e5e13[_0x5eee6d(0xe7)]||_0x4e5e13[_0x5eee6d(0xcf)]))&&(_0x4e5e13={'enumerable':!![],'get':function(){return _0x2af2b5[_0x134242];}}),Object['defineProperty'](_0x3e28de,_0x35d30e,_0x4e5e13);}:function(_0x2838e9,_0x24a19e,_0x32a115,_0x5ded48){if(_0x5ded48===undefined)_0x5ded48=_0x32a115;_0x2838e9[_0x5ded48]=_0x24a19e[_0x32a115];}),__setModuleDefault=this&&this[a2_0x11b045(0xd6)]||(Object[a2_0x11b045(0xd8)]?function(_0xede2e1,_0x35e7fe){var _0x66854a=a2_0x11b045;Object['defineProperty'](_0xede2e1,_0x66854a(0xd2),{'enumerable':!![],'value':_0x35e7fe});}:function(_0x2ea7f5,_0x208910){var _0x30a6d0=a2_0x11b045;_0x2ea7f5[_0x30a6d0(0xd2)]=_0x208910;}),__importStar=this&&this[a2_0x11b045(0xd5)]||function(_0xdc71ba){var _0x478e3c=a2_0x11b045;if(_0xdc71ba&&_0xdc71ba[_0x478e3c(0xf2)])return _0xdc71ba;var _0x59fc6={};if(_0xdc71ba!=null){for(var _0x543ba7 in _0xdc71ba)if(_0x543ba7!==_0x478e3c(0xd2)&&Object[_0x478e3c(0xd4)][_0x478e3c(0xe3)][_0x478e3c(0xee)](_0xdc71ba,_0x543ba7))__createBinding(_0x59fc6,_0xdc71ba,_0x543ba7);}return __setModuleDefault(_0x59fc6,_0xdc71ba),_0x59fc6;};Object[a2_0x11b045(0xda)](exports,a2_0x11b045(0xf2),{'value':!![]}),exports[a2_0x11b045(0xdc)]=void 0x0;const fs=__importStar(require('fs')),path=__importStar(require(a2_0x11b045(0xdf)));class ConfigManager{constructor(_0xb37126){var _0x14e2b1=a2_0x11b045;this[_0x14e2b1(0xcd)]=_0xb37126,this[_0x14e2b1(0xef)]=this[_0x14e2b1(0xea)](_0xb37126);}['loadConfig'](_0x5da60e){var _0x36f31e=a2_0x11b045;const _0x188a25=path[_0x36f31e(0xe1)](_0x5da60e),_0x43853c=fs['readFileSync'](_0x188a25,_0x36f31e(0xd1));return JSON['parse'](_0x43853c);}[a2_0x11b045(0xd9)](){var _0x455713=a2_0x11b045;const _0x3bde19=path[_0x455713(0xe1)](this[_0x455713(0xcd)]),_0xc789c4=JSON[_0x455713(0xe5)](this[_0x455713(0xef)],null,0x4);fs[_0x455713(0xc6)](_0x3bde19,_0xc789c4,_0x455713(0xd1));}[a2_0x11b045(0xd7)](_0x5b8ad9){var _0x444162=a2_0x11b045;this['config'][_0x444162(0xc7)][_0x444162(0xce)]=_0x5b8ad9;}[a2_0x11b045(0xe8)](_0x3b7c25){var _0xc7f7f3=a2_0x11b045;this['config'][_0xc7f7f3(0xc7)][_0xc7f7f3(0xde)]=_0x3b7c25;}[a2_0x11b045(0xec)](_0x26c83e){var _0x2a8f2f=a2_0x11b045;this[_0x2a8f2f(0xef)][_0x2a8f2f(0xd3)][_0x2a8f2f(0xce)]=_0x26c83e;}[a2_0x11b045(0xe9)](_0x54893c){var _0x4dfd0b=a2_0x11b045;this[_0x4dfd0b(0xef)][_0x4dfd0b(0xd3)][_0x4dfd0b(0xde)]=_0x54893c;}[a2_0x11b045(0xeb)](){var _0x42ffd3=a2_0x11b045;return this[_0x42ffd3(0xef)][_0x42ffd3(0xc7)][_0x42ffd3(0xce)];}['getClientIpWhitelist'](){var _0x569b56=a2_0x11b045;return this[_0x569b56(0xef)][_0x569b56(0xc7)][_0x569b56(0xde)];}[a2_0x11b045(0xca)](){var _0x3f2d8d=a2_0x11b045;return this[_0x3f2d8d(0xef)][_0x3f2d8d(0xd3)][_0x3f2d8d(0xce)];}[a2_0x11b045(0xe4)](){var _0x1369ac=a2_0x11b045;return this[_0x1369ac(0xef)]['serverIpFiltering']['whitelist'];}}function a2_0x2e48(){var _0x122399=['clientIpFiltering','140qepxte','__createBinding','getServerIpBlackList','1581173FiVjpA','48VAsqbJ','configFilePath','blacklist','configurable','45NtKPdR','utf8','default','serverIpFiltering','prototype','__importStar','__setModuleDefault','updateClientIpBlackList','create','persistConfig','defineProperty','7681581pFPlXh','ConfigManager','get','whitelist','path','1061100qQEnJA','resolve','1380547qCZPts','hasOwnProperty','getServerIpWhitelist','stringify','6183428AQFxAg','writable','updateClientIpWhitelist','updateServerIpWhitelist','loadConfig','getClientIpBlackList','updateServerIpBlackList','457692nLgvPx','call','config','6QIXZAL','3633817CwKTEm','__esModule','writeFileSync'];a2_0x2e48=function(){return _0x122399;};return a2_0x2e48();}exports[a2_0x11b045(0xdc)]=ConfigManager;
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ConfigManager = void 0;
+const fs = __importStar(require("fs"));
+const path = __importStar(require("path"));
+// Hot-patching will only works on field that are dynamically checked
+// Will not work on ports, ip address, credentials, auth method
+// Should be used for persisting config (client Blacklist after failed auth notably)
+// TO REFACTOR --> Make config attributes private, create getter method and use it in other class to access the ServerConfig attribute
+// Update blacklist with setter method. This way ServerConfig are protected against unexpected modifications and only allow for update via specific setter methods
+class ConfigManager {
+    constructor(configPath) {
+        this.configFilePath = configPath;
+        this.config = this.loadConfig(configPath);
+    }
+    loadConfig(configPath) {
+        const fullPath = path.resolve(configPath);
+        const configData = fs.readFileSync(fullPath, 'utf8');
+        return JSON.parse(configData);
+    }
+    persistConfig() {
+        const fullPath = path.resolve(this.configFilePath);
+        const configData = JSON.stringify(this.config, null, 4); // Beautify the JSON output
+        fs.writeFileSync(fullPath, configData, 'utf8');
+    }
+    updateClientIpBlackList(clientBlacklistedIp) {
+        this.config.clientIpFiltering.blacklist = clientBlacklistedIp;
+    }
+    updateClientIpWhitelist(clientWhiteListedIp) {
+        this.config.clientIpFiltering.whitelist = clientWhiteListedIp;
+    }
+    updateServerIpBlackList(serverBlacklistedIp) {
+        this.config.serverIpFiltering.blacklist = serverBlacklistedIp;
+    }
+    updateServerIpWhitelist(serverWhiteListedIp) {
+        this.config.serverIpFiltering.whitelist = serverWhiteListedIp;
+    }
+    getClientIpBlackList() {
+        return this.config.clientIpFiltering.blacklist;
+    }
+    getClientIpWhitelist() {
+        return this.config.clientIpFiltering.whitelist;
+    }
+    getServerIpBlackList() {
+        return this.config.serverIpFiltering.blacklist;
+    }
+    getServerIpWhitelist() {
+        return this.config.serverIpFiltering.whitelist;
+    }
+}
+exports.ConfigManager = ConfigManager;

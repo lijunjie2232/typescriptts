@@ -1,1 +1,228 @@
-'use strict';const a9_0x37e984=a9_0x5d24;(function(_0x4a99c2,_0x1cfcc6){const _0x39e262=a9_0x5d24,_0x5ea676=_0x4a99c2();while(!![]){try{const _0x2f4b8a=-parseInt(_0x39e262(0x128))/0x1+parseInt(_0x39e262(0x130))/0x2+-parseInt(_0x39e262(0xe9))/0x3*(-parseInt(_0x39e262(0x14c))/0x4)+-parseInt(_0x39e262(0x11b))/0x5*(parseInt(_0x39e262(0x132))/0x6)+-parseInt(_0x39e262(0x105))/0x7+-parseInt(_0x39e262(0x125))/0x8*(-parseInt(_0x39e262(0xea))/0x9)+parseInt(_0x39e262(0xfc))/0xa;if(_0x2f4b8a===_0x1cfcc6)break;else _0x5ea676['push'](_0x5ea676['shift']());}catch(_0x21f52d){_0x5ea676['push'](_0x5ea676['shift']());}}}(a9_0x4ba6,0x80d82));function a9_0x5d24(_0x4108e9,_0x393837){const _0x4ba6db=a9_0x4ba6();return a9_0x5d24=function(_0x5d24e3,_0x282bb7){_0x5d24e3=_0x5d24e3-0xe7;let _0x5e30ba=_0x4ba6db[_0x5d24e3];return _0x5e30ba;},a9_0x5d24(_0x4108e9,_0x393837);}var __createBinding=this&&this[a9_0x37e984(0x141)]||(Object[a9_0x37e984(0x118)]?function(_0x12656c,_0xfa028,_0x4910ce,_0xeebed3){const _0xe1aa75=a9_0x37e984;if(_0xeebed3===undefined)_0xeebed3=_0x4910ce;var _0x7d88a7=Object[_0xe1aa75(0xf6)](_0xfa028,_0x4910ce);(!_0x7d88a7||(_0xe1aa75(0x115)in _0x7d88a7?!_0xfa028['__esModule']:_0x7d88a7[_0xe1aa75(0x103)]||_0x7d88a7[_0xe1aa75(0x13e)]))&&(_0x7d88a7={'enumerable':!![],'get':function(){return _0xfa028[_0x4910ce];}}),Object['defineProperty'](_0x12656c,_0xeebed3,_0x7d88a7);}:function(_0x464b58,_0x1c38df,_0x10ece9,_0x4a4244){if(_0x4a4244===undefined)_0x4a4244=_0x10ece9;_0x464b58[_0x4a4244]=_0x1c38df[_0x10ece9];}),__setModuleDefault=this&&this[a9_0x37e984(0xef)]||(Object['create']?function(_0x259058,_0x205710){const _0x584c81=a9_0x37e984;Object[_0x584c81(0x14d)](_0x259058,_0x584c81(0x117),{'enumerable':!![],'value':_0x205710});}:function(_0x4e5740,_0x173062){const _0x4eebdf=a9_0x37e984;_0x4e5740[_0x4eebdf(0x117)]=_0x173062;}),__importStar=this&&this[a9_0x37e984(0x137)]||function(_0x561068){const _0x1c29e7=a9_0x37e984;if(_0x561068&&_0x561068['__esModule'])return _0x561068;var _0x1370e0={};if(_0x561068!=null){for(var _0x1c6f47 in _0x561068)if(_0x1c6f47!=='default'&&Object[_0x1c29e7(0x124)][_0x1c29e7(0xfd)]['call'](_0x561068,_0x1c6f47))__createBinding(_0x1370e0,_0x561068,_0x1c6f47);}return __setModuleDefault(_0x1370e0,_0x561068),_0x1370e0;},__awaiter=this&&this[a9_0x37e984(0x135)]||function(_0x282001,_0x396d7f,_0x31f72d,_0x24fe86){function _0x3165a1(_0x212b30){return _0x212b30 instanceof _0x31f72d?_0x212b30:new _0x31f72d(function(_0x2691e6){_0x2691e6(_0x212b30);});}return new(_0x31f72d||(_0x31f72d=Promise))(function(_0x30abc5,_0x656b6e){const _0x5c71bf=a9_0x5d24;function _0x522c54(_0x50fa8c){const _0x4dfb51=a9_0x5d24;try{_0x5012b1(_0x24fe86[_0x4dfb51(0x121)](_0x50fa8c));}catch(_0x49130d){_0x656b6e(_0x49130d);}}function _0x1ed086(_0x1bf3bc){const _0x481f35=a9_0x5d24;try{_0x5012b1(_0x24fe86[_0x481f35(0x123)](_0x1bf3bc));}catch(_0x16fc5f){_0x656b6e(_0x16fc5f);}}function _0x5012b1(_0x3a97f5){const _0x3fa50e=a9_0x5d24;_0x3a97f5[_0x3fa50e(0x149)]?_0x30abc5(_0x3a97f5[_0x3fa50e(0x138)]):_0x3165a1(_0x3a97f5[_0x3fa50e(0x138)])[_0x3fa50e(0xed)](_0x522c54,_0x1ed086);}_0x5012b1((_0x24fe86=_0x24fe86['apply'](_0x282001,_0x396d7f||[]))[_0x5c71bf(0x121)]());});};Object[a9_0x37e984(0x14d)](exports,'__esModule',{'value':!![]}),exports[a9_0x37e984(0x102)]=void 0x0;function a9_0x4ba6(){const _0x1a1c4d=['server','Send\x20to\x20client\x20at\x20','./CommandHandler','done','writeUInt16BE','split','20CYnbqg','defineProperty','socks5','Error\x20sending\x20to\x20remote\x20server:','processCommand','3813SxakgI','279GPYCwU','session:','sendToRemoteServer','then','Message\x20above\x20is\x20from\x20remote\x20server','__setModuleDefault','../utils','Received\x20UDP\x20message\x20from\x20','isIPv6','debug','\x20and\x20listening\x20on\x20port\x20','port','getOwnPropertyDescriptor','handleUdpDatagram','udpSocket','session.clientAddress:','session.destinationPort:','udp4','713620RpqeCv','hasOwnProperty','Sessions:','clientSocket','Send\x20to\x20remote\x20server\x20at\x20','info','UdpAssociateHandler','writable','createUdpAssociateResponse','1924223hFPUnw','Error\x20processing\x20UDP\x20associate\x20command:','isSocks5Message','findSessionByDestination','destinationPort','Error\x20processing\x20UDP\x20associate\x20command:\x20rinfo\x20not\x20provided','clientAddress','clientPort','UDP\x20socket\x20error:','entries','write','close','constructSocks5Response','serverIP','Cleaning\x20UDP\x20command\x20handler','toString','get','concat','default','create','rinfo\x20address:','Error\x20sending\x20to\x20client:','12995dKnShQ','alloc','from','listenForUdpDatagrams','Rinfo\x20:','address','next','parseDestination','throw','prototype','122024SnJBDf','convertIPv6Address','sendUdpAssociateResponse','134011rhLmfw','Message\x20above\x20is\x20from\x20client','Message\x20above\x20forwarded\x20to\x20client','clientKey:','configManager','Error\x20sending\x20UDP\x20associate\x20response:','map','length','850142jmyUFh','destinationAddress','90TGNXwC','Message\x20above\x20forwarded\x20to\x20remote\x20server','udpPort','__awaiter','error','__importStar','value','send','clientSessions','copy','hex','cleanup','configurable','determinePayloadStartIndex','logger','__createBinding','createSocket','flatMap','config','isSocketClosed'];a9_0x4ba6=function(){return _0x1a1c4d;};return a9_0x4ba6();}const net=__importStar(require('net')),dgram=__importStar(require('dgram')),CommandHandler_1=require(a9_0x37e984(0x148)),utils_1=require(a9_0x37e984(0xf0));;class UdpAssociateHandler extends CommandHandler_1['CommandHandler']{constructor(_0x12c418,_0x49d343,_0xf7100a,_0x4ad916,_0x4f7a59){const _0x232849=a9_0x37e984;super(_0x12c418,_0x49d343,_0xf7100a,_0x4f7a59),this[_0x232849(0x145)]=![],this[_0x232849(0x134)]=_0x4ad916,this[_0x232849(0xf8)]=dgram[_0x232849(0x142)](_0x232849(0xfb)),this[_0x232849(0x13a)]=new Map(),this[_0x232849(0x11e)](),this[_0x232849(0xe8)](),this['clientSocket']['on']('close',()=>{const _0x516863=_0x232849;this[_0x516863(0x13d)]();});}[a9_0x37e984(0xe8)](){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x54780a=a9_0x5d24;try{yield this[_0x54780a(0x127)](this[_0x54780a(0x134)]);}catch(_0x4c172a){this[_0x54780a(0x140)][_0x54780a(0x136)](_0x54780a(0x106),_0x4c172a);}});}[a9_0x37e984(0x127)](_0x227611){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x55e547=a9_0x5d24,_0x4785aa=this[_0x55e547(0x104)](_0x227611);this[_0x55e547(0xff)][_0x55e547(0x10f)](_0x4785aa,_0x13ece7=>{const _0x4dfbde=_0x55e547;_0x13ece7&&this[_0x4dfbde(0x140)][_0x4dfbde(0x136)](_0x4dfbde(0x12d),_0x13ece7);});});}[a9_0x37e984(0x104)](_0x5a1cae){const _0x11b39=a9_0x37e984,_0x402e41=this[_0x11b39(0x12c)][_0x11b39(0x144)][_0x11b39(0x146)][_0x11b39(0x14e)][_0x11b39(0x112)],_0xbe2836=Buffer['from'](_0x402e41['split']('.')['map'](Number)),_0x21d490=Buffer[_0x11b39(0x11c)](0xa);return _0x21d490[0x0]=0x5,_0x21d490[0x1]=0x0,_0x21d490[0x2]=0x0,_0x21d490[0x3]=0x1,_0xbe2836[_0x11b39(0x13b)](_0x21d490,0x4),_0x21d490[_0x11b39(0x14a)](_0x5a1cae,0x8),_0x21d490;}[a9_0x37e984(0x11e)](){const _0x1d7d9f=a9_0x37e984;this[_0x1d7d9f(0xf8)]['bind']({'port':this[_0x1d7d9f(0x134)],'address':this[_0x1d7d9f(0x12c)][_0x1d7d9f(0x144)][_0x1d7d9f(0x146)]['socks5'][_0x1d7d9f(0x112)]},()=>{const _0x54bac1=_0x1d7d9f;this[_0x54bac1(0x140)][_0x54bac1(0x101)]('UDP\x20socket\x20bound\x20to\x20'+this['configManager']['config']['server'][_0x54bac1(0x14e)][_0x54bac1(0x112)]+_0x54bac1(0xf4)+this[_0x54bac1(0x134)]);}),this[_0x1d7d9f(0xf8)]['on']('message',(_0x7269de,_0x56be8a)=>{const _0x1591ef=_0x1d7d9f;this[_0x1591ef(0x140)][_0x1591ef(0xf3)](_0x1591ef(0xf1)+_0x56be8a[_0x1591ef(0x120)]+':'+_0x56be8a[_0x1591ef(0xf5)]+':\x20'+_0x7269de[_0x1591ef(0x114)](_0x1591ef(0x13c))),this[_0x1591ef(0xf7)](_0x7269de,_0x56be8a);}),this[_0x1d7d9f(0xf8)]['on'](_0x1d7d9f(0x136),_0x3fce4e=>{const _0x32a60f=_0x1d7d9f;this[_0x32a60f(0x140)]['error'](_0x32a60f(0x10d),_0x3fce4e),this[_0x32a60f(0x13d)]();}),this[_0x1d7d9f(0xf8)]['on'](_0x1d7d9f(0x110),()=>{const _0x3a9a7e=_0x1d7d9f;this[_0x3a9a7e(0x140)][_0x3a9a7e(0x101)]('UDP\x20socket\x20closed'),this[_0x3a9a7e(0x13d)]();});}[a9_0x37e984(0xf7)](_0x20cb7e,_0x50aff0){const _0x3322b2=a9_0x37e984;if(_0x50aff0)try{this[_0x3322b2(0x140)][_0x3322b2(0xf3)]('Msg\x20:',_0x20cb7e),this['logger'][_0x3322b2(0xf3)](_0x3322b2(0x11f),_0x50aff0);const _0x2cbbb5=_0x50aff0[_0x3322b2(0x120)]+':'+_0x50aff0[_0x3322b2(0xf5)];let _0x29055d=this[_0x3322b2(0x13a)][_0x3322b2(0x115)](_0x2cbbb5);this['logger']['debug'](_0x3322b2(0xfe),this[_0x3322b2(0x13a)]),this[_0x3322b2(0x140)][_0x3322b2(0xf3)](_0x3322b2(0x12b),_0x2cbbb5),this[_0x3322b2(0x140)][_0x3322b2(0xf3)](_0x3322b2(0xeb),_0x29055d);if(!_0x29055d&&this[_0x3322b2(0x107)](_0x20cb7e)){const {host:_0x4c69f6,port:_0x21a718}=(0x0,utils_1[_0x3322b2(0x122)])(_0x20cb7e);_0x29055d={'clientAddress':_0x50aff0[_0x3322b2(0x120)],'clientPort':_0x50aff0['port'],'destinationAddress':_0x4c69f6,'destinationPort':_0x21a718},this['clientSessions']['set'](_0x2cbbb5,_0x29055d);}else _0x29055d=this[_0x3322b2(0x108)](_0x50aff0[_0x3322b2(0x120)],_0x50aff0['port']);if(_0x29055d){this[_0x3322b2(0x140)]['debug'](_0x3322b2(0x119),_0x50aff0['address']),this[_0x3322b2(0x140)]['debug']('rinfo\x20port:',_0x50aff0[_0x3322b2(0xf5)]),this[_0x3322b2(0x140)]['debug'](_0x3322b2(0xf9),_0x29055d[_0x3322b2(0x10b)]),this[_0x3322b2(0x140)][_0x3322b2(0xf3)]('session.clientPort:',_0x29055d[_0x3322b2(0x10c)]),this[_0x3322b2(0x140)]['debug']('session.destinationAddress:',_0x29055d[_0x3322b2(0x131)]),this[_0x3322b2(0x140)][_0x3322b2(0xf3)](_0x3322b2(0xfa),_0x29055d[_0x3322b2(0x109)]);if(_0x50aff0[_0x3322b2(0x120)]===_0x29055d['clientAddress']&&_0x50aff0[_0x3322b2(0xf5)]===_0x29055d[_0x3322b2(0x10c)])this[_0x3322b2(0x140)][_0x3322b2(0xf3)](_0x3322b2(0x129)),this[_0x3322b2(0x107)](_0x20cb7e)&&(this[_0x3322b2(0xec)](_0x20cb7e,_0x29055d),this['logger'][_0x3322b2(0xf3)](_0x3322b2(0x133)));else _0x29055d[_0x3322b2(0x131)]===_0x50aff0[_0x3322b2(0x120)]&&_0x29055d[_0x3322b2(0x109)]===_0x50aff0['port']&&(this['logger'][_0x3322b2(0xf3)](_0x3322b2(0xee)),this['sendToClient'](_0x20cb7e,_0x29055d),this[_0x3322b2(0x140)]['debug'](_0x3322b2(0x12a)));}}catch(_0x33c5c2){this[_0x3322b2(0x140)][_0x3322b2(0x136)](_0x3322b2(0x106),_0x33c5c2);}else this[_0x3322b2(0x140)]['error'](_0x3322b2(0x10a));}[a9_0x37e984(0x107)](_0x484a49){const _0x520b5a=a9_0x37e984;return _0x484a49[_0x520b5a(0x12f)]>0xa&&(_0x484a49[0x3]===0x1||_0x484a49[0x3]===0x3||_0x484a49[0x3]===0x4);}[a9_0x37e984(0x108)](_0x2a4b04,_0x52af41){const _0xe0449f=a9_0x37e984;for(let [_0x71038d,_0x515d85]of this['clientSessions'][_0xe0449f(0x10e)]()){if(_0x515d85[_0xe0449f(0x131)]===_0x2a4b04&&_0x515d85[_0xe0449f(0x109)]===_0x52af41)return _0x515d85;}return undefined;}[a9_0x37e984(0xec)](_0x367b25,_0x34f971){const _0x343ea0=a9_0x37e984,_0x42fa48=(0x0,utils_1[_0x343ea0(0x13f)])(_0x367b25),_0x51bd9c=_0x367b25['slice'](_0x42fa48);_0x34f971[_0x343ea0(0x131)]&&_0x34f971[_0x343ea0(0x109)]&&this[_0x343ea0(0xf8)][_0x343ea0(0x139)](_0x51bd9c,_0x34f971['destinationPort'],_0x34f971[_0x343ea0(0x131)],_0x1c1777=>{const _0x4595d1=_0x343ea0;_0x1c1777&&this[_0x4595d1(0x140)]['error'](_0x4595d1(0xe7),_0x1c1777),this[_0x4595d1(0x140)]['info'](_0x4595d1(0x100)+_0x34f971[_0x4595d1(0x131)]+':'+_0x34f971[_0x4595d1(0x109)]);});}['sendToClient'](_0x57641f,_0x2533b0){const _0x2d873f=a9_0x37e984;if(_0x2533b0&&_0x2533b0['clientAddress']&&_0x2533b0[_0x2d873f(0x10c)]){const _0x1952de=this[_0x2d873f(0x111)](_0x57641f,_0x2533b0[_0x2d873f(0x10b)],_0x2533b0[_0x2d873f(0x10c)]);this[_0x2d873f(0xf8)][_0x2d873f(0x139)](_0x1952de,_0x2533b0[_0x2d873f(0x10c)],_0x2533b0[_0x2d873f(0x10b)],_0x5e5957=>{const _0x40838a=_0x2d873f;_0x5e5957&&this[_0x40838a(0x140)][_0x40838a(0x136)](_0x40838a(0x11a),_0x5e5957),this[_0x40838a(0x140)]['info'](_0x40838a(0x147)+_0x2533b0[_0x40838a(0x10b)]+':'+_0x2533b0[_0x40838a(0x10c)]);});}}[a9_0x37e984(0x111)](_0x12ad82,_0x196371,_0x2280c7){const _0x4411b5=a9_0x37e984,_0x1fba29=Buffer['alloc'](0x2),_0x284f4c=Buffer[_0x4411b5(0x11d)]([0x0]),_0x47c706=net['isIPv6'](_0x196371)?0x4:0x1,_0x10a78b=net[_0x4411b5(0xf2)](_0x196371)?this[_0x4411b5(0x126)](_0x196371):Buffer[_0x4411b5(0x11d)](_0x196371[_0x4411b5(0x14b)]('.')[_0x4411b5(0x12e)](Number)),_0x34a5f7=Buffer[_0x4411b5(0x11c)](0x2);return _0x34a5f7[_0x4411b5(0x14a)](_0x2280c7,0x0),Buffer[_0x4411b5(0x116)]([_0x1fba29,_0x284f4c,Buffer['from']([_0x47c706]),_0x10a78b,_0x34a5f7,_0x12ad82]);}[a9_0x37e984(0x126)](_0x4b4fe7){const _0x3cfaba=a9_0x37e984;return Buffer[_0x3cfaba(0x11d)](_0x4b4fe7[_0x3cfaba(0x14b)](':')[_0x3cfaba(0x143)](_0x77d9a2=>{const _0x3014ee=_0x3cfaba;if(_0x77d9a2[_0x3014ee(0x12f)]===0x0)return Array(0x4)['fill'](0x0);else{const _0x40199d=_0x77d9a2['match'](/.{1,2}/g)||[];return _0x40199d['map'](_0x598cf5=>parseInt(_0x598cf5,0x10));}}));}[a9_0x37e984(0x13d)](){const _0x525ce1=a9_0x37e984;this['logger'][_0x525ce1(0x101)](_0x525ce1(0x113));if(this['isSocketClosed'])return;this[_0x525ce1(0x145)]=!![],this[_0x525ce1(0xf8)]['removeAllListeners'](),this[_0x525ce1(0xf8)][_0x525ce1(0x110)](()=>{const _0x119e8b=_0x525ce1;this[_0x119e8b(0x140)][_0x119e8b(0x101)]('UDP\x20socket\x20closed.');}),super[_0x525ce1(0x13d)]();}}exports['UdpAssociateHandler']=UdpAssociateHandler;
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UdpAssociateHandler = void 0;
+const net = __importStar(require("net"));
+const dgram = __importStar(require("dgram"));
+const CommandHandler_1 = require("./CommandHandler");
+const utils_1 = require("../utils");
+;
+class UdpAssociateHandler extends CommandHandler_1.CommandHandler {
+    constructor(clientSocket, data, configManager, udpPort, logger) {
+        super(clientSocket, data, configManager, logger);
+        this.isSocketClosed = false;
+        this.udpPort = udpPort;
+        this.udpSocket = dgram.createSocket('udp4');
+        this.clientSessions = new Map();
+        this.listenForUdpDatagrams();
+        this.processCommand();
+        this.clientSocket.on('close', () => {
+            this.cleanup();
+        });
+    }
+    processCommand() {
+        return __awaiter(this, void 0, void 0, function* () {
+            try {
+                yield this.sendUdpAssociateResponse(this.udpPort);
+            }
+            catch (error) {
+                this.logger.error('Error processing UDP associate command:', error);
+            }
+        });
+    }
+    sendUdpAssociateResponse(port) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const response = this.createUdpAssociateResponse(port);
+            this.clientSocket.write(response, (err) => {
+                if (err) {
+                    this.logger.error('Error sending UDP associate response:', err);
+                }
+            });
+        });
+    }
+    createUdpAssociateResponse(port) {
+        const serverIp = this.configManager.config.server.socks5.serverIP;
+        const ipBuffer = Buffer.from(serverIp.split('.').map(Number));
+        const response = Buffer.alloc(10);
+        response[0] = 0x05; // SOCKS version
+        response[1] = 0x00; // Success
+        response[2] = 0x00; // Reserved
+        response[3] = 0x01; // Address type (IPv4)
+        ipBuffer.copy(response, 4); // Server IP
+        response.writeUInt16BE(port, 8); // Server Port
+        return response;
+    }
+    listenForUdpDatagrams() {
+        this.udpSocket.bind({ port: this.udpPort, address: this.configManager.config.server.socks5.serverIP }, () => {
+            this.logger.info(`UDP socket bound to ${this.configManager.config.server.socks5.serverIP} and listening on port ${this.udpPort}`);
+        });
+        this.udpSocket.on('message', (msg, rinfo) => {
+            this.logger.debug(`Received UDP message from ${rinfo.address}:${rinfo.port}: ${msg.toString('hex')}`);
+            this.handleUdpDatagram(msg, rinfo);
+        });
+        this.udpSocket.on('error', (err) => {
+            this.logger.error('UDP socket error:', err);
+            this.cleanup();
+        });
+        this.udpSocket.on('close', () => {
+            this.logger.info('UDP socket closed');
+            this.cleanup();
+        });
+    }
+    handleUdpDatagram(msg, rinfo) {
+        if (rinfo) {
+            try {
+                this.logger.debug("Msg :", msg);
+                this.logger.debug("Rinfo :", rinfo);
+                const clientKey = `${rinfo.address}:${rinfo.port}`;
+                let session = this.clientSessions.get(clientKey);
+                this.logger.debug("Sessions:", this.clientSessions);
+                this.logger.debug("clientKey:", clientKey);
+                this.logger.debug("session:", session);
+                if (!session && this.isSocks5Message(msg)) {
+                    // It's a new session from the client
+                    const { host, port } = (0, utils_1.parseDestination)(msg);
+                    session = { clientAddress: rinfo.address, clientPort: rinfo.port, destinationAddress: host, destinationPort: port };
+                    this.clientSessions.set(clientKey, session);
+                }
+                else {
+                    session = this.findSessionByDestination(rinfo.address, rinfo.port);
+                }
+                if (session) {
+                    this.logger.debug("rinfo address:", rinfo.address);
+                    this.logger.debug("rinfo port:", rinfo.port);
+                    this.logger.debug("session.clientAddress:", session.clientAddress);
+                    this.logger.debug("session.clientPort:", session.clientPort);
+                    this.logger.debug("session.destinationAddress:", session.destinationAddress);
+                    this.logger.debug("session.destinationPort:", session.destinationPort);
+                    if (rinfo.address === session.clientAddress && rinfo.port === session.clientPort) {
+                        this.logger.debug('Message above is from client');
+                        // Message is from the client
+                        if (this.isSocks5Message(msg)) {
+                            // If it's a SOCKS5 message, forward it to the remote server
+                            this.sendToRemoteServer(msg, session);
+                            this.logger.debug('Message above forwarded to remote server');
+                        }
+                    }
+                    else if (session.destinationAddress === rinfo.address && session.destinationPort === rinfo.port) {
+                        this.logger.debug('Message above is from remote server');
+                        // Message is from the remote server, forward it to the client
+                        this.sendToClient(msg, session);
+                        this.logger.debug('Message above forwarded to client');
+                    }
+                }
+            }
+            catch (error) {
+                this.logger.error('Error processing UDP associate command:', error);
+            }
+        }
+        else {
+            this.logger.error('Error processing UDP associate command: rinfo not provided');
+        }
+    }
+    isSocks5Message(msg) {
+        // Check if the message has a minimum length and a valid SOCKS5 header
+        return msg.length > 10 && (msg[3] === 0x01 || msg[3] === 0x03 || msg[3] === 0x04); // Checks for IPv4, Domain, and IPv6
+    }
+    findSessionByDestination(address, port) {
+        for (let [key, session] of this.clientSessions.entries()) {
+            if (session.destinationAddress === address && session.destinationPort === port) {
+                return session;
+            }
+        }
+        return undefined;
+    }
+    sendToRemoteServer(msg, session) {
+        const payloadStartIndex = (0, utils_1.determinePayloadStartIndex)(msg);
+        const payload = msg.slice(payloadStartIndex);
+        if (session.destinationAddress && session.destinationPort) {
+            this.udpSocket.send(payload, session.destinationPort, session.destinationAddress, (err) => {
+                if (err) {
+                    this.logger.error('Error sending to remote server:', err);
+                }
+                this.logger.info(`Send to remote server at ${session.destinationAddress}:${session.destinationPort}`);
+            });
+        }
+    }
+    sendToClient(msg, session) {
+        if (session && session.clientAddress && session.clientPort) {
+            const response = this.constructSocks5Response(msg, session.clientAddress, session.clientPort);
+            this.udpSocket.send(response, session.clientPort, session.clientAddress, (err) => {
+                if (err) {
+                    this.logger.error('Error sending to client:', err);
+                }
+                this.logger.info(`Send to client at ${session.clientAddress}:${session.clientPort}`);
+            });
+        }
+    }
+    constructSocks5Response(msg, clientAddress, clientPort) {
+        const reserved = Buffer.alloc(2); // Reserved bytes set to zero
+        const fragmentNumber = Buffer.from([0x00]); // Fragment number
+        const addressType = net.isIPv6(clientAddress) ? 0x04 : 0x01; // Address type (IPv4 or IPv6)
+        const addressBuffer = net.isIPv6(clientAddress) ? this.convertIPv6Address(clientAddress) : Buffer.from(clientAddress.split('.').map(Number));
+        const portBuffer = Buffer.alloc(2);
+        portBuffer.writeUInt16BE(clientPort, 0);
+        return Buffer.concat([
+            reserved,
+            fragmentNumber,
+            Buffer.from([addressType]),
+            addressBuffer,
+            portBuffer,
+            msg
+        ]);
+    }
+    convertIPv6Address(address) {
+        return Buffer.from(address.split(':').flatMap(part => {
+            if (part.length === 0) {
+                return Array(4).fill(0);
+            }
+            else {
+                const matches = part.match(/.{1,2}/g) || []; // Fallback to empty array if null
+                return matches.map(byte => parseInt(byte, 16));
+            }
+        }));
+    }
+    cleanup() {
+        this.logger.info('Cleaning UDP command handler');
+        if (this.isSocketClosed)
+            return;
+        this.isSocketClosed = true;
+        this.udpSocket.removeAllListeners();
+        this.udpSocket.close(() => {
+            this.logger.info('UDP socket closed.');
+        });
+        super.cleanup(); // Clean up any resources allocated by the parent class
+    }
+}
+exports.UdpAssociateHandler = UdpAssociateHandler;

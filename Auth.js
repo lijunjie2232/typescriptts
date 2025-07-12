@@ -1,1 +1,80 @@
-'use strict';const a1_0x3b0ac6=a1_0x45de;(function(_0x1698fc,_0x250b1d){const _0x577022=a1_0x45de,_0x112ffa=_0x1698fc();while(!![]){try{const _0x4c2495=-parseInt(_0x577022(0x10d))/0x1+parseInt(_0x577022(0x110))/0x2*(parseInt(_0x577022(0x11e))/0x3)+parseInt(_0x577022(0x10b))/0x4+-parseInt(_0x577022(0x115))/0x5+-parseInt(_0x577022(0x12c))/0x6+parseInt(_0x577022(0x117))/0x7*(parseInt(_0x577022(0x12a))/0x8)+parseInt(_0x577022(0x10a))/0x9;if(_0x4c2495===_0x250b1d)break;else _0x112ffa['push'](_0x112ffa['shift']());}catch(_0x7486f4){_0x112ffa['push'](_0x112ffa['shift']());}}}(a1_0x198f,0x94c43));var __awaiter=this&&this['__awaiter']||function(_0x269650,_0x4ca210,_0x1e26a1,_0x213619){function _0x1e8660(_0x50d708){return _0x50d708 instanceof _0x1e26a1?_0x50d708:new _0x1e26a1(function(_0x1ad9f3){_0x1ad9f3(_0x50d708);});}return new(_0x1e26a1||(_0x1e26a1=Promise))(function(_0x1cda47,_0x29185d){const _0x244b48=a1_0x45de;function _0x3d1012(_0x46b5b2){const _0xb841d=a1_0x45de;try{_0x133b11(_0x213619[_0xb841d(0x114)](_0x46b5b2));}catch(_0x39681d){_0x29185d(_0x39681d);}}function _0x5ca4a1(_0x10c693){const _0x41d3d9=a1_0x45de;try{_0x133b11(_0x213619[_0x41d3d9(0x125)](_0x10c693));}catch(_0x5ad2df){_0x29185d(_0x5ad2df);}}function _0x133b11(_0x25460e){const _0x4ebc7c=a1_0x45de;_0x25460e[_0x4ebc7c(0x116)]?_0x1cda47(_0x25460e['value']):_0x1e8660(_0x25460e[_0x4ebc7c(0x11f)])[_0x4ebc7c(0x128)](_0x3d1012,_0x5ca4a1);}_0x133b11((_0x213619=_0x213619[_0x244b48(0x120)](_0x269650,_0x4ca210||[]))['next']());});};function a1_0x45de(_0x2e7b6f,_0x394855){const _0x198fc9=a1_0x198f();return a1_0x45de=function(_0x45ded2,_0x45d438){_0x45ded2=_0x45ded2-0x10a;let _0x30537f=_0x198fc9[_0x45ded2];return _0x30537f;},a1_0x45de(_0x2e7b6f,_0x394855);}Object[a1_0x3b0ac6(0x11d)](exports,a1_0x3b0ac6(0x10f),{'value':!![]}),exports[a1_0x3b0ac6(0x119)]=void 0x0;class UserPassAuth{constructor(_0x38e5bb){const _0x40fa69=a1_0x3b0ac6;this[_0x40fa69(0x118)]=new Map(),this[_0x40fa69(0x126)](_0x38e5bb);}[a1_0x3b0ac6(0x126)](_0x4561c5){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x1e76dc=a1_0x45de;_0x4561c5[_0x1e76dc(0x122)](_0x43d1f3=>{const _0x39699f=_0x1e76dc,{username:_0x144e0b,password:_0x553694}=_0x43d1f3;this[_0x39699f(0x118)][_0x39699f(0x123)](_0x144e0b,_0x553694);});});}[a1_0x3b0ac6(0x11c)](_0x1b1bd9,_0x519fc1){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x344327=a1_0x45de;switch(_0x1b1bd9){case _0x344327(0x127):return this[_0x344327(0x121)](_0x519fc1[_0x344327(0x113)],_0x519fc1['data']);case _0x344327(0x124):return this['authenticateHttp'](_0x519fc1[_0x344327(0x11b)]);default:return![];}});}[a1_0x3b0ac6(0x121)](_0x115815,_0x491de2){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x3450da=a1_0x45de;let _0x145a8a;const _0x351907=_0x491de2[0x1],_0x276cc2=_0x491de2['slice'](0x2,0x2+_0x351907)[_0x3450da(0x12b)](),_0x9bf250=_0x491de2[0x2+_0x351907],_0x1b9125=_0x491de2[_0x3450da(0x10c)](0x3+_0x351907,0x3+_0x351907+_0x9bf250)[_0x3450da(0x12b)](),_0x462325=this['validCredentials'][_0x3450da(0x111)](_0x276cc2);if(!_0x462325)return![];return _0x1b9125===_0x462325;});}['authenticateHttp'](_0x551197){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x5591f0=a1_0x45de,_0x4b2fcf=_0x551197[_0x5591f0(0x112)];if(!_0x4b2fcf)return![];const _0x4d93ff=_0x4b2fcf[_0x5591f0(0x129)]('\x20')[0x1],_0x77b207=Buffer[_0x5591f0(0x11a)](_0x4d93ff,_0x5591f0(0x10e))[_0x5591f0(0x12b)](),[_0x2bb137,_0x51874a]=_0x77b207[_0x5591f0(0x129)](':'),_0x467150=this[_0x5591f0(0x118)][_0x5591f0(0x111)](_0x2bb137);if(!_0x467150)return![];return _0x51874a===_0x467150;});}}exports[a1_0x3b0ac6(0x119)]=UserPassAuth;function a1_0x198f(){const _0x3637a1=['1309430Gfzjyy','done','21kAYHRg','validCredentials','UserPassAuth','from','headers','authenticate','defineProperty','9069XVSCsY','value','apply','authenticateSocks5','forEach','set','http','throw','loadCredentials','socks5','then','split','1876712dhELQg','toString','4361832PCUtxd','1692450pKouXU','4839880bXUVbY','slice','554973ArwVdp','base64','__esModule','34EBxhlR','get','proxy-authorization','socket','next'];a1_0x198f=function(){return _0x3637a1;};return a1_0x198f();}
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UserPassAuth = void 0;
+/*// No Authentication
+class NoAuth implements IAuthMethod {
+
+    async authenticate(socket: net.Socket, data: Buffer): Promise<boolean> {
+        // No authentication required, always return true
+        return true;
+    }
+}*/
+// Username/Password Authentication
+class UserPassAuth {
+    constructor(credentials) {
+        this.validCredentials = new Map();
+        this.loadCredentials(credentials);
+    }
+    loadCredentials(credentials) {
+        return __awaiter(this, void 0, void 0, function* () {
+            credentials.forEach(credential => {
+                const { username, password } = credential;
+                this.validCredentials.set(username, password);
+            });
+        });
+    }
+    authenticate(protocol, args) {
+        return __awaiter(this, void 0, void 0, function* () {
+            switch (protocol) {
+                case 'socks5':
+                    return this.authenticateSocks5(args.socket, args.data);
+                case 'http':
+                    return this.authenticateHttp(args.headers);
+                default:
+                    return false;
+            }
+        });
+    }
+    authenticateSocks5(socket, data) {
+        return __awaiter(this, void 0, void 0, function* () {
+            // Extract username and password from the data buffer
+            let result;
+            const usernameLength = data[1]; // Username length at index 0
+            const username = data.slice(2, 2 + usernameLength).toString(); // Start from index 1
+            const passwordLength = data[2 + usernameLength]; // Password length
+            const password = data.slice(3 + usernameLength, 3 + usernameLength + passwordLength).toString(); // Password
+            // Check if the credentials are valid
+            const storedPassword = this.validCredentials.get(username);
+            if (!storedPassword) {
+                return false;
+            }
+            return password === storedPassword;
+        });
+    }
+    authenticateHttp(headers) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const authHeader = headers['proxy-authorization'];
+            if (!authHeader) {
+                return false;
+            }
+            const encodedCreds = authHeader.split(' ')[1];
+            const decodedCreds = Buffer.from(encodedCreds, 'base64').toString();
+            const [username, password] = decodedCreds.split(':');
+            const storedPassword = this.validCredentials.get(username);
+            if (!storedPassword) {
+                return false;
+            }
+            return password === storedPassword;
+        });
+    }
+}
+exports.UserPassAuth = UserPassAuth;

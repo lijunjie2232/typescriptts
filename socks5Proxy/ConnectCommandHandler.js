@@ -1,1 +1,117 @@
-'use strict';var a7_0x472703=a7_0x2655;(function(_0x1e61f3,_0x3a0384){var _0x11b15e=a7_0x2655,_0x5f2625=_0x1e61f3();while(!![]){try{var _0x5dbf1f=-parseInt(_0x11b15e(0x171))/0x1*(-parseInt(_0x11b15e(0x162))/0x2)+parseInt(_0x11b15e(0x165))/0x3*(parseInt(_0x11b15e(0x18a))/0x4)+-parseInt(_0x11b15e(0x17b))/0x5+-parseInt(_0x11b15e(0x169))/0x6*(parseInt(_0x11b15e(0x17d))/0x7)+-parseInt(_0x11b15e(0x174))/0x8*(-parseInt(_0x11b15e(0x163))/0x9)+-parseInt(_0x11b15e(0x17c))/0xa+parseInt(_0x11b15e(0x16c))/0xb;if(_0x5dbf1f===_0x3a0384)break;else _0x5f2625['push'](_0x5f2625['shift']());}catch(_0x2b0e1c){_0x5f2625['push'](_0x5f2625['shift']());}}}(a7_0x1fe0,0xc9e30));var __createBinding=this&&this[a7_0x472703(0x160)]||(Object[a7_0x472703(0x16b)]?function(_0xe4160b,_0xd7a7f5,_0x4143a2,_0x2c45ec){var _0x487645=a7_0x472703;if(_0x2c45ec===undefined)_0x2c45ec=_0x4143a2;var _0x5286db=Object['getOwnPropertyDescriptor'](_0xd7a7f5,_0x4143a2);(!_0x5286db||(_0x487645(0x15d)in _0x5286db?!_0xd7a7f5[_0x487645(0x181)]:_0x5286db[_0x487645(0x172)]||_0x5286db[_0x487645(0x192)]))&&(_0x5286db={'enumerable':!![],'get':function(){return _0xd7a7f5[_0x4143a2];}}),Object['defineProperty'](_0xe4160b,_0x2c45ec,_0x5286db);}:function(_0x1cc0db,_0x361cff,_0x3da284,_0x11ad54){if(_0x11ad54===undefined)_0x11ad54=_0x3da284;_0x1cc0db[_0x11ad54]=_0x361cff[_0x3da284];}),__setModuleDefault=this&&this[a7_0x472703(0x188)]||(Object['create']?function(_0x9df87e,_0x496c47){var _0x1dfe6f=a7_0x472703;Object[_0x1dfe6f(0x15f)](_0x9df87e,_0x1dfe6f(0x187),{'enumerable':!![],'value':_0x496c47});}:function(_0xec7bc,_0x19bae6){var _0x4217dd=a7_0x472703;_0xec7bc[_0x4217dd(0x187)]=_0x19bae6;}),__importStar=this&&this[a7_0x472703(0x18b)]||function(_0x165185){var _0x3b596b=a7_0x472703;if(_0x165185&&_0x165185[_0x3b596b(0x181)])return _0x165185;var _0x5e4a82={};if(_0x165185!=null){for(var _0x246476 in _0x165185)if(_0x246476!==_0x3b596b(0x187)&&Object[_0x3b596b(0x179)][_0x3b596b(0x166)][_0x3b596b(0x18c)](_0x165185,_0x246476))__createBinding(_0x5e4a82,_0x165185,_0x246476);}return __setModuleDefault(_0x5e4a82,_0x165185),_0x5e4a82;},__awaiter=this&&this[a7_0x472703(0x17e)]||function(_0x49ac4f,_0x2614cb,_0x324131,_0x5c73a5){function _0x199fb6(_0x40fd98){return _0x40fd98 instanceof _0x324131?_0x40fd98:new _0x324131(function(_0x4194c5){_0x4194c5(_0x40fd98);});}return new(_0x324131||(_0x324131=Promise))(function(_0xda33f9,_0xfa52ec){function _0x372948(_0x5d0c50){var _0x4b8244=a7_0x2655;try{_0x43a1b2(_0x5c73a5[_0x4b8244(0x18e)](_0x5d0c50));}catch(_0x24849e){_0xfa52ec(_0x24849e);}}function _0x4526a1(_0x3e0128){var _0x5a1244=a7_0x2655;try{_0x43a1b2(_0x5c73a5[_0x5a1244(0x168)](_0x3e0128));}catch(_0x493446){_0xfa52ec(_0x493446);}}function _0x43a1b2(_0x7cabd8){var _0x15797b=a7_0x2655;_0x7cabd8[_0x15797b(0x184)]?_0xda33f9(_0x7cabd8[_0x15797b(0x18d)]):_0x199fb6(_0x7cabd8[_0x15797b(0x18d)])[_0x15797b(0x185)](_0x372948,_0x4526a1);}_0x43a1b2((_0x5c73a5=_0x5c73a5['apply'](_0x49ac4f,_0x2614cb||[]))['next']());});};Object[a7_0x472703(0x15f)](exports,a7_0x472703(0x181),{'value':!![]}),exports[a7_0x472703(0x176)]=void 0x0;const net=__importStar(require(a7_0x472703(0x161))),utils_1=require('../utils'),CommandHandler_1=require(a7_0x472703(0x190));class ConnectCommandHandler extends CommandHandler_1[a7_0x472703(0x191)]{constructor(_0x6409d4,_0x3a945f,_0x2f1b53,_0x15414a){var _0x1896b2=a7_0x472703;super(_0x6409d4,_0x3a945f,_0x2f1b53,_0x15414a),this[_0x1896b2(0x167)]=null,this[_0x1896b2(0x175)]();}[a7_0x472703(0x175)](){return __awaiter(this,void 0x0,void 0x0,function*(){var _0x91b4b5=a7_0x2655;this['logger'][_0x91b4b5(0x178)](_0x91b4b5(0x15b));const _0x4af54a=this['data'][0x0],_0x414b0a=this['data'][0x1],_0x35931f=this[_0x91b4b5(0x170)][0x2];if(_0x4af54a!==0x5||_0x414b0a!==0x1||_0x35931f!==0x0){this[_0x91b4b5(0x17f)]['error']('Invalid\x20CONNECT\x20command\x20or\x20version'),(0x0,utils_1[_0x91b4b5(0x16a)])(this[_0x91b4b5(0x182)],0x1),this[_0x91b4b5(0x189)]();return;}try{const _0x202512=(0x0,utils_1[_0x91b4b5(0x15e)])(this[_0x91b4b5(0x170)]);this['logger'][_0x91b4b5(0x177)](_0x91b4b5(0x186)+_0x202512[_0x91b4b5(0x193)]+':'+_0x202512['port']),this[_0x91b4b5(0x167)]=net[_0x91b4b5(0x16e)]({'host':_0x202512['host'],'port':_0x202512['port']},()=>{var _0x39fe91=_0x91b4b5;this[_0x39fe91(0x17f)][_0x39fe91(0x177)]('Connection\x20to\x20remote\x20server\x20established'),(0x0,utils_1[_0x39fe91(0x16a)])(this[_0x39fe91(0x182)],0x0),this[_0x39fe91(0x173)]();}),this[_0x91b4b5(0x167)]['on'](_0x91b4b5(0x183),_0x1ca212=>{var _0x41f718=_0x91b4b5;this[_0x41f718(0x17f)][_0x41f718(0x183)](_0x41f718(0x164),_0x1ca212),(0x0,utils_1[_0x41f718(0x16a)])(this[_0x41f718(0x182)],0x1),this[_0x41f718(0x189)]();});}catch(_0x490a63){this[_0x91b4b5(0x17f)][_0x91b4b5(0x183)](_0x91b4b5(0x15c),_0x490a63),(0x0,utils_1[_0x91b4b5(0x16a)])(this['clientSocket'],0x1),this[_0x91b4b5(0x189)]();}});}[a7_0x472703(0x173)](){var _0x513417=a7_0x472703;if(!this[_0x513417(0x167)])return;this[_0x513417(0x182)]['on'](_0x513417(0x170),_0x2c99af=>{var _0x16b528=_0x513417,_0x1a7b15;this[_0x16b528(0x17f)]['debug'](_0x16b528(0x17a),_0x2c99af),(_0x1a7b15=this['destinationSocket'])===null||_0x1a7b15===void 0x0?void 0x0:_0x1a7b15[_0x16b528(0x15a)](_0x2c99af);}),this[_0x513417(0x167)]['on'](_0x513417(0x170),_0x59c4e1=>{var _0x1aebe5=_0x513417;this[_0x1aebe5(0x17f)][_0x1aebe5(0x178)](_0x1aebe5(0x159),_0x59c4e1),this['clientSocket'][_0x1aebe5(0x15a)](_0x59c4e1);}),this[_0x513417(0x182)]['on'](_0x513417(0x180),()=>this[_0x513417(0x189)]()),this['clientSocket']['on'](_0x513417(0x183),_0x5a3b6b=>{var _0x7e86f3=_0x513417;this[_0x7e86f3(0x17f)][_0x7e86f3(0x178)]('Error\x20from\x20client\x20socket:',_0x5a3b6b),this[_0x7e86f3(0x189)]();});}[a7_0x472703(0x16f)](_0x4d1455){}[a7_0x472703(0x189)](){var _0x346c16=a7_0x472703;this[_0x346c16(0x17f)][_0x346c16(0x177)](_0x346c16(0x16d)),this[_0x346c16(0x167)]&&!this[_0x346c16(0x167)]['destroyed']&&(this[_0x346c16(0x167)][_0x346c16(0x18f)](),this[_0x346c16(0x167)]=null),!this[_0x346c16(0x182)]['destroyed']&&this[_0x346c16(0x182)][_0x346c16(0x18f)](),super[_0x346c16(0x189)]();}}function a7_0x2655(_0xcd8735,_0x58f342){var _0x1fe0c9=a7_0x1fe0();return a7_0x2655=function(_0x265573,_0x2b7403){_0x265573=_0x265573-0x159;var _0x5df271=_0x1fe0c9[_0x265573];return _0x5df271;},a7_0x2655(_0xcd8735,_0x58f342);}exports[a7_0x472703(0x176)]=ConnectCommandHandler;function a7_0x1fe0(){var _0x43e128=['__esModule','clientSocket','error','done','then','Attempting\x20to\x20connect\x20to\x20','default','__setModuleDefault','cleanup','28OUJLXp','__importStar','call','value','next','destroy','./CommandHandler','CommandHandler','configurable','host','Relaying\x20data\x20back\x20to\x20client...','write','Processing\x20CONNECT\x20command','Error\x20processing\x20CONNECT\x20command:\x20','get','parseDestination','defineProperty','__createBinding','net','202vummYi','1251RTSSqZ','Remote\x20connection\x20error:\x20','296463cvmqqj','hasOwnProperty','destinationSocket','throw','1290hkHbRn','sendReply','create','15734026xvxxQD','Cleaning\x20up\x20CONNECT\x20command\x20handler','createConnection','relayData','data','5834VIERHw','writable','setupDataRelay','54904DUDiyu','processCommand','ConnectCommandHandler','info','debug','prototype','Relaying\x20data\x20to\x20remote\x20server...','6032915kayueG','10656980MmaDeI','18431OOFmrC','__awaiter','logger','end'];a7_0x1fe0=function(){return _0x43e128;};return a7_0x1fe0();}
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ConnectCommandHandler = void 0;
+const net = __importStar(require("net"));
+const utils_1 = require("../utils");
+const CommandHandler_1 = require("./CommandHandler");
+class ConnectCommandHandler extends CommandHandler_1.CommandHandler {
+    constructor(clientSocket, data, configManager, logger) {
+        super(clientSocket, data, configManager, logger);
+        this.destinationSocket = null;
+        this.processCommand();
+    }
+    processCommand() {
+        return __awaiter(this, void 0, void 0, function* () {
+            this.logger.debug("Processing CONNECT command");
+            const version = this.data[0];
+            const command = this.data[1];
+            const reserved = this.data[2];
+            if (version !== 0x05 || command !== 0x01 || reserved !== 0x00) {
+                this.logger.error("Invalid CONNECT command or version");
+                (0, utils_1.sendReply)(this.clientSocket, 0x01); // General SOCKS server failure
+                this.cleanup();
+                return;
+            }
+            try {
+                const destination = (0, utils_1.parseDestination)(this.data);
+                this.logger.info(`Attempting to connect to ${destination.host}:${destination.port}`);
+                this.destinationSocket = net.createConnection({
+                    host: destination.host,
+                    port: destination.port
+                }, () => {
+                    this.logger.info("Connection to remote server established");
+                    (0, utils_1.sendReply)(this.clientSocket, 0x00); // Success
+                    this.setupDataRelay();
+                });
+                this.destinationSocket.on('error', (err) => {
+                    this.logger.error("Remote connection error: ", err);
+                    (0, utils_1.sendReply)(this.clientSocket, 0x01); // General SOCKS server failure
+                    this.cleanup();
+                });
+            }
+            catch (error) {
+                this.logger.error("Error processing CONNECT command: ", error);
+                (0, utils_1.sendReply)(this.clientSocket, 0x01); // General SOCKS server failure
+                this.cleanup();
+            }
+        });
+    }
+    setupDataRelay() {
+        if (!this.destinationSocket)
+            return;
+        // Relay from client to destination
+        this.clientSocket.on('data', (data) => {
+            var _a;
+            this.logger.debug("Relaying data to remote server...", data);
+            (_a = this.destinationSocket) === null || _a === void 0 ? void 0 : _a.write(data);
+        });
+        // Relay from destination back to client
+        this.destinationSocket.on('data', (data) => {
+            this.logger.debug("Relaying data back to client...", data);
+            this.clientSocket.write(data);
+        });
+        // Cleanup on client socket end
+        this.clientSocket.on('end', () => this.cleanup());
+        this.clientSocket.on('error', (err) => {
+            this.logger.debug('Error from client socket:', err);
+            this.cleanup();
+        });
+    }
+    relayData(data) {
+        // This method might not be necessary if all data relay is handled within processCommand
+    }
+    cleanup() {
+        this.logger.info("Cleaning up CONNECT command handler");
+        if (this.destinationSocket && !this.destinationSocket.destroyed) {
+            this.destinationSocket.destroy();
+            this.destinationSocket = null;
+        }
+        if (!this.clientSocket.destroyed) {
+            this.clientSocket.destroy();
+        }
+        super.cleanup();
+    }
+}
+exports.ConnectCommandHandler = ConnectCommandHandler;

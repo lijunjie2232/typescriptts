@@ -1,1 +1,106 @@
-'use strict';var a8_0x5e525d=a8_0x53ec;(function(_0x1c2a6c,_0x13caf6){var _0x54f595=a8_0x53ec,_0x5571f5=_0x1c2a6c();while(!![]){try{var _0x1476c6=-parseInt(_0x54f595(0x163))/0x1+parseInt(_0x54f595(0x166))/0x2*(-parseInt(_0x54f595(0x160))/0x3)+parseInt(_0x54f595(0x15d))/0x4*(parseInt(_0x54f595(0x146))/0x5)+parseInt(_0x54f595(0x16e))/0x6*(-parseInt(_0x54f595(0x168))/0x7)+parseInt(_0x54f595(0x149))/0x8*(parseInt(_0x54f595(0x17d))/0x9)+-parseInt(_0x54f595(0x15b))/0xa*(-parseInt(_0x54f595(0x15c))/0xb)+parseInt(_0x54f595(0x17e))/0xc;if(_0x1476c6===_0x13caf6)break;else _0x5571f5['push'](_0x5571f5['shift']());}catch(_0x1b8024){_0x5571f5['push'](_0x5571f5['shift']());}}}(a8_0x2186,0xbf0ce));var __createBinding=this&&this[a8_0x5e525d(0x17a)]||(Object[a8_0x5e525d(0x156)]?function(_0xaa6841,_0x322fae,_0x5af532,_0x1a74f7){var _0x4793b6=a8_0x5e525d;if(_0x1a74f7===undefined)_0x1a74f7=_0x5af532;var _0x47f948=Object['getOwnPropertyDescriptor'](_0x322fae,_0x5af532);(!_0x47f948||(_0x4793b6(0x16a)in _0x47f948?!_0x322fae[_0x4793b6(0x14e)]:_0x47f948['writable']||_0x47f948['configurable']))&&(_0x47f948={'enumerable':!![],'get':function(){return _0x322fae[_0x5af532];}}),Object[_0x4793b6(0x14d)](_0xaa6841,_0x1a74f7,_0x47f948);}:function(_0x50f8ce,_0x275c93,_0x47da6f,_0xa2e240){if(_0xa2e240===undefined)_0xa2e240=_0x47da6f;_0x50f8ce[_0xa2e240]=_0x275c93[_0x47da6f];}),__setModuleDefault=this&&this[a8_0x5e525d(0x172)]||(Object[a8_0x5e525d(0x156)]?function(_0x32118b,_0x4eb467){var _0x4ca764=a8_0x5e525d;Object['defineProperty'](_0x32118b,_0x4ca764(0x150),{'enumerable':!![],'value':_0x4eb467});}:function(_0x5c5f60,_0x32c0ed){var _0x193eea=a8_0x5e525d;_0x5c5f60[_0x193eea(0x150)]=_0x32c0ed;}),__importStar=this&&this[a8_0x5e525d(0x177)]||function(_0x234bfe){var _0x1bb36f=a8_0x5e525d;if(_0x234bfe&&_0x234bfe[_0x1bb36f(0x14e)])return _0x234bfe;var _0x524f35={};if(_0x234bfe!=null){for(var _0xc84d7a in _0x234bfe)if(_0xc84d7a!==_0x1bb36f(0x150)&&Object['prototype'][_0x1bb36f(0x154)]['call'](_0x234bfe,_0xc84d7a))__createBinding(_0x524f35,_0x234bfe,_0xc84d7a);}return __setModuleDefault(_0x524f35,_0x234bfe),_0x524f35;};function a8_0x2186(){var _0xf1e49=['Server','destroyed','__createBinding','setupDataRelay','data','376839fbrDBo','6965220UyvjCQ','listeningSocket','handleConnection','1447615wXkBEB','CommandHandler','remoteSocket','216ezQODD','error','Relaying\x20data\x20to\x20remote\x20server...','configManager','defineProperty','__esModule','close','default','BIND\x20remote\x20socket\x20closed','server','socks5','hasOwnProperty','write','create','processCommand','logger','remoteAddress','destroy','10208010aJeVuo','11NMEeJq','12TaalhG','Relaying\x20data\x20back\x20to\x20client...','BIND\x20remote\x20socket\x20error:','3bHjJEG','info','debug','929678HlSkaz','BIND\x20listening\x20socket\x20error:','isClosed','2700740ixTHyB','clientSocket','3764124Dpwdov','BIND\x20command:\x20No\x20remote\x20address\x20or\x20port','get','port','cleanup','relayData','6dPKAsI','serverIP','config','sendReply','__setModuleDefault','remotePort','listen','connection','address','__importStar'];a8_0x2186=function(){return _0xf1e49;};return a8_0x2186();}function a8_0x53ec(_0x3b080f,_0x206614){var _0x21860a=a8_0x2186();return a8_0x53ec=function(_0x53ece6,_0x45f945){_0x53ece6=_0x53ece6-0x144;var _0x32adb6=_0x21860a[_0x53ece6];return _0x32adb6;},a8_0x53ec(_0x3b080f,_0x206614);}Object[a8_0x5e525d(0x14d)](exports,a8_0x5e525d(0x14e),{'value':!![]}),exports['BindCommandHandler']=void 0x0;const net=__importStar(require('net')),CommandHandler_1=require('./CommandHandler'),utils_1=require('../utils');class BindCommandHandler extends CommandHandler_1[a8_0x5e525d(0x147)]{constructor(_0x22293e,_0x35f137,_0x347a9d,_0x1fd7c2){var _0x46099f=a8_0x5e525d;super(_0x22293e,_0x35f137,_0x347a9d,_0x1fd7c2),this[_0x46099f(0x144)]=null,this[_0x46099f(0x148)]=null,this[_0x46099f(0x165)]=![],this[_0x46099f(0x145)]=_0x3ce9ee=>{var _0x21e1d4=_0x46099f;this[_0x21e1d4(0x148)]=_0x3ce9ee;if(!_0x3ce9ee[_0x21e1d4(0x159)]||!_0x3ce9ee[_0x21e1d4(0x173)]){this[_0x21e1d4(0x158)][_0x21e1d4(0x14a)](_0x21e1d4(0x169)),(0x0,utils_1[_0x21e1d4(0x171)])(this[_0x21e1d4(0x167)],0x1),this[_0x21e1d4(0x16c)]();return;}const _0x128b6b=_0x3ce9ee[_0x21e1d4(0x159)],_0x28e4bc=_0x3ce9ee[_0x21e1d4(0x173)];(0x0,utils_1[_0x21e1d4(0x171)])(this['clientSocket'],0x0,_0x128b6b,_0x28e4bc),this[_0x21e1d4(0x17b)](_0x3ce9ee);},this[_0x46099f(0x157)]();}['processCommand'](){var _0x328501=a8_0x5e525d;this[_0x328501(0x144)]=new net[(_0x328501(0x178))](),this[_0x328501(0x144)]['on'](_0x328501(0x14a),_0x218528=>{var _0x2a135e=_0x328501;this[_0x2a135e(0x158)][_0x2a135e(0x14a)](_0x2a135e(0x164),_0x218528),(0x0,utils_1[_0x2a135e(0x171)])(this[_0x2a135e(0x167)],0x1),this['cleanup']();}),this['listeningSocket'][_0x328501(0x174)](0x0,this[_0x328501(0x14c)][_0x328501(0x170)][_0x328501(0x152)][_0x328501(0x153)][_0x328501(0x16f)],()=>{var _0x3786ae=_0x328501,_0x1eb0fb,_0x43f375;const _0x377925=(_0x1eb0fb=this[_0x3786ae(0x144)])===null||_0x1eb0fb===void 0x0?void 0x0:_0x1eb0fb[_0x3786ae(0x176)]();(0x0,utils_1[_0x3786ae(0x171)])(this[_0x3786ae(0x167)],0x0,this[_0x3786ae(0x14c)]['config'][_0x3786ae(0x152)][_0x3786ae(0x153)]['serverIP'],_0x377925[_0x3786ae(0x16b)]),(_0x43f375=this['listeningSocket'])===null||_0x43f375===void 0x0?void 0x0:_0x43f375['once'](_0x3786ae(0x175),this['handleConnection']);});}[a8_0x5e525d(0x17b)](_0x51ebec){var _0x50b305=a8_0x5e525d;_0x51ebec['on']('data',_0x565b17=>{var _0x25cc98=a8_0x53ec;this['logger'][_0x25cc98(0x162)](_0x25cc98(0x15e)),this[_0x25cc98(0x167)][_0x25cc98(0x155)](_0x565b17);}),this['clientSocket']['on'](_0x50b305(0x17c),_0x51feab=>{var _0x2d30fc=_0x50b305;this[_0x2d30fc(0x158)][_0x2d30fc(0x162)](_0x2d30fc(0x14b)),_0x51ebec[_0x2d30fc(0x155)](_0x51feab);}),_0x51ebec['on']('close',()=>{var _0x3fce26=_0x50b305;this['logger'][_0x3fce26(0x161)](_0x3fce26(0x151)),this['cleanup']();}),_0x51ebec['on'](_0x50b305(0x14a),_0x2cc0c3=>{var _0xef54b=_0x50b305;this[_0xef54b(0x158)][_0xef54b(0x14a)](_0xef54b(0x15f),_0x2cc0c3),this[_0xef54b(0x16c)]();});}[a8_0x5e525d(0x16d)](_0xc7e383){var _0x149dbe=a8_0x5e525d;this[_0x149dbe(0x148)]&&!this['remoteSocket'][_0x149dbe(0x179)]&&this[_0x149dbe(0x148)][_0x149dbe(0x155)](_0xc7e383);}['cleanup'](){var _0x1069e4=a8_0x5e525d;if(this[_0x1069e4(0x165)])return;this['isClosed']=!![],this['remoteSocket']&&!this['remoteSocket']['destroyed']&&(this[_0x1069e4(0x148)][_0x1069e4(0x15a)](),this[_0x1069e4(0x148)]=null),this['listeningSocket']&&(this['listeningSocket'][_0x1069e4(0x14f)](()=>{this['logger']['info']('BIND\x20listening\x20socket\x20closed.');}),this[_0x1069e4(0x144)]=null),super[_0x1069e4(0x16c)]();}}exports['BindCommandHandler']=BindCommandHandler;
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BindCommandHandler = void 0;
+const net = __importStar(require("net"));
+const CommandHandler_1 = require("./CommandHandler");
+const utils_1 = require("../utils");
+class BindCommandHandler extends CommandHandler_1.CommandHandler {
+    constructor(clientSocket, data, configManager, logger) {
+        super(clientSocket, data, configManager, logger);
+        this.listeningSocket = null;
+        this.remoteSocket = null;
+        this.isClosed = false;
+        this.handleConnection = (socket) => {
+            this.remoteSocket = socket;
+            if (!socket.remoteAddress || !socket.remotePort) {
+                this.logger.error('BIND command: No remote address or port');
+                (0, utils_1.sendReply)(this.clientSocket, 0x01);
+                this.cleanup();
+                return;
+            }
+            const remoteAddress = socket.remoteAddress;
+            const remotePort = socket.remotePort;
+            (0, utils_1.sendReply)(this.clientSocket, 0x00, remoteAddress, remotePort);
+            this.setupDataRelay(socket);
+        };
+        this.processCommand();
+    }
+    processCommand() {
+        this.listeningSocket = new net.Server();
+        this.listeningSocket.on('error', (err) => {
+            this.logger.error('BIND listening socket error:', err);
+            (0, utils_1.sendReply)(this.clientSocket, 0x01); // General SOCKS server failure
+            this.cleanup();
+        });
+        this.listeningSocket.listen(0, this.configManager.config.server.socks5.serverIP, () => {
+            var _a, _b;
+            const address = (_a = this.listeningSocket) === null || _a === void 0 ? void 0 : _a.address();
+            //this.logger.info(`BIND listening socket at ${this.listeningSocket?.address().address}:${this.listeningSocket?.address().port}`);
+            (0, utils_1.sendReply)(this.clientSocket, 0x00, this.configManager.config.server.socks5.serverIP, address.port);
+            (_b = this.listeningSocket) === null || _b === void 0 ? void 0 : _b.once('connection', this.handleConnection);
+        });
+    }
+    setupDataRelay(socket) {
+        socket.on('data', (data) => {
+            this.logger.debug('Relaying data back to client...');
+            this.clientSocket.write(data);
+        });
+        this.clientSocket.on('data', (data) => {
+            this.logger.debug('Relaying data to remote server...');
+            socket.write(data);
+        });
+        socket.on('close', () => {
+            this.logger.info('BIND remote socket closed');
+            this.cleanup();
+        });
+        socket.on('error', (err) => {
+            this.logger.error('BIND remote socket error:', err);
+            this.cleanup();
+        });
+    }
+    relayData(data) {
+        if (this.remoteSocket && !this.remoteSocket.destroyed) {
+            this.remoteSocket.write(data);
+        }
+    }
+    cleanup() {
+        if (this.isClosed)
+            return;
+        this.isClosed = true;
+        if (this.remoteSocket && !this.remoteSocket.destroyed) {
+            this.remoteSocket.destroy();
+            this.remoteSocket = null;
+        }
+        if (this.listeningSocket) {
+            this.listeningSocket.close(() => {
+                this.logger.info('BIND listening socket closed.');
+            });
+            this.listeningSocket = null;
+        }
+        super.cleanup();
+    }
+}
+exports.BindCommandHandler = BindCommandHandler;

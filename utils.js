@@ -1,1 +1,123 @@
-'use strict';const a5_0x280c64=a5_0x26f9;(function(_0x5407e0,_0xc20e6a){const _0x187fed=a5_0x26f9,_0x533b33=_0x5407e0();while(!![]){try{const _0x1f760e=parseInt(_0x187fed(0x1c0))/0x1*(parseInt(_0x187fed(0x1c6))/0x2)+parseInt(_0x187fed(0x1c7))/0x3+parseInt(_0x187fed(0x1a6))/0x4+parseInt(_0x187fed(0x1c8))/0x5*(-parseInt(_0x187fed(0x1b9))/0x6)+parseInt(_0x187fed(0x1aa))/0x7*(-parseInt(_0x187fed(0x1bb))/0x8)+parseInt(_0x187fed(0x1b1))/0x9*(-parseInt(_0x187fed(0x1b2))/0xa)+-parseInt(_0x187fed(0x1a2))/0xb*(-parseInt(_0x187fed(0x1bf))/0xc);if(_0x1f760e===_0xc20e6a)break;else _0x533b33['push'](_0x533b33['shift']());}catch(_0x240ab8){_0x533b33['push'](_0x533b33['shift']());}}}(a5_0x242c,0x487de));var __createBinding=this&&this['__createBinding']||(Object[a5_0x280c64(0x19f)]?function(_0x39eee3,_0x5daf33,_0x5cc39e,_0x47405f){const _0x430f74=a5_0x280c64;if(_0x47405f===undefined)_0x47405f=_0x5cc39e;var _0x3c9eaf=Object[_0x430f74(0x1a5)](_0x5daf33,_0x5cc39e);(!_0x3c9eaf||(_0x430f74(0x1a0)in _0x3c9eaf?!_0x5daf33[_0x430f74(0x1a3)]:_0x3c9eaf[_0x430f74(0x1ba)]||_0x3c9eaf[_0x430f74(0x1ac)]))&&(_0x3c9eaf={'enumerable':!![],'get':function(){return _0x5daf33[_0x5cc39e];}}),Object[_0x430f74(0x1b3)](_0x39eee3,_0x47405f,_0x3c9eaf);}:function(_0x266d30,_0x2dc5c4,_0x5549dd,_0x37000c){if(_0x37000c===undefined)_0x37000c=_0x5549dd;_0x266d30[_0x37000c]=_0x2dc5c4[_0x5549dd];}),__setModuleDefault=this&&this[a5_0x280c64(0x19d)]||(Object[a5_0x280c64(0x19f)]?function(_0x599660,_0xf472d6){const _0x326de3=a5_0x280c64;Object[_0x326de3(0x1b3)](_0x599660,_0x326de3(0x1b5),{'enumerable':!![],'value':_0xf472d6});}:function(_0x16954f,_0xb4b192){const _0x3af91f=a5_0x280c64;_0x16954f[_0x3af91f(0x1b5)]=_0xb4b192;}),__importStar=this&&this[a5_0x280c64(0x1bd)]||function(_0x26222c){const _0x4fc0d9=a5_0x280c64;if(_0x26222c&&_0x26222c[_0x4fc0d9(0x1a3)])return _0x26222c;var _0xec5405={};if(_0x26222c!=null){for(var _0x1ddf1f in _0x26222c)if(_0x1ddf1f!=='default'&&Object['prototype']['hasOwnProperty'][_0x4fc0d9(0x1c2)](_0x26222c,_0x1ddf1f))__createBinding(_0xec5405,_0x26222c,_0x1ddf1f);}return __setModuleDefault(_0xec5405,_0x26222c),_0xec5405;};Object[a5_0x280c64(0x1b3)](exports,'__esModule',{'value':!![]}),exports[a5_0x280c64(0x19e)]=exports[a5_0x280c64(0x1ab)]=exports[a5_0x280c64(0x1bc)]=void 0x0;const net=__importStar(require(a5_0x280c64(0x1a9))),parseDestination=_0x40ab0c=>{const _0x50d7ce=a5_0x280c64,_0x2bddb0=_0x40ab0c[0x3];let _0xea2ad4,_0x302afc,_0x4465a2;switch(_0x2bddb0){case 0x1:_0xea2ad4=_0x40ab0c[0x4]+'.'+_0x40ab0c[0x5]+'.'+_0x40ab0c[0x6]+'.'+_0x40ab0c[0x7],_0x4465a2=0x8;break;case 0x3:const _0x436012=_0x40ab0c[0x4];_0xea2ad4=_0x40ab0c[_0x50d7ce(0x1c3)](0x5,0x5+_0x436012)[_0x50d7ce(0x1c5)](),_0x4465a2=0x5+_0x436012;if(_0x4465a2+0x2>_0x40ab0c[_0x50d7ce(0x1af)])throw new Error(_0x50d7ce(0x1c1));break;case 0x4:const _0x314f53=_0x40ab0c[_0x50d7ce(0x1c3)](0x4,0x14)[_0x50d7ce(0x1c5)]('hex')[_0x50d7ce(0x1be)](/.{1,4}/g);if(!_0x314f53||_0x40ab0c['length']<0x14)throw new Error('Invalid\x20IPv6\x20address');_0xea2ad4=_0x314f53[_0x50d7ce(0x1c4)](':'),_0x4465a2=0x14;break;default:throw new Error(_0x50d7ce(0x1b6));}return _0x302afc=_0x40ab0c['readUInt16BE'](_0x4465a2),{'host':_0xea2ad4,'port':_0x302afc};};exports[a5_0x280c64(0x1bc)]=parseDestination;function a5_0x26f9(_0x5489cc,_0x1f0931){const _0x242c14=a5_0x242c();return a5_0x26f9=function(_0x26f9ea,_0x11680a){_0x26f9ea=_0x26f9ea-0x19d;let _0x3b0de8=_0x242c14[_0x26f9ea];return _0x3b0de8;},a5_0x26f9(_0x5489cc,_0x1f0931);}function a5_0x242c(){const _0x47d849=['Buffer\x20does\x20not\x20contain\x20enough\x20data\x20for\x20address\x20and\x20port','call','slice','join','toString','33944jBOgZU','1602240PoGccw','720oJvSVk','__setModuleDefault','determinePayloadStartIndex','create','get','fill','793353dyUDnM','__esModule','0.0.0.0','getOwnPropertyDescriptor','905608peefXS','alloc','writeUInt16BE','net','2456895MBEqEb','sendReply','configurable','split','copy','length','map','891TcqDkw','2980FGiDTf','defineProperty','from','default','Unsupported\x20address\x20type','flatMap','write','19194TljjBE','writable','8uYZBJd','parseDestination','__importStar','match','60CXuoyI','1ZDVZBZ'];a5_0x242c=function(){return _0x47d849;};return a5_0x242c();}const sendReply=(_0x437e42,_0x554df1,_0x3bb225=a5_0x280c64(0x1a4),_0x1cf8cc=0x0)=>{const _0x2754d9=a5_0x280c64;let _0xde577d,_0x57ab09;if(net['isIPv4'](_0x3bb225))_0xde577d=Buffer['alloc'](0xa),_0xde577d[0x3]=0x1,_0x57ab09=Buffer[_0x2754d9(0x1b4)](_0x3bb225[_0x2754d9(0x1ad)]('.')['map'](Number));else{if(net['isIPv6'](_0x3bb225)){_0xde577d=Buffer['alloc'](0x16),_0xde577d[0x3]=0x4;const _0x370cc=_0x3bb225['split'](':'),_0x59547c=_0x370cc[_0x2754d9(0x1b7)](_0x41d1ea=>{const _0x1cdaed=_0x2754d9;if(_0x41d1ea==='')return Array(0x10-_0x370cc[_0x1cdaed(0x1af)]+0x1)[_0x1cdaed(0x1a1)](0x0)[_0x1cdaed(0x1b0)](()=>0x0);const _0x254377=_0x41d1ea[_0x1cdaed(0x1be)](/.{1,2}/g)||[];return _0x254377[_0x1cdaed(0x1b0)](_0x44a195=>parseInt(_0x44a195,0x10));});_0x57ab09=Buffer['from'](_0x59547c);}else{const _0x38a4f7=Buffer[_0x2754d9(0x1b4)](_0x3bb225);_0xde577d=Buffer[_0x2754d9(0x1a7)](0x7+_0x38a4f7[_0x2754d9(0x1af)]),_0xde577d[0x3]=0x3,_0xde577d[0x4]=_0x38a4f7[_0x2754d9(0x1af)],_0x57ab09=_0x38a4f7;}}_0xde577d[0x0]=0x5,_0xde577d[0x1]=_0x554df1,_0xde577d[0x2]=0x0,_0x57ab09[_0x2754d9(0x1ae)](_0xde577d,_0xde577d[0x3]===0x3?0x5:0x4),_0xde577d[_0x2754d9(0x1a8)](_0x1cf8cc,_0xde577d['length']-0x2),_0x437e42[_0x2754d9(0x1b8)](_0xde577d);};exports[a5_0x280c64(0x1ab)]=sendReply;const determinePayloadStartIndex=_0x38db44=>{const _0x3edda6=_0x38db44[0x3];let _0x220ffe;switch(_0x3edda6){case 0x1:_0x220ffe=0x4+0x4;break;case 0x3:const _0x1dee7c=_0x38db44[0x4];_0x220ffe=0x4+0x1+_0x1dee7c;break;case 0x4:_0x220ffe=0x4+0x10;break;default:throw new Error('Unsupported\x20address\x20type');}return _0x220ffe+0x2;};exports[a5_0x280c64(0x19e)]=determinePayloadStartIndex;
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.determinePayloadStartIndex = exports.sendReply = exports.parseDestination = void 0;
+const net = __importStar(require("net"));
+const parseDestination = (data) => {
+    const addressType = data[3]; // Address type is the 4th byte
+    let host;
+    let port;
+    let addressEnd;
+    switch (addressType) {
+        case 0x01: // IPv4
+            host = `${data[4]}.${data[5]}.${data[6]}.${data[7]}`;
+            addressEnd = 8;
+            break;
+        case 0x03: // Domain name
+            const domainLength = data[4];
+            host = data.slice(5, 5 + domainLength).toString();
+            addressEnd = 5 + domainLength;
+            if (addressEnd + 2 > data.length) {
+                throw new Error('Buffer does not contain enough data for address and port');
+            }
+            break;
+        case 0x04: // IPv6
+            const ipv6 = data.slice(4, 20).toString('hex').match(/.{1,4}/g);
+            if (!ipv6 || data.length < 20) {
+                throw new Error('Invalid IPv6 address');
+            }
+            host = ipv6.join(':');
+            addressEnd = 20;
+            break;
+        default:
+            throw new Error('Unsupported address type');
+    }
+    port = data.readUInt16BE(addressEnd); // Port is 2 bytes, big-endian
+    return { host, port };
+};
+exports.parseDestination = parseDestination;
+const sendReply = (socket, replyCode, bindAddress = '0.0.0.0', bindPort = 0) => {
+    let response;
+    let addressBuffer;
+    if (net.isIPv4(bindAddress)) {
+        // IPv4 Address
+        response = Buffer.alloc(10); // IPv4 response size
+        response[3] = 0x01; // Address type IPv4
+        addressBuffer = Buffer.from(bindAddress.split('.').map(Number));
+    }
+    else if (net.isIPv6(bindAddress)) {
+        // IPv6 Address
+        response = Buffer.alloc(22); // IPv6 response size
+        response[3] = 0x04; // Address type IPv6
+        const ipv6Parts = bindAddress.split(':');
+        const ipv6BufferArray = ipv6Parts.flatMap(part => {
+            if (part === '') {
+                // Fill the gap in a shorthand IPv6 address with zeros
+                return Array(16 - ipv6Parts.length + 1).fill(0).map(() => 0);
+            }
+            const partMatches = part.match(/.{1,2}/g) || [];
+            return partMatches.map(byte => parseInt(byte, 16));
+        });
+        addressBuffer = Buffer.from(ipv6BufferArray);
+    }
+    else {
+        // Domain Name
+        const domainNameBuffer = Buffer.from(bindAddress);
+        response = Buffer.alloc(7 + domainNameBuffer.length); // Domain name response size
+        response[3] = 0x03; // Address type Domain Name
+        response[4] = domainNameBuffer.length; // Domain name length
+        addressBuffer = domainNameBuffer;
+    }
+    response[0] = 0x05; // SOCKS version
+    response[1] = replyCode; // Reply code
+    response[2] = 0x00; // Reserved
+    // Copy address and port to the response buffer
+    addressBuffer.copy(response, response[3] === 0x03 ? 5 : 4); // Offset depends on address type
+    response.writeUInt16BE(bindPort, response.length - 2);
+    socket.write(response);
+};
+exports.sendReply = sendReply;
+const determinePayloadStartIndex = (msg) => {
+    // The address type is specified in the 4th byte of the message
+    const addressType = msg[3];
+    let headerLength;
+    switch (addressType) {
+        case 0x01: // IPv4 Address
+            headerLength = 4 + 4; // 4 bytes for address type, IPv4 address
+            break;
+        case 0x03: // Domain Name
+            const domainNameLength = msg[4]; // The length of the domain name
+            headerLength = 4 + 1 + domainNameLength; // 4 bytes for address type, 1 byte for length, domain name
+            break;
+        case 0x04: // IPv6 Address
+            headerLength = 4 + 16; // 4 bytes for address type, IPv6 address
+            break;
+        default:
+            throw new Error('Unsupported address type');
+    }
+    // Adding 2 bytes for the port number at the end of the header
+    return headerLength + 2; // Total header length including the port
+};
+exports.determinePayloadStartIndex = determinePayloadStartIndex;

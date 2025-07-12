@@ -1,1 +1,189 @@
-'use strict';const a10_0x5c86d4=a10_0x5401;(function(_0x2a30b9,_0x3f02db){const _0x881ef0=a10_0x5401,_0x1f28b0=_0x2a30b9();while(!![]){try{const _0x2bde4d=parseInt(_0x881ef0(0x116))/0x1*(-parseInt(_0x881ef0(0x134))/0x2)+parseInt(_0x881ef0(0x111))/0x3+-parseInt(_0x881ef0(0x11a))/0x4+parseInt(_0x881ef0(0xe6))/0x5+parseInt(_0x881ef0(0x119))/0x6*(parseInt(_0x881ef0(0xed))/0x7)+-parseInt(_0x881ef0(0x135))/0x8*(parseInt(_0x881ef0(0x12b))/0x9)+-parseInt(_0x881ef0(0xff))/0xa*(-parseInt(_0x881ef0(0xe7))/0xb);if(_0x2bde4d===_0x3f02db)break;else _0x1f28b0['push'](_0x1f28b0['shift']());}catch(_0x328cb7){_0x1f28b0['push'](_0x1f28b0['shift']());}}}(a10_0x70ab,0xa95c4));var __awaiter=this&&this[a10_0x5c86d4(0x137)]||function(_0x464754,_0x12a751,_0x3ce9e8,_0x16478e){function _0x2d1294(_0x342b53){return _0x342b53 instanceof _0x3ce9e8?_0x342b53:new _0x3ce9e8(function(_0x317ecd){_0x317ecd(_0x342b53);});}return new(_0x3ce9e8||(_0x3ce9e8=Promise))(function(_0x478d88,_0xc1e117){const _0x1490d5=a10_0x5401;function _0x137caf(_0x17aff7){try{_0x5b98cf(_0x16478e['next'](_0x17aff7));}catch(_0x23a38b){_0xc1e117(_0x23a38b);}}function _0x4f2535(_0x4cad25){try{_0x5b98cf(_0x16478e['throw'](_0x4cad25));}catch(_0x1a6a74){_0xc1e117(_0x1a6a74);}}function _0x5b98cf(_0x256da3){const _0x5a6456=a10_0x5401;_0x256da3[_0x5a6456(0x115)]?_0x478d88(_0x256da3['value']):_0x2d1294(_0x256da3[_0x5a6456(0x130)])['then'](_0x137caf,_0x4f2535);}_0x5b98cf((_0x16478e=_0x16478e[_0x1490d5(0x123)](_0x464754,_0x12a751||[]))[_0x1490d5(0xf7)]());});};Object[a10_0x5c86d4(0xf8)](exports,a10_0x5c86d4(0x112),{'value':!![]}),exports[a10_0x5c86d4(0x133)]=void 0x0;const utils_1=require(a10_0x5c86d4(0x11d)),Auth_1=require(a10_0x5c86d4(0x129)),ConnectCommandHandler_1=require(a10_0x5c86d4(0x122)),BindCommandHandler_1=require(a10_0x5c86d4(0x104)),UDPAssociateCommandHandler_1=require(a10_0x5c86d4(0xe5)),SessionMonitor_1=require(a10_0x5c86d4(0xfe));function a10_0x70ab(){const _0x46cec5=['1856160UzkCSg','264ZBaHpi','authHandler','min','BindCommandHandler','UDP\x20port\x20assigned\x20:\x20','AwaitingInitialCommand','7YlBeVU','max','close','SessionMonitor','authenticate','server','usedUdpPorts','socks5','Access\x20to\x20IP\x20','add','next','defineProperty','configManager','assignUdpPort','clientSocket','sessionCleanup','config','../SessionMonitor','204590ZsETGB','AwaitingAuthentication','UdpAssociateHandler','has','blacklist','./BindCommandHandler','write','DataRelayMode','filterAccess','handleCommand','length','Cleaned\x20up\x20session','logger','\x20not\x20allowed\x20by\x20server\x20policy','Successful\x20authentication','UserPassAuth','method','serverIpFiltering','1383603WAZxKN','__esModule','bind','handleData','done','31KUttGc','from','No\x20available\x20UDP\x20ports','6991176DuhSNl','1073936MktYmg','Successfull\x20greeting','slice','../utils','CONNECT\x20command\x20received','password','UDP\x20ASSOCIATE\x20command\x20received','delete','./ConnectCommandHandler','apply','isBlockedIP','handleGreeting','state','commandHandler','whitelist','../Auth','data','90081QEjOxl','Received\x20data\x20:\x20','\x20blocked\x20by\x20server\x20policy','includes','end','value','debug','Failed\x20authentication','SocksSession','46822dyYpEM','640rkxQDA','error','__awaiter','isGreetingHandled','udpPort','incrementAuthFailure','info','isWhitelistedIP','./UDPAssociateCommandHandler'];a10_0x70ab=function(){return _0x46cec5;};return a10_0x70ab();}var SocksSessionState;(function(_0x45da28){const _0x4b97b3=a10_0x5c86d4;_0x45da28[_0x45da28['AwaitingGreeting']=0x0]='AwaitingGreeting',_0x45da28[_0x45da28[_0x4b97b3(0x100)]=0x1]=_0x4b97b3(0x100),_0x45da28[_0x45da28['AwaitingInitialCommand']=0x2]='AwaitingInitialCommand',_0x45da28[_0x45da28[_0x4b97b3(0x106)]=0x3]='DataRelayMode';}(SocksSessionState||(SocksSessionState={})));function a10_0x5401(_0x2aa5c3,_0x484d46){const _0x70ab95=a10_0x70ab();return a10_0x5401=function(_0x5401f3,_0x1f5e86){_0x5401f3=_0x5401f3-0xe5;let _0x4cc353=_0x70ab95[_0x5401f3];return _0x4cc353;},a10_0x5401(_0x2aa5c3,_0x484d46);}class SocksSession{constructor(_0x4588f3,_0x25831b,_0x53f529,_0x5d5bcf){const _0x5d7bfd=a10_0x5c86d4;this[_0x5d7bfd(0xfb)]=_0x4588f3,this[_0x5d7bfd(0x126)]=SocksSessionState['AwaitingGreeting'],this[_0x5d7bfd(0x138)]=![],this['handleData']=_0x25d4ed=>__awaiter(this,void 0x0,void 0x0,function*(){const _0x44bee0=_0x5d7bfd;this['logger'][_0x44bee0(0x131)](_0x44bee0(0x12c),_0x25d4ed);switch(this[_0x44bee0(0x126)]){case SocksSessionState['AwaitingGreeting']:this[_0x44bee0(0x125)](_0x25d4ed);break;case SocksSessionState['AwaitingAuthentication']:yield this['handleAuth'](_0x25d4ed);break;case SocksSessionState[_0x44bee0(0xec)]:this[_0x44bee0(0x108)](_0x25d4ed);break;case SocksSessionState[_0x44bee0(0x106)]:break;}}),this['configManager']=_0x25831b,this[_0x5d7bfd(0x10b)]=_0x53f529,this[_0x5d7bfd(0x13a)]=_0x5d5bcf,this['monitor']=new SessionMonitor_1[(_0x5d7bfd(0xf0))](_0x4588f3),this[_0x5d7bfd(0x10b)][_0x5d7bfd(0x13b)]('Initialize\x20new\x20session'),this['configManager'][_0x5d7bfd(0xfd)]['authentication'][_0x5d7bfd(0x10f)]===_0x5d7bfd(0x11f)?this[_0x5d7bfd(0xe8)]=new Auth_1['UserPassAuth'](this[_0x5d7bfd(0xf9)]['config']['credentials']):this[_0x5d7bfd(0xe8)]=null,this['sessionCleanup']=this[_0x5d7bfd(0xfc)][_0x5d7bfd(0x113)](this),this['clientSocket']=_0x4588f3,this[_0x5d7bfd(0x139)]=this[_0x5d7bfd(0xfa)](),this['logger']['info'](_0x5d7bfd(0xeb)+this['udpPort']),this['clientSocket']['on'](_0x5d7bfd(0x12a),this[_0x5d7bfd(0x114)]),this[_0x5d7bfd(0xfb)]['on'](_0x5d7bfd(0xef),this[_0x5d7bfd(0xfc)]),this['clientSocket']['on'](_0x5d7bfd(0x136),this['sessionCleanup']);}[a10_0x5c86d4(0x125)](_0x385ceb){const _0x1fe8a2=a10_0x5c86d4,_0x43f1f5=_0x385ceb[0x0],_0x5a6343=_0x385ceb[0x1],_0x28ea1f=_0x385ceb[_0x1fe8a2(0x11c)](0x2,0x2+_0x5a6343);if(_0x43f1f5!==0x5){this['clientSocket'][_0x1fe8a2(0x12f)]();return;}if(_0x28ea1f[_0x1fe8a2(0x12e)](0x2)&&this[_0x1fe8a2(0xe8)]instanceof Auth_1[_0x1fe8a2(0x10e)])this[_0x1fe8a2(0xfb)][_0x1fe8a2(0x105)](Buffer[_0x1fe8a2(0x117)]([0x5,0x2])),this[_0x1fe8a2(0x138)]=!![],this['logger'][_0x1fe8a2(0x13b)](_0x1fe8a2(0x11b));else _0x28ea1f[_0x1fe8a2(0x12e)](0x0&&this[_0x1fe8a2(0xe8)]===null)?(this[_0x1fe8a2(0xfb)][_0x1fe8a2(0x105)](Buffer[_0x1fe8a2(0x117)]([0x5,0x0])),this[_0x1fe8a2(0x138)]=!![],this[_0x1fe8a2(0x10b)][_0x1fe8a2(0x13b)](_0x1fe8a2(0x11b))):(this[_0x1fe8a2(0xfb)][_0x1fe8a2(0x105)](Buffer[_0x1fe8a2(0x117)]([0x5,0xff])),this[_0x1fe8a2(0xfb)][_0x1fe8a2(0x12f)]());this[_0x1fe8a2(0x126)]=this[_0x1fe8a2(0xe8)]?SocksSessionState[_0x1fe8a2(0x100)]:SocksSessionState[_0x1fe8a2(0xec)];}['handleAuth'](_0x29d30f){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x1fb256=a10_0x5401,_0x4e213c=this[_0x1fb256(0xfb)]['remoteAddress']||'';let _0x56d4b6;if(this[_0x1fb256(0xe8)]){_0x56d4b6=yield this['authHandler'][_0x1fb256(0xf1)](_0x1fb256(0xf4),{'socket':this[_0x1fb256(0xfb)],'data':_0x29d30f});if(_0x56d4b6){this['logger'][_0x1fb256(0x13b)](_0x1fb256(0x10d));const _0x330098=Buffer[_0x1fb256(0x117)]([0x5,0x0]);this[_0x1fb256(0xfb)][_0x1fb256(0x105)](_0x330098),this['authHandler']=null;}else{this['incrementAuthFailure'](_0x4e213c);const _0xb91568=Buffer[_0x1fb256(0x117)]([0x5,0x1]);this[_0x1fb256(0x10b)]['info'](_0x1fb256(0x132)),this[_0x1fb256(0xfb)][_0x1fb256(0x105)](_0xb91568),this[_0x1fb256(0xfb)][_0x1fb256(0x12f)]();}}else{_0x56d4b6=!![];const _0x331d5a=Buffer[_0x1fb256(0x117)]([0x5,0x0]);this[_0x1fb256(0xfb)]['write'](_0x331d5a);}_0x56d4b6&&(this['state']=SocksSessionState[_0x1fb256(0xec)]);});}[a10_0x5c86d4(0x108)](_0x5f0bfc){const _0xef0a8d=a10_0x5c86d4,{host:_0x3ce89d,port:_0x1b64f1}=(0x0,utils_1['parseDestination'])(_0x5f0bfc);this[_0xef0a8d(0x107)](_0x3ce89d,()=>{const _0x584df7=_0xef0a8d,_0x19dfd0=_0x5f0bfc[0x1];switch(_0x19dfd0){case 0x1:this[_0x584df7(0x10b)][_0x584df7(0x13b)](_0x584df7(0x11e)),this[_0x584df7(0x127)]=new ConnectCommandHandler_1['ConnectCommandHandler'](this[_0x584df7(0xfb)],_0x5f0bfc,this['configManager'],this['logger']),this[_0x584df7(0x126)]=SocksSessionState[_0x584df7(0x106)];break;case 0x2:this[_0x584df7(0x10b)]['info']('BIND\x20command\x20received'),this[_0x584df7(0x127)]=new BindCommandHandler_1[(_0x584df7(0xea))](this[_0x584df7(0xfb)],_0x5f0bfc,this['configManager'],this[_0x584df7(0x10b)]),this['state']=SocksSessionState[_0x584df7(0x106)];break;case 0x3:this[_0x584df7(0x10b)][_0x584df7(0x13b)](_0x584df7(0x120)),this[_0x584df7(0x127)]=new UDPAssociateCommandHandler_1[(_0x584df7(0x101))](this[_0x584df7(0xfb)],_0x5f0bfc,this[_0x584df7(0xf9)],this[_0x584df7(0x139)],this[_0x584df7(0x10b)]),this['state']=SocksSessionState[_0x584df7(0x106)];break;}});}[a10_0x5c86d4(0x107)](_0x4f7d2f,_0x104982){const _0x36357c=a10_0x5c86d4;if(this[_0x36357c(0x124)](_0x4f7d2f)){this['logger'][_0x36357c(0x13b)](_0x36357c(0xf5)+_0x4f7d2f+_0x36357c(0x12d)),this['clientSocket'][_0x36357c(0x12f)]();return;}if(!this[_0x36357c(0x13c)](_0x4f7d2f)){this[_0x36357c(0x10b)]['info']('Access\x20to\x20IP\x20'+_0x4f7d2f+_0x36357c(0x10c)),this['clientSocket'][_0x36357c(0x12f)]();return;}_0x104982();}[a10_0x5c86d4(0x13c)](_0x250c46){const _0x241b02=a10_0x5c86d4,_0x18b7eb=this[_0x241b02(0xf9)][_0x241b02(0xfd)][_0x241b02(0x110)][_0x241b02(0x128)];if(!_0x18b7eb||_0x18b7eb[_0x241b02(0x109)]===0x0)return!![];return _0x18b7eb[_0x241b02(0x12e)](_0x250c46);}[a10_0x5c86d4(0x124)](_0x1013d1){const _0x4b77d6=a10_0x5c86d4;return this[_0x4b77d6(0xf9)][_0x4b77d6(0xfd)]['serverIpFiltering'][_0x4b77d6(0x103)][_0x4b77d6(0x12e)](_0x1013d1);}[a10_0x5c86d4(0xfa)](){const _0x581649=a10_0x5c86d4;for(let _0x6b2420=this[_0x581649(0xf9)]['config'][_0x581649(0xf2)][_0x581649(0xf4)]['udpPortRange'][_0x581649(0xe9)];_0x6b2420<=this[_0x581649(0xf9)][_0x581649(0xfd)][_0x581649(0xf2)]['socks5']['udpPortRange'][_0x581649(0xee)];_0x6b2420++){if(!SocksSession['usedUdpPorts'][_0x581649(0x102)](_0x6b2420))return SocksSession[_0x581649(0xf3)][_0x581649(0xf6)](_0x6b2420),_0x6b2420;}throw new Error(_0x581649(0x118));}[a10_0x5c86d4(0xfc)](){const _0x391d37=a10_0x5c86d4;SocksSession[_0x391d37(0xf3)][_0x391d37(0x121)](this[_0x391d37(0x139)]),this['clientSocket']&&!this[_0x391d37(0xfb)]['destroyed']&&this[_0x391d37(0xfb)]['end'](),this[_0x391d37(0x10b)]['info'](_0x391d37(0x10a));}}exports['SocksSession']=SocksSession,SocksSession['usedUdpPorts']=new Set();
+"use strict";
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SocksSession = void 0;
+const utils_1 = require("../utils");
+const Auth_1 = require("../Auth");
+const ConnectCommandHandler_1 = require("./ConnectCommandHandler");
+const BindCommandHandler_1 = require("./BindCommandHandler");
+const UDPAssociateCommandHandler_1 = require("./UDPAssociateCommandHandler");
+const SessionMonitor_1 = require("../SessionMonitor");
+var SocksSessionState;
+(function (SocksSessionState) {
+    SocksSessionState[SocksSessionState["AwaitingGreeting"] = 0] = "AwaitingGreeting";
+    SocksSessionState[SocksSessionState["AwaitingAuthentication"] = 1] = "AwaitingAuthentication";
+    SocksSessionState[SocksSessionState["AwaitingInitialCommand"] = 2] = "AwaitingInitialCommand";
+    SocksSessionState[SocksSessionState["DataRelayMode"] = 3] = "DataRelayMode";
+})(SocksSessionState || (SocksSessionState = {}));
+class SocksSession {
+    constructor(clientSocket, configManager, logger, incrementAuthFailure) {
+        this.clientSocket = clientSocket;
+        this.state = SocksSessionState.AwaitingGreeting;
+        this.isGreetingHandled = false;
+        this.handleData = (data) => __awaiter(this, void 0, void 0, function* () {
+            this.logger.debug(`Received data : `, data);
+            switch (this.state) {
+                case SocksSessionState.AwaitingGreeting:
+                    this.handleGreeting(data);
+                    break;
+                case SocksSessionState.AwaitingAuthentication:
+                    yield this.handleAuth(data);
+                    break;
+                case SocksSessionState.AwaitingInitialCommand:
+                    this.handleCommand(data);
+                    break;
+                case SocksSessionState.DataRelayMode:
+                    break;
+            }
+        });
+        this.configManager = configManager;
+        this.logger = logger;
+        this.incrementAuthFailure = incrementAuthFailure;
+        this.monitor = new SessionMonitor_1.SessionMonitor(clientSocket);
+        this.logger.info(`Initialize new session`);
+        // Instantiate the appropriate authentication handler
+        if (this.configManager.config.authentication.method === 'password') {
+            this.authHandler = new Auth_1.UserPassAuth(this.configManager.config.credentials);
+        }
+        else {
+            this.authHandler = null;
+        }
+        this.sessionCleanup = this.sessionCleanup.bind(this);
+        this.clientSocket = clientSocket;
+        this.udpPort = this.assignUdpPort();
+        this.logger.info(`UDP port assigned : ${this.udpPort}`);
+        this.clientSocket.on('data', this.handleData);
+        this.clientSocket.on('close', this.sessionCleanup);
+        this.clientSocket.on('error', this.sessionCleanup);
+    }
+    handleGreeting(data) {
+        const version = data[0];
+        const nMethods = data[1];
+        const methods = data.slice(2, 2 + nMethods);
+        if (version !== 0x05) {
+            // Unsupported SOCKS protocol version
+            this.clientSocket.end();
+            return;
+        }
+        if (methods.includes(0x02) && this.authHandler instanceof Auth_1.UserPassAuth) { // user/pass auth
+            this.clientSocket.write(Buffer.from([0x05, 0x02]));
+            this.isGreetingHandled = true;
+            this.logger.info(`Successfull greeting`);
+        }
+        else if (methods.includes(0x00 && this.authHandler === null)) { // No Authentication Required
+            this.clientSocket.write(Buffer.from([0x05, 0x00]));
+            this.isGreetingHandled = true;
+            this.logger.info(`Successfull greeting`);
+        }
+        else {
+            // No acceptable methods
+            this.clientSocket.write(Buffer.from([0x05, 0xff]));
+            this.clientSocket.end();
+        }
+        this.state = this.authHandler ? SocksSessionState.AwaitingAuthentication : SocksSessionState.AwaitingInitialCommand;
+    }
+    handleAuth(data) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const clientIP = this.clientSocket.remoteAddress || '';
+            let isAuthenticated;
+            if (this.authHandler) {
+                isAuthenticated = yield this.authHandler.authenticate('socks5', { socket: this.clientSocket, data: data });
+                if (isAuthenticated) {
+                    this.logger.info(`Successful authentication`);
+                    const response = Buffer.from([0x05, 0x00]); // Success
+                    this.clientSocket.write(response);
+                    this.authHandler = null; // Authentication complete, no longer needed
+                }
+                else {
+                    this.incrementAuthFailure(clientIP);
+                    const response = Buffer.from([0x05, 0x01]); // Failure
+                    this.logger.info(`Failed authentication`);
+                    this.clientSocket.write(response);
+                    this.clientSocket.end(); // Close the connection on authentication failure
+                }
+            }
+            else {
+                isAuthenticated = true;
+                const response = Buffer.from([0x05, 0x00]); // Success
+                this.clientSocket.write(response);
+            }
+            // After successful authentication, transition to awaiting initial command state
+            if (isAuthenticated) {
+                this.state = SocksSessionState.AwaitingInitialCommand;
+            }
+        });
+    }
+    handleCommand(data) {
+        const { host, port } = (0, utils_1.parseDestination)(data);
+        this.filterAccess(host, () => {
+            const command = data[1];
+            switch (command) {
+                case 0x01: // CONNECT
+                    this.logger.info(`CONNECT command received`);
+                    this.commandHandler = new ConnectCommandHandler_1.ConnectCommandHandler(this.clientSocket, data, this.configManager, this.logger);
+                    this.state = SocksSessionState.DataRelayMode;
+                    break;
+                case 0x02: // BIND
+                    this.logger.info(`BIND command received`);
+                    this.commandHandler = new BindCommandHandler_1.BindCommandHandler(this.clientSocket, data, this.configManager, this.logger);
+                    this.state = SocksSessionState.DataRelayMode;
+                    break;
+                case 0x03: // UDP ASSOCIATE
+                    this.logger.info(`UDP ASSOCIATE command received`);
+                    this.commandHandler = new UDPAssociateCommandHandler_1.UdpAssociateHandler(this.clientSocket, data, this.configManager, this.udpPort, this.logger);
+                    this.state = SocksSessionState.DataRelayMode;
+                    break;
+            }
+        });
+    }
+    filterAccess(host, onSuccess) {
+        if (this.isBlockedIP(host)) {
+            this.logger.info(`Access to IP ${host} blocked by server policy`);
+            this.clientSocket.end();
+            return;
+        }
+        if (!this.isWhitelistedIP(host)) {
+            this.logger.info(`Access to IP ${host} not allowed by server policy`);
+            this.clientSocket.end();
+            return;
+        }
+        onSuccess();
+    }
+    isWhitelistedIP(hostname) {
+        const whitelist = this.configManager.config.serverIpFiltering.whitelist;
+        if (!whitelist || whitelist.length === 0) {
+            return true;
+        }
+        return whitelist.includes(hostname);
+    }
+    isBlockedIP(ip) {
+        return this.configManager.config.serverIpFiltering.blacklist.includes(ip);
+    }
+    assignUdpPort() {
+        for (let port = this.configManager.config.server.socks5.udpPortRange.min; port <= this.configManager.config.server.socks5.udpPortRange.max; port++) {
+            if (!SocksSession.usedUdpPorts.has(port)) {
+                SocksSession.usedUdpPorts.add(port);
+                return port;
+            }
+        }
+        throw new Error('No available UDP ports');
+    }
+    sessionCleanup() {
+        SocksSession.usedUdpPorts.delete(this.udpPort);
+        // Other cleanup code
+        if (this.clientSocket && !this.clientSocket.destroyed) {
+            this.clientSocket.end();
+        }
+        this.logger.info(`Cleaned up session`);
+    }
+}
+exports.SocksSession = SocksSession;
+SocksSession.usedUdpPorts = new Set();

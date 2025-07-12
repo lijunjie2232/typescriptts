@@ -1,1 +1,20 @@
-'use strict';var a6_0x379d9e=a6_0x3ce5;(function(_0x10f259,_0x5817b2){var _0x545cbf=a6_0x3ce5,_0x4a3a5e=_0x10f259();while(!![]){try{var _0x4ffbd0=parseInt(_0x545cbf(0x98))/0x1+parseInt(_0x545cbf(0xa1))/0x2+parseInt(_0x545cbf(0x99))/0x3*(parseInt(_0x545cbf(0xa7))/0x4)+-parseInt(_0x545cbf(0xa4))/0x5+-parseInt(_0x545cbf(0x9b))/0x6*(-parseInt(_0x545cbf(0x9d))/0x7)+-parseInt(_0x545cbf(0xa2))/0x8*(parseInt(_0x545cbf(0x96))/0x9)+-parseInt(_0x545cbf(0x9a))/0xa;if(_0x4ffbd0===_0x5817b2)break;else _0x4a3a5e['push'](_0x4a3a5e['shift']());}catch(_0x36a863){_0x4a3a5e['push'](_0x4a3a5e['shift']());}}}(a6_0x2649,0x5d9f6));Object[a6_0x379d9e(0xa0)](exports,a6_0x379d9e(0x9f),{'value':!![]}),exports['CommandHandler']=void 0x0;function a6_0x3ce5(_0x18a3a9,_0xdb261b){var _0x2649fe=a6_0x2649();return a6_0x3ce5=function(_0x3ce5e6,_0x5db3c4){_0x3ce5e6=_0x3ce5e6-0x96;var _0x2ac8d8=_0x2649fe[_0x3ce5e6];return _0x2ac8d8;},a6_0x3ce5(_0x18a3a9,_0xdb261b);}function a6_0x2649(){var _0x496ee4=['747610hZDbsH','clientSocket','end','24mJiHVJ','423MxrtaA','data','431679ujJFrF','120507NmbAkS','4919370HzUKYL','138PEAMyR','CommandHandler','89292yDDbCq','destroyed','__esModule','defineProperty','414188nFmign','25232ClBUyE','configManager'];a6_0x2649=function(){return _0x496ee4;};return a6_0x2649();}class CommandHandler{constructor(_0x44f669,_0x18d786,_0x2689fa,_0x45950c){var _0x37fb35=a6_0x379d9e;this[_0x37fb35(0xa5)]=_0x44f669,this[_0x37fb35(0x97)]=_0x18d786,this[_0x37fb35(0xa3)]=_0x2689fa,this['logger']=_0x45950c;}['cleanup'](){var _0x204426=a6_0x379d9e;this[_0x204426(0xa5)]&&!this[_0x204426(0xa5)][_0x204426(0x9e)]&&this[_0x204426(0xa5)][_0x204426(0xa6)]();}}exports[a6_0x379d9e(0x9c)]=CommandHandler;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CommandHandler = void 0;
+class CommandHandler {
+    constructor(clientSocket, data, configManager, logger) {
+        this.clientSocket = clientSocket;
+        this.data = data;
+        this.configManager = configManager;
+        this.logger = logger;
+    }
+    //abstract relayData(data: Buffer, rinfo?: dgram.RemoteInfo): void;
+    // Common cleanup method for all handlers
+    cleanup() {
+        // Close the client socket if it's still open
+        if (this.clientSocket && !this.clientSocket.destroyed) {
+            this.clientSocket.end();
+        }
+    }
+}
+exports.CommandHandler = CommandHandler;

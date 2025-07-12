@@ -1,2 +1,88 @@
 #!/usr/bin/env node
-'use strict';const a14_0x30607f=a14_0x2c88;(function(_0x453a14,_0x487aac){const _0x20cf72=a14_0x2c88,_0xe030ff=_0x453a14();while(!![]){try{const _0x51f26a=-parseInt(_0x20cf72(0x1b3))/0x1*(parseInt(_0x20cf72(0x1ba))/0x2)+-parseInt(_0x20cf72(0x1b6))/0x3*(parseInt(_0x20cf72(0x1cd))/0x4)+parseInt(_0x20cf72(0x1c0))/0x5*(-parseInt(_0x20cf72(0x1be))/0x6)+parseInt(_0x20cf72(0x1b4))/0x7+-parseInt(_0x20cf72(0x1b8))/0x8+-parseInt(_0x20cf72(0x1c7))/0x9*(-parseInt(_0x20cf72(0x1d1))/0xa)+-parseInt(_0x20cf72(0x1d8))/0xb*(-parseInt(_0x20cf72(0x1d4))/0xc);if(_0x51f26a===_0x487aac)break;else _0xe030ff['push'](_0xe030ff['shift']());}catch(_0x1e2813){_0xe030ff['push'](_0xe030ff['shift']());}}}(a14_0xbb3d,0x3df2f));function a14_0x2c88(_0x3a6487,_0x4792ce){const _0xbb3d1f=a14_0xbb3d();return a14_0x2c88=function(_0x2c88be,_0x3eb057){_0x2c88be=_0x2c88be-0x1a1;let _0x31b345=_0xbb3d1f[_0x2c88be];return _0x31b345;},a14_0x2c88(_0x3a6487,_0x4792ce);}var __createBinding=this&&this['__createBinding']||(Object[a14_0x30607f(0x1a3)]?function(_0x9a45c3,_0x1aca44,_0x5b6505,_0x55af0f){const _0x1151e3=a14_0x30607f;if(_0x55af0f===undefined)_0x55af0f=_0x5b6505;var _0x2b498=Object[_0x1151e3(0x1b1)](_0x1aca44,_0x5b6505);(!_0x2b498||('get'in _0x2b498?!_0x1aca44[_0x1151e3(0x1bf)]:_0x2b498[_0x1151e3(0x1c1)]||_0x2b498[_0x1151e3(0x1c5)]))&&(_0x2b498={'enumerable':!![],'get':function(){return _0x1aca44[_0x5b6505];}}),Object[_0x1151e3(0x1bc)](_0x9a45c3,_0x55af0f,_0x2b498);}:function(_0x10bbcc,_0x528e15,_0x1a5970,_0x348718){if(_0x348718===undefined)_0x348718=_0x1a5970;_0x10bbcc[_0x348718]=_0x528e15[_0x1a5970];}),__setModuleDefault=this&&this[a14_0x30607f(0x1ad)]||(Object[a14_0x30607f(0x1a3)]?function(_0x183723,_0x4c855d){const _0x4a44d6=a14_0x30607f;Object[_0x4a44d6(0x1bc)](_0x183723,'default',{'enumerable':!![],'value':_0x4c855d});}:function(_0xb137f8,_0x2b9189){const _0x1c80f2=a14_0x30607f;_0xb137f8[_0x1c80f2(0x1cc)]=_0x2b9189;}),__importStar=this&&this[a14_0x30607f(0x1aa)]||function(_0x5a1052){const _0x2ebbdb=a14_0x30607f;if(_0x5a1052&&_0x5a1052[_0x2ebbdb(0x1bf)])return _0x5a1052;var _0x483258={};if(_0x5a1052!=null){for(var _0x53a0d3 in _0x5a1052)if(_0x53a0d3!==_0x2ebbdb(0x1cc)&&Object[_0x2ebbdb(0x1ca)][_0x2ebbdb(0x1d0)]['call'](_0x5a1052,_0x53a0d3))__createBinding(_0x483258,_0x5a1052,_0x53a0d3);}return __setModuleDefault(_0x483258,_0x5a1052),_0x483258;},__awaiter=this&&this[a14_0x30607f(0x1a9)]||function(_0x22e07,_0x33e2fb,_0x26bd82,_0x2742ee){function _0x20946d(_0x51e977){return _0x51e977 instanceof _0x26bd82?_0x51e977:new _0x26bd82(function(_0x5578d1){_0x5578d1(_0x51e977);});}return new(_0x26bd82||(_0x26bd82=Promise))(function(_0x19abb8,_0x3943f2){const _0x4cfe3a=a14_0x2c88;function _0x240335(_0x50deec){const _0x2adf6c=a14_0x2c88;try{_0x8c0db3(_0x2742ee[_0x2adf6c(0x1bd)](_0x50deec));}catch(_0x30fc68){_0x3943f2(_0x30fc68);}}function _0x533cfd(_0x4923d6){const _0x21618f=a14_0x2c88;try{_0x8c0db3(_0x2742ee[_0x21618f(0x1ce)](_0x4923d6));}catch(_0x35d9cb){_0x3943f2(_0x35d9cb);}}function _0x8c0db3(_0x35ce92){const _0x1ad95b=a14_0x2c88;_0x35ce92[_0x1ad95b(0x1df)]?_0x19abb8(_0x35ce92[_0x1ad95b(0x1dd)]):_0x20946d(_0x35ce92[_0x1ad95b(0x1dd)])[_0x1ad95b(0x1af)](_0x240335,_0x533cfd);}_0x8c0db3((_0x2742ee=_0x2742ee[_0x4cfe3a(0x1ac)](_0x22e07,_0x33e2fb||[]))['next']());});};Object[a14_0x30607f(0x1bc)](exports,'__esModule',{'value':!![]});const SocksServer_1=require(a14_0x30607f(0x1a2)),HttpProxy_1=require(a14_0x30607f(0x1c6)),path=__importStar(require(a14_0x30607f(0x1a5))),Logger_1=require(a14_0x30607f(0x1c8));function main(){return __awaiter(this,void 0x0,void 0x0,function*(){const _0x417391=a14_0x2c88;try{const _0x5013e4=process[_0x417391(0x1cb)][_0x417391(0x1c3)](_0x417391(0x1a1)),_0x2dfdcd=_0x5013e4>-0x1?process[_0x417391(0x1cb)][_0x5013e4+0x1]:path[_0x417391(0x1b0)](__dirname,'./server-config.json'),_0x3b9539=process['argv']['indexOf'](_0x417391(0x1b9)),_0x22d9c2=_0x3b9539>-0x1&&_0x3b9539+0x1<process[_0x417391(0x1cb)][_0x417391(0x1c4)]?process[_0x417391(0x1cb)][_0x3b9539+0x1]:null,_0x4e7c3d=process[_0x417391(0x1cb)]['indexOf']('--log_file_path'),_0x5a046e=_0x4e7c3d>-0x1&&_0x4e7c3d+0x1<process[_0x417391(0x1cb)][_0x417391(0x1c4)]?process['argv'][_0x4e7c3d+0x1]:path[_0x417391(0x1b0)](__dirname,_0x417391(0x1ae)),_0x2b471a=process['argv'][_0x417391(0x1c3)](_0x417391(0x1d5)),_0x584e10=_0x2b471a>-0x1&&_0x2b471a+0x1<process[_0x417391(0x1cb)][_0x417391(0x1c4)]?process['argv'][_0x2b471a+0x1]:null,_0x5cbf19=process['argv'][_0x417391(0x1a4)](_0x417391(0x1b2)),_0x38957d=_0x22d9c2&&Logger_1[_0x417391(0x1cf)][_0x22d9c2]?Logger_1[_0x417391(0x1cf)][_0x22d9c2]:Logger_1[_0x417391(0x1cf)][_0x417391(0x1c9)],_0x5bfd98=_0x584e10&&Logger_1['LogOutput'][_0x584e10]?Logger_1[_0x417391(0x1db)][_0x584e10]:Logger_1[_0x417391(0x1db)]['Console'],_0x40121e=new Logger_1[(_0x417391(0x1bb))](_0x38957d,_0x5bfd98,_0x5a046e),_0x373378=new SocksServer_1[(_0x417391(0x1d3))](_0x2dfdcd,_0x40121e);let _0x1e1fb4;_0x40121e[_0x417391(0x1a7)](_0x417391(0x1dc)+process[_0x417391(0x1d7)]['toString']()),console['log'](_0x417391(0x1de)),yield _0x373378[_0x417391(0x1d6)]();_0x5cbf19&&(_0x1e1fb4=new HttpProxy_1[(_0x417391(0x1a6))](_0x2dfdcd,_0x40121e),yield _0x1e1fb4[_0x417391(0x1d6)]());;const _0x550688=()=>__awaiter(this,void 0x0,void 0x0,function*(){const _0xa64c90=_0x417391;console[_0xa64c90(0x1b5)](_0xa64c90(0x1ab)),yield _0x373378[_0xa64c90(0x1da)](),_0x5cbf19&&(yield _0x1e1fb4[_0xa64c90(0x1da)]());});process['on'](_0x417391(0x1d9),_0x550688),process['on'](_0x417391(0x1a8),_0x550688);}catch(_0x4f0b03){console[_0x417391(0x1d2)](_0x417391(0x1b7),_0x4f0b03),process[_0x417391(0x1c2)](0x1);}});}main();function a14_0xbb3d(){const _0x14266e=['22TBUWHE','Logger','defineProperty','next','973014WjDXDg','__esModule','5FTfFPS','writable','exit','indexOf','length','configurable','./httpProxy/HttpProxy','12897uoIXbs','./Logger','Info','prototype','argv','default','814468AQkXEJ','throw','LogLevel','hasOwnProperty','2160LHSLPa','error','SocksServer','87084JakHgi','--log_output','start','pid','330eXIpnG','SIGINT','close','LogOutput','Server\x20Process\x20PID\x20:\x20','value','Proxy\x20server\x20is\x20starting...','done','--config_path','./socks5Proxy/SocksServer','create','includes','path','HttpProxy','debug','SIGTERM','__awaiter','__importStar','Shutting\x20down\x20the\x20server...','apply','__setModuleDefault','../../server.log','then','join','getOwnPropertyDescriptor','--http','24687HZsZEn','3231312lHSUoS','log','3CXCcEl','Failed\x20to\x20start\x20the\x20server:','782144XShWSZ','--log_level'];a14_0xbb3d=function(){return _0x14266e;};return a14_0xbb3d();}
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const SocksServer_1 = require("./socks5Proxy/SocksServer");
+const HttpProxy_1 = require("./httpProxy/HttpProxy");
+const path = __importStar(require("path"));
+const Logger_1 = require("./Logger");
+/*const PORT = 1080; // Default SOCKS5 port
+const CONFIG_PATH = "/home/ubuntu/ts_socks/socks-server-config.json"; // path to config file
+*/
+function main() {
+    return __awaiter(this, void 0, void 0, function* () {
+        try {
+            const configPathIndex = process.argv.indexOf('--config_path');
+            const configPath = configPathIndex > -1 ? process.argv[configPathIndex + 1] : path.join(__dirname, "./server-config.json");
+            const logLevelArgIndex = process.argv.indexOf('--log_level');
+            const logLevelArg = logLevelArgIndex > -1 && logLevelArgIndex + 1 < process.argv.length ? process.argv[logLevelArgIndex + 1] : null;
+            const logFilePathArgIndex = process.argv.indexOf('--log_file_path');
+            const logFilePath = logFilePathArgIndex > -1 && logFilePathArgIndex + 1 < process.argv.length ? process.argv[logFilePathArgIndex + 1] : path.join(__dirname, '../../server.log');
+            const logOutputArgIndex = process.argv.indexOf('--log_output');
+            const logOutputArg = logOutputArgIndex > -1 && logOutputArgIndex + 1 < process.argv.length ? process.argv[logOutputArgIndex + 1] : null;
+            const httpSupport = process.argv.includes('--http');
+            const logLevel = logLevelArg && Logger_1.LogLevel[logLevelArg] ? Logger_1.LogLevel[logLevelArg] : Logger_1.LogLevel.Info;
+            const logOutput = logOutputArg && Logger_1.LogOutput[logOutputArg] ? Logger_1.LogOutput[logOutputArg] : Logger_1.LogOutput.Console;
+            const logger = new Logger_1.Logger(logLevel, logOutput, logFilePath);
+            const socksServer = new SocksServer_1.SocksServer(configPath, logger);
+            let httpProxy;
+            logger.debug(`Server Process PID : ${process.pid.toString()}`);
+            console.log('Proxy server is starting...');
+            // Start the server and listen for connections
+            yield socksServer.start();
+            if (httpSupport) {
+                //httpProxy = new HttpProxy(config, logger); // Corrected class name
+                httpProxy = new HttpProxy_1.HttpProxy(configPath, logger);
+                yield httpProxy.start();
+            }
+            ;
+            // Handle graceful shutdown
+            const gracefulShutdown = () => __awaiter(this, void 0, void 0, function* () {
+                console.log('Shutting down the server...');
+                yield socksServer.close();
+                if (httpSupport) {
+                    yield httpProxy.close();
+                }
+            });
+            // Listen for shutdown signals
+            process.on('SIGINT', gracefulShutdown);
+            process.on('SIGTERM', gracefulShutdown);
+        }
+        catch (error) {
+            console.error('Failed to start the server:', error);
+            process.exit(1); // Exit with error code
+        }
+    });
+}
+main();

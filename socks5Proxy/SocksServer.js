@@ -1,1 +1,134 @@
-'use strict';var a11_0x39ead3=a11_0x1c0a;function a11_0x1c0a(_0x38ea7d,_0x4e3d45){var _0xc6807e=a11_0xc680();return a11_0x1c0a=function(_0x1c0a09,_0x56eadf){_0x1c0a09=_0x1c0a09-0x1b9;var _0x147340=_0xc6807e[_0x1c0a09];return _0x147340;},a11_0x1c0a(_0x38ea7d,_0x4e3d45);}(function(_0x34b002,_0xb4aa3b){var _0x2cc365=a11_0x1c0a,_0x1fadc8=_0x34b002();while(!![]){try{var _0x4d3a97=parseInt(_0x2cc365(0x1ec))/0x1+-parseInt(_0x2cc365(0x1d3))/0x2+parseInt(_0x2cc365(0x202))/0x3*(parseInt(_0x2cc365(0x1e7))/0x4)+parseInt(_0x2cc365(0x1f5))/0x5*(-parseInt(_0x2cc365(0x1cd))/0x6)+parseInt(_0x2cc365(0x1c9))/0x7+-parseInt(_0x2cc365(0x1c3))/0x8*(-parseInt(_0x2cc365(0x1ff))/0x9)+-parseInt(_0x2cc365(0x1ed))/0xa;if(_0x4d3a97===_0xb4aa3b)break;else _0x1fadc8['push'](_0x1fadc8['shift']());}catch(_0x5a883b){_0x1fadc8['push'](_0x1fadc8['shift']());}}}(a11_0xc680,0x94b4c));var __createBinding=this&&this[a11_0x39ead3(0x1d7)]||(Object['create']?function(_0x2ba8b0,_0x91953c,_0x209b80,_0xef624c){var _0x2de1e2=a11_0x39ead3;if(_0xef624c===undefined)_0xef624c=_0x209b80;var _0x51a13f=Object[_0x2de1e2(0x1ea)](_0x91953c,_0x209b80);(!_0x51a13f||(_0x2de1e2(0x1fc)in _0x51a13f?!_0x91953c[_0x2de1e2(0x1cf)]:_0x51a13f[_0x2de1e2(0x1d0)]||_0x51a13f[_0x2de1e2(0x1f8)]))&&(_0x51a13f={'enumerable':!![],'get':function(){return _0x91953c[_0x209b80];}}),Object[_0x2de1e2(0x1bd)](_0x2ba8b0,_0xef624c,_0x51a13f);}:function(_0x2540f1,_0x14a47a,_0xe6f998,_0x554443){if(_0x554443===undefined)_0x554443=_0xe6f998;_0x2540f1[_0x554443]=_0x14a47a[_0xe6f998];}),__setModuleDefault=this&&this[a11_0x39ead3(0x1da)]||(Object[a11_0x39ead3(0x1ef)]?function(_0x467d58,_0x2ac6f2){var _0x22c3e3=a11_0x39ead3;Object[_0x22c3e3(0x1bd)](_0x467d58,'default',{'enumerable':!![],'value':_0x2ac6f2});}:function(_0x33ef34,_0x48e0ad){var _0x1c5659=a11_0x39ead3;_0x33ef34[_0x1c5659(0x204)]=_0x48e0ad;}),__importStar=this&&this[a11_0x39ead3(0x1ce)]||function(_0x50b0ad){var _0x47c868=a11_0x39ead3;if(_0x50b0ad&&_0x50b0ad['__esModule'])return _0x50b0ad;var _0x338bbf={};if(_0x50b0ad!=null){for(var _0x59682c in _0x50b0ad)if(_0x59682c!==_0x47c868(0x204)&&Object['prototype'][_0x47c868(0x1fb)][_0x47c868(0x1c7)](_0x50b0ad,_0x59682c))__createBinding(_0x338bbf,_0x50b0ad,_0x59682c);}return __setModuleDefault(_0x338bbf,_0x50b0ad),_0x338bbf;},__awaiter=this&&this['__awaiter']||function(_0x52c5b2,_0xdd13bb,_0x1c9a42,_0x12bb15){function _0x2c312e(_0x35422b){return _0x35422b instanceof _0x1c9a42?_0x35422b:new _0x1c9a42(function(_0x562d84){_0x562d84(_0x35422b);});}return new(_0x1c9a42||(_0x1c9a42=Promise))(function(_0xb77d6a,_0x485e96){var _0xec57fa=a11_0x1c0a;function _0x54e231(_0x3080be){try{_0x533810(_0x12bb15['next'](_0x3080be));}catch(_0x48f6e8){_0x485e96(_0x48f6e8);}}function _0x414895(_0x1ca6dc){var _0xd751cc=a11_0x1c0a;try{_0x533810(_0x12bb15[_0xd751cc(0x1be)](_0x1ca6dc));}catch(_0x4b9e4d){_0x485e96(_0x4b9e4d);}}function _0x533810(_0x5a94cb){var _0x4356e1=a11_0x1c0a;_0x5a94cb[_0x4356e1(0x1bc)]?_0xb77d6a(_0x5a94cb[_0x4356e1(0x1d4)]):_0x2c312e(_0x5a94cb[_0x4356e1(0x1d4)])[_0x4356e1(0x1e5)](_0x54e231,_0x414895);}_0x533810((_0x12bb15=_0x12bb15[_0xec57fa(0x1eb)](_0x52c5b2,_0xdd13bb||[]))['next']());});};Object[a11_0x39ead3(0x1bd)](exports,a11_0x39ead3(0x1cf),{'value':!![]}),exports[a11_0x39ead3(0x1c8)]=void 0x0;const net=__importStar(require('net')),SocksSession_1=require(a11_0x39ead3(0x1c0)),ConfigManager_1=require(a11_0x39ead3(0x1de));function a11_0xc680(){var _0x51d09a=['whitelist','getOwnPropertyDescriptor','apply','1114736syxcbk','1159960UTlbPN','logger','create','Client\x20not\x20in\x20the\x20whitelist:\x20','error','failedAuthAttempts','handleConnection','Connection\x20closed\x20from\x20socket\x20:\x20','35xHziXy','start','authentication','configurable','serverIP','maxFailedAttempts','hasOwnProperty','get','remotePort','isWhitelistedIP','9eqHazu','config','ConfigManager','3KOiszT','clientIpFiltering','default','Closed\x20active\x20connections','activeConnections','Blacklisting\x20IP\x20due\x20to\x20too\x20many\x20failed\x20attempts:\x20','done','defineProperty','throw','info','./SocksSession','set','configManager','6436616cmINNh','SOCKS5\x20server\x20listening\x20on\x20','incrementAuthFailure','connection','call','SocksServer','606781FhKYYL','remoteAddress','bind','Connection\x20limit\x20reached.\x20Rejecting\x20new\x20connection\x20from\x20','883620dEgvKK','__importStar','__esModule','writable','socks5','delete','1869824pySopN','value','destroy','server','__createBinding','Error\x20closing\x20SOCKS5\x20server:\x20','push','__setModuleDefault','blacklist','listen','SocksSession','../ConfigManager','Error\x20starting\x20SOCKS5\x20server:\x20','Closing\x20the\x20server...','length','close','New\x20connection\x20on\x20server\x20from\x20socket\x20:\x20','includes','then','message','2739608OfGuZO','Server\x20error:\x20'];a11_0xc680=function(){return _0x51d09a;};return a11_0xc680();}class SocksServer{constructor(_0x4f3a5f,_0x4f3064){var _0x451ac2=a11_0x39ead3;this[_0x451ac2(0x1c2)]=new ConfigManager_1[(_0x451ac2(0x201))](_0x4f3a5f),this[_0x451ac2(0x1d6)]=new net['Server'](),this[_0x451ac2(0x1ba)]=new Set(),this[_0x451ac2(0x1ee)]=_0x4f3064,this[_0x451ac2(0x1f2)]=new Map(),this[_0x451ac2(0x1d6)]['on'](_0x451ac2(0x1c6),this[_0x451ac2(0x1f3)]['bind'](this)),this[_0x451ac2(0x1d6)]['on']('error',_0x44546e=>{var _0x20eef7=_0x451ac2;this['logger'][_0x20eef7(0x1f1)](_0x20eef7(0x1e8)+_0x44546e[_0x20eef7(0x1e6)]);});}[a11_0x39ead3(0x1f3)](_0x313766){var _0x4d4433=a11_0x39ead3;;const _0x24ad1f=_0x313766[_0x4d4433(0x1ca)]||'';this['logger'][_0x4d4433(0x1bf)](_0x4d4433(0x1e3)+_0x313766['remoteAddress']+':'+_0x313766[_0x4d4433(0x1fd)]);if(this[_0x4d4433(0x1ba)]['size']>=this[_0x4d4433(0x1c2)][_0x4d4433(0x200)][_0x4d4433(0x1d6)]['maxConcurrentConnections']){this[_0x4d4433(0x1ee)][_0x4d4433(0x1bf)](_0x4d4433(0x1cc)+_0x24ad1f),_0x313766[_0x4d4433(0x1d5)]();return;}if(this['configManager'][_0x4d4433(0x200)]['clientIpFiltering'][_0x4d4433(0x1db)][_0x4d4433(0x1e4)](_0x24ad1f)){this[_0x4d4433(0x1ee)][_0x4d4433(0x1bf)]('Rejected\x20blacklisted\x20IP:\x20'+_0x24ad1f),_0x313766[_0x4d4433(0x1d5)]();return;}if(!this['isWhitelistedIP'](_0x24ad1f)){this[_0x4d4433(0x1ee)]['info'](_0x4d4433(0x1f0)+_0x24ad1f),_0x313766[_0x4d4433(0x1d5)]();return;}this['activeConnections']['add'](_0x313766),_0x313766['on']('close',()=>{var _0x164c3a=_0x4d4433;this['logger']['info'](_0x164c3a(0x1f4)+_0x313766[_0x164c3a(0x1ca)]+':'+_0x313766['remotePort']),this[_0x164c3a(0x1ba)][_0x164c3a(0x1d2)](_0x313766);}),new SocksSession_1[(_0x4d4433(0x1dd))](_0x313766,this[_0x4d4433(0x1c2)],this['logger'],this[_0x4d4433(0x1c5)][_0x4d4433(0x1cb)](this));}[a11_0x39ead3(0x1fe)](_0x20d7e5){var _0x3db54e=a11_0x39ead3;const _0x202e19=this[_0x3db54e(0x1c2)][_0x3db54e(0x200)][_0x3db54e(0x203)][_0x3db54e(0x1e9)];if(!_0x202e19||_0x202e19[_0x3db54e(0x1e1)]===0x0)return!![];return _0x202e19[_0x3db54e(0x1e4)](_0x20d7e5||'');}[a11_0x39ead3(0x1c5)](_0x4231b0){var _0x771cb0=a11_0x39ead3;const _0x3b557a=(this[_0x771cb0(0x1f2)]['get'](_0x4231b0)||0x0)+0x1;this[_0x771cb0(0x1f2)][_0x771cb0(0x1c1)](_0x4231b0,_0x3b557a),_0x3b557a>=this[_0x771cb0(0x1c2)][_0x771cb0(0x200)][_0x771cb0(0x1f7)][_0x771cb0(0x1fa)]&&(this[_0x771cb0(0x1ee)][_0x771cb0(0x1bf)](_0x771cb0(0x1bb)+_0x4231b0),this['configManager']['config'][_0x771cb0(0x203)][_0x771cb0(0x1db)][_0x771cb0(0x1d9)](_0x4231b0));}[a11_0x39ead3(0x1f6)](){return __awaiter(this,void 0x0,void 0x0,function*(){return new Promise((_0x3b3da3,_0x44409c)=>{var _0xba59b=a11_0x1c0a;this[_0xba59b(0x1d6)][_0xba59b(0x1dc)](this['configManager'][_0xba59b(0x200)]['server']['socks5']['port'],this[_0xba59b(0x1c2)][_0xba59b(0x200)][_0xba59b(0x1d6)][_0xba59b(0x1d1)][_0xba59b(0x1f9)],()=>{var _0x5c3879=_0xba59b;this['logger'][_0x5c3879(0x1bf)](_0x5c3879(0x1c4)+this['configManager']['config'][_0x5c3879(0x1d6)][_0x5c3879(0x1d1)][_0x5c3879(0x1f9)]+':'+this['configManager']['config']['server'][_0x5c3879(0x1d1)]['port']),_0x3b3da3();}),this['server']['on'](_0xba59b(0x1f1),_0x275ff9=>{var _0x1850df=_0xba59b;this[_0x1850df(0x1ee)][_0x1850df(0x1f1)](_0x1850df(0x1df)+_0x275ff9),_0x44409c(_0x275ff9);});});});}[a11_0x39ead3(0x1e2)](){return __awaiter(this,void 0x0,void 0x0,function*(){return new Promise((_0x424676,_0x32861c)=>{var _0xf7a1d0=a11_0x1c0a;for(const _0x1e5ba5 of this['activeConnections']){_0x1e5ba5[_0xf7a1d0(0x1d5)]();}this[_0xf7a1d0(0x1ba)]['clear'](),this[_0xf7a1d0(0x1ee)][_0xf7a1d0(0x1bf)](_0xf7a1d0(0x1b9)),this['server']['close'](_0x752522=>{var _0x289254=_0xf7a1d0;_0x752522?(this['logger'][_0x289254(0x1f1)](_0x289254(0x1d8)+_0x752522),_0x32861c(_0x752522)):(this[_0x289254(0x1ee)][_0x289254(0x1bf)](_0x289254(0x1e0)),_0x424676());});});});}}exports[a11_0x39ead3(0x1c8)]=SocksServer;
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SocksServer = void 0;
+const net = __importStar(require("net"));
+const SocksSession_1 = require("./SocksSession");
+const ConfigManager_1 = require("../ConfigManager");
+class SocksServer {
+    constructor(configPath, logger) {
+        this.configManager = new ConfigManager_1.ConfigManager(configPath);
+        this.server = new net.Server();
+        this.activeConnections = new Set();
+        this.logger = logger;
+        this.failedAuthAttempts = new Map();
+        this.server.on('connection', this.handleConnection.bind(this));
+        this.server.on('error', (err) => {
+            this.logger.error(`Server error: ${err.message}`);
+        });
+    }
+    handleConnection(socket) {
+        ;
+        const clientIP = socket.remoteAddress || '';
+        this.logger.info(`New connection on server from socket : ${socket.remoteAddress}:${socket.remotePort}`);
+        // Check if the server has reached its maximum number of concurrent connections
+        if (this.activeConnections.size >= this.configManager.config.server.maxConcurrentConnections) {
+            this.logger.info(`Connection limit reached. Rejecting new connection from ${clientIP}`);
+            socket.destroy();
+            return;
+        }
+        if (this.configManager.config.clientIpFiltering.blacklist.includes(clientIP)) {
+            this.logger.info(`Rejected blacklisted IP: ${clientIP}`);
+            socket.destroy();
+            return;
+        }
+        if (!this.isWhitelistedIP(clientIP)) {
+            this.logger.info(`Client not in the whitelist: ${clientIP}`);
+            socket.destroy();
+            return;
+        }
+        this.activeConnections.add(socket);
+        socket.on('close', () => {
+            this.logger.info(`Connection closed from socket : ${socket.remoteAddress}:${socket.remotePort}`);
+            this.activeConnections.delete(socket);
+        });
+        new SocksSession_1.SocksSession(socket, this.configManager, this.logger, this.incrementAuthFailure.bind(this)); // Assuming this handles the individual connection
+    }
+    isWhitelistedIP(ip) {
+        const whitelist = this.configManager.config.clientIpFiltering.whitelist;
+        // If the whitelist is undefined or empty, return true
+        if (!whitelist || whitelist.length === 0) {
+            return true;
+        }
+        // Otherwise, check if the IP is in the whitelist
+        return whitelist.includes(ip || '');
+    }
+    incrementAuthFailure(clientIP) {
+        const attempts = (this.failedAuthAttempts.get(clientIP) || 0) + 1;
+        this.failedAuthAttempts.set(clientIP, attempts);
+        if (attempts >= this.configManager.config.authentication.maxFailedAttempts) {
+            this.logger.info(`Blacklisting IP due to too many failed attempts: ${clientIP}`);
+            this.configManager.config.clientIpFiltering.blacklist.push(clientIP);
+        }
+    }
+    start() {
+        return __awaiter(this, void 0, void 0, function* () {
+            return new Promise((resolve, reject) => {
+                this.server.listen(this.configManager.config.server.socks5.port, this.configManager.config.server.socks5.serverIP, () => {
+                    this.logger.info(`SOCKS5 server listening on ${this.configManager.config.server.socks5.serverIP}:${this.configManager.config.server.socks5.port}`);
+                    resolve();
+                });
+                // Handle potential server start errors
+                this.server.on('error', (error) => {
+                    this.logger.error(`Error starting SOCKS5 server: ${error}`);
+                    reject(error);
+                });
+            });
+        });
+    }
+    close() {
+        return __awaiter(this, void 0, void 0, function* () {
+            return new Promise((resolve, reject) => {
+                // Ensure all connections are terminated
+                for (const socket of this.activeConnections) {
+                    socket.destroy();
+                }
+                this.activeConnections.clear();
+                this.logger.info(`Closed active connections`);
+                // Close the server
+                this.server.close((error) => {
+                    if (error) {
+                        this.logger.error(`Error closing SOCKS5 server: ${error}`);
+                        reject(error);
+                    }
+                    else {
+                        this.logger.info(`Closing the server...`);
+                        resolve();
+                    }
+                });
+            });
+        });
+    }
+}
+exports.SocksServer = SocksServer;

@@ -1,1 +1,164 @@
-'use strict';const a12_0x35219f=a12_0x7fef;(function(_0x45730e,_0x5a19b9){const _0x5cceb4=a12_0x7fef,_0x25144a=_0x45730e();while(!![]){try{const _0x5b85e7=-parseInt(_0x5cceb4(0xc4))/0x1+-parseInt(_0x5cceb4(0x99))/0x2*(parseInt(_0x5cceb4(0xb5))/0x3)+-parseInt(_0x5cceb4(0xc5))/0x4+parseInt(_0x5cceb4(0xc1))/0x5+parseInt(_0x5cceb4(0xca))/0x6*(parseInt(_0x5cceb4(0xd0))/0x7)+parseInt(_0x5cceb4(0xbc))/0x8*(parseInt(_0x5cceb4(0xd6))/0x9)+-parseInt(_0x5cceb4(0x95))/0xa*(-parseInt(_0x5cceb4(0xbe))/0xb);if(_0x5b85e7===_0x5a19b9)break;else _0x25144a['push'](_0x25144a['shift']());}catch(_0x4a12d6){_0x25144a['push'](_0x25144a['shift']());}}}(a12_0x4eba,0x1bd0e));var __createBinding=this&&this[a12_0x35219f(0xbf)]||(Object[a12_0x35219f(0xdc)]?function(_0x2f2b14,_0x3120bb,_0x1d77ba,_0x263b32){const _0x2d596a=a12_0x35219f;if(_0x263b32===undefined)_0x263b32=_0x1d77ba;var _0x1c8d0a=Object[_0x2d596a(0xc2)](_0x3120bb,_0x1d77ba);(!_0x1c8d0a||(_0x2d596a(0xc7)in _0x1c8d0a?!_0x3120bb[_0x2d596a(0xb9)]:_0x1c8d0a['writable']||_0x1c8d0a['configurable']))&&(_0x1c8d0a={'enumerable':!![],'get':function(){return _0x3120bb[_0x1d77ba];}}),Object['defineProperty'](_0x2f2b14,_0x263b32,_0x1c8d0a);}:function(_0x4853ee,_0x22b643,_0x155922,_0x2f0202){if(_0x2f0202===undefined)_0x2f0202=_0x155922;_0x4853ee[_0x2f0202]=_0x22b643[_0x155922];}),__setModuleDefault=this&&this[a12_0x35219f(0xd2)]||(Object[a12_0x35219f(0xdc)]?function(_0x1ffecb,_0x692214){const _0x2b0685=a12_0x35219f;Object[_0x2b0685(0x98)](_0x1ffecb,_0x2b0685(0xb0),{'enumerable':!![],'value':_0x692214});}:function(_0x3fc30f,_0x44f09d){const _0xd876bc=a12_0x35219f;_0x3fc30f[_0xd876bc(0xb0)]=_0x44f09d;}),__importStar=this&&this[a12_0x35219f(0xa4)]||function(_0x15fc53){const _0x2cb3af=a12_0x35219f;if(_0x15fc53&&_0x15fc53[_0x2cb3af(0xb9)])return _0x15fc53;var _0xed9e84={};if(_0x15fc53!=null){for(var _0x322895 in _0x15fc53)if(_0x322895!==_0x2cb3af(0xb0)&&Object[_0x2cb3af(0xda)][_0x2cb3af(0xad)][_0x2cb3af(0xbd)](_0x15fc53,_0x322895))__createBinding(_0xed9e84,_0x15fc53,_0x322895);}return __setModuleDefault(_0xed9e84,_0x15fc53),_0xed9e84;};Object[a12_0x35219f(0x98)](exports,a12_0x35219f(0xb9),{'value':!![]}),exports['HttpsSession']=exports[a12_0x35219f(0xcb)]=void 0x0;const http=__importStar(require(a12_0x35219f(0xa7))),net=__importStar(require(a12_0x35219f(0x97)));class HttpSession{constructor(_0x6ef06,_0x9d6d51,_0x34f126,_0x380656){const _0x156e3d=a12_0x35219f;this['req']=_0x6ef06,this[_0x156e3d(0xb4)]=_0x9d6d51,this['logger']=_0x34f126,this[_0x156e3d(0xc0)]=_0x380656;}['processRequest'](){const _0x152e66=a12_0x35219f;this[_0x152e66(0xcf)]()?this[_0x152e66(0xaa)]():this[_0x152e66(0xdb)]();}[a12_0x35219f(0xb1)](_0x2b2014){const _0x4deb7f=a12_0x35219f,_0x597e94=new URL(_0x2b2014)[_0x4deb7f(0xe0)];return _0x597e94;}[a12_0x35219f(0xcf)](){const _0x26b091=a12_0x35219f,_0x484572=this[_0x26b091(0xa1)]['headers'][_0x26b091(0xb2)];return _0x484572&&_0x484572[_0x26b091(0xa9)]()===_0x26b091(0xc3)||![];}[a12_0x35219f(0xaa)](){const _0x53c3cf=a12_0x35219f,_0xd4c438=new URL(this[_0x53c3cf(0xa1)][_0x53c3cf(0x9f)]),_0x45edfd=_0xd4c438[_0x53c3cf(0xd7)]?parseInt(_0xd4c438[_0x53c3cf(0xd7)]):_0xd4c438[_0x53c3cf(0x96)]===_0x53c3cf(0xb8)?0x1bb:0x50,_0x5a793b=net[_0x53c3cf(0xcc)]({'port':_0x45edfd,'host':_0xd4c438[_0x53c3cf(0xe0)]},()=>{const _0xce859b=_0x53c3cf;this[_0xce859b(0xb4)][_0xce859b(0xb3)](0x65,Object['assign']({'Upgrade':_0xce859b(0xc3),'Connection':_0xce859b(0xa2)},this[_0xce859b(0xa1)][_0xce859b(0xa8)])),_0x5a793b[_0xce859b(0xde)](this['req'][_0xce859b(0xd9)][_0xce859b(0xb6)]('\x0d\x0a')+_0xce859b(0x9d));});this[_0x53c3cf(0xa1)]['on'](_0x53c3cf(0xa5),_0x342232=>_0x5a793b['write'](_0x342232)),_0x5a793b['on'](_0x53c3cf(0xa5),_0x123d2b=>this['req'][_0x53c3cf(0xc8)][_0x53c3cf(0xde)](_0x123d2b)),this[_0x53c3cf(0xa1)]['on'](_0x53c3cf(0xab),()=>_0x5a793b[_0x53c3cf(0xab)]()),_0x5a793b['on']('end',()=>this[_0x53c3cf(0xa1)]['socket']['end']()),this[_0x53c3cf(0xa1)]['on'](_0x53c3cf(0xa0),_0x5ec4da=>this['logger']['error'](_0x53c3cf(0xd8),_0x5ec4da)),_0x5a793b['on'](_0x53c3cf(0xa0),_0x2554d6=>this[_0x53c3cf(0xce)][_0x53c3cf(0xa0)]('Server\x20socket\x20error:',_0x2554d6));}[a12_0x35219f(0xdb)](){const _0x29d3ba=a12_0x35219f,_0x26e047={'hostname':this[_0x29d3ba(0xb1)](this[_0x29d3ba(0xa1)][_0x29d3ba(0x9f)]),'port':parseInt(new URL(this[_0x29d3ba(0xa1)][_0x29d3ba(0x9f)])[_0x29d3ba(0xd7)])||0x50,'path':new URL(this[_0x29d3ba(0xa1)][_0x29d3ba(0x9f)])[_0x29d3ba(0xc9)]+new URL(this['req'][_0x29d3ba(0x9f)])['search'],'method':this[_0x29d3ba(0xa1)][_0x29d3ba(0xdf)],'headers':this[_0x29d3ba(0xa1)][_0x29d3ba(0xa8)]},_0x53b749=http[_0x29d3ba(0xcd)](_0x26e047,_0x3ad7c3=>{const _0x4812c8=_0x29d3ba;this[_0x4812c8(0xb4)][_0x4812c8(0xb3)](_0x3ad7c3[_0x4812c8(0xbb)],_0x3ad7c3[_0x4812c8(0xa8)]),_0x3ad7c3['pipe'](this['res'],{'end':!![]});});_0x53b749['on']('error',_0x2f6a59=>{const _0x10d764=_0x29d3ba;this[_0x10d764(0xce)][_0x10d764(0xa0)](_0x10d764(0xdd)+_0x2f6a59),this[_0x10d764(0xb4)][_0x10d764(0xb3)](0x1f4),this[_0x10d764(0xb4)]['end'](_0x10d764(0x9e));}),this[_0x29d3ba(0xa1)]['on'](_0x29d3ba(0xa0),_0x1cd0b3=>{const _0x5c05af=_0x29d3ba;this[_0x5c05af(0xce)][_0x5c05af(0xa0)](_0x5c05af(0xb7)+_0x1cd0b3[_0x5c05af(0xd4)]);}),this[_0x29d3ba(0xa1)]['pipe'](_0x53b749,{'end':!![]});}}function a12_0x7fef(_0x185672,_0x3c8d1f){const _0x4ebae8=a12_0x4eba();return a12_0x7fef=function(_0x7fefcd,_0x147cab){_0x7fefcd=_0x7fefcd-0x95;let _0x4c0c43=_0x4ebae8[_0x7fefcd];return _0x4c0c43;},a12_0x7fef(_0x185672,_0x3c8d1f);}exports[a12_0x35219f(0xcb)]=HttpSession;class HttpsSession{constructor(_0x227594,_0x1bfe95,_0x5e9b2b,_0x2e749b,_0x43607b){const _0xe97407=a12_0x35219f;this[_0xe97407(0xa1)]=_0x227594,this[_0xe97407(0xc8)]=_0x1bfe95,this[_0xe97407(0x9c)]=_0x5e9b2b,this['logger']=_0x2e749b,this[_0xe97407(0xc0)]=_0x43607b;}['processRequest'](){const _0x376686=a12_0x35219f;this[_0x376686(0xcf)]()?this[_0x376686(0xaa)]():this[_0x376686(0xd1)]();}[a12_0x35219f(0xcf)](){const _0x1a1a5b=a12_0x35219f,_0xbecdd8=this[_0x1a1a5b(0xa1)][_0x1a1a5b(0xa8)]['upgrade'];return _0xbecdd8&&_0xbecdd8[_0x1a1a5b(0xa9)]()===_0x1a1a5b(0xc3)||![];}[a12_0x35219f(0xaa)](){const _0x571fb2=a12_0x35219f,_0x18d694=new URL(this[_0x571fb2(0xa1)][_0x571fb2(0x9f)]),_0x3b7d33=_0x18d694[_0x571fb2(0xd7)]?parseInt(_0x18d694[_0x571fb2(0xd7)]):0x1bb,_0x18002c=net[_0x571fb2(0xcc)]({'port':_0x3b7d33,'host':_0x18d694[_0x571fb2(0xe0)]},()=>{const _0x3078c4=_0x571fb2;this[_0x3078c4(0xc8)][_0x3078c4(0xde)](_0x3078c4(0xac)),_0x18002c['write'](this[_0x3078c4(0x9c)]);});this['socket']['on'](_0x571fb2(0xa5),_0x354502=>_0x18002c['write'](_0x354502)),_0x18002c['on']('data',_0x3bc427=>this[_0x571fb2(0xc8)]['write'](_0x3bc427)),this[_0x571fb2(0xc8)]['on'](_0x571fb2(0xab),()=>_0x18002c[_0x571fb2(0xab)]()),_0x18002c['on'](_0x571fb2(0xab),()=>this['socket'][_0x571fb2(0xab)]()),this[_0x571fb2(0xc8)]['on'](_0x571fb2(0xa0),_0x5d57c3=>this[_0x571fb2(0xce)]['error']('Client\x20socket\x20error:',_0x5d57c3)),_0x18002c['on'](_0x571fb2(0xa0),_0x3a32d3=>this[_0x571fb2(0xce)][_0x571fb2(0xa0)](_0x571fb2(0xaf),_0x3a32d3));}[a12_0x35219f(0xd1)](){const _0x5c08f5=a12_0x35219f,{hostname:_0x3696d9,port:_0x4e8e37}=this[_0x5c08f5(0xa3)](this[_0x5c08f5(0xa1)][_0x5c08f5(0x9f)]),_0x16376c=net[_0x5c08f5(0x9a)]({'port':_0x4e8e37,'host':_0x3696d9},()=>{const _0x299ccc=_0x5c08f5;this['socket'][_0x299ccc(0xde)](_0x299ccc(0x9b)),_0x16376c[_0x299ccc(0xde)](this[_0x299ccc(0x9c)]),_0x16376c['pipe'](this['socket']),this[_0x299ccc(0xc8)][_0x299ccc(0xa6)](_0x16376c);});_0x16376c['on'](_0x5c08f5(0xa0),_0x2487b6=>{const _0x4fc6df=_0x5c08f5;this['logger'][_0x4fc6df(0xa0)]('HTTPS\x20tunneling\x20error:\x20'+_0x2487b6[_0x4fc6df(0xd4)]),this[_0x4fc6df(0xc8)][_0x4fc6df(0xde)](_0x4fc6df(0xd5)),this[_0x4fc6df(0xc8)][_0x4fc6df(0xae)]();}),this[_0x5c08f5(0xc8)]['on']('error',_0x486088=>{const _0x318bbd=_0x5c08f5;this[_0x318bbd(0xce)][_0x318bbd(0xa0)](_0x318bbd(0xc6)+_0x486088[_0x318bbd(0xd4)]);});}[a12_0x35219f(0xa3)](_0x3c735b){const _0x7ab222=a12_0x35219f;if(!_0x3c735b)throw new Error(_0x7ab222(0xe1));const _0x466f41=_0x3c735b['match'](/^\[?([^\]]+)]?:(\d+)$/);if(_0x466f41)return{'hostname':_0x466f41[0x1],'port':parseInt(_0x466f41[0x2],0xa)};else throw new Error(_0x7ab222(0xd3)+_0x3c735b);}}function a12_0x4eba(){const _0x5e013f=['HttpsSession','statusCode','142712WOjIWe','call','44niohtk','__createBinding','configManager','902035cOxGMC','getOwnPropertyDescriptor','websocket','177647ZDtCpy','550852TuVTDd','Client\x20socket\x20error:\x20','get','socket','pathname','6eIxSaA','HttpSession','createConnection','request','logger','isWebSocketRequest','21007PSyLFN','handleHttpsRequest','__setModuleDefault','Invalid\x20URL\x20format:\x20','message','HTTP/1.1\x20500\x20Internal\x20Server\x20Error\x0d\x0a\x0d\x0a','36fUdRcI','port','Request\x20error:','rawHeaders','prototype','handleHttpRequest','create','HTTP\x20request\x20error:\x20','write','method','hostname','URL\x20is\x20undefined','651830NXaCQn','protocol','net','defineProperty','4mvTQfQ','connect','HTTP/1.1\x20200\x20Connection\x20Established\x0d\x0a\x0d\x0a','head','\x0d\x0a\x0d\x0a','Internal\x20Server\x20Error','url','error','req','Upgrade','parseHostAndPort','__importStar','data','pipe','http','headers','toLowerCase','handleWebSocketUpgrade','end','HTTP/1.1\x20101\x20Switching\x20Protocols\x0d\x0aUpgrade:\x20websocket\x0d\x0aConnection:\x20Upgrade\x0d\x0a\x0d\x0a','hasOwnProperty','destroy','Server\x20socket\x20error:','default','getHostnameFromURL','upgrade','writeHead','res','129303cSpyDJ','join','Client\x20request\x20error:\x20','https:','__esModule'];a12_0x4eba=function(){return _0x5e013f;};return a12_0x4eba();}exports[a12_0x35219f(0xba)]=HttpsSession;
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.HttpsSession = exports.HttpSession = void 0;
+const http = __importStar(require("http"));
+const net = __importStar(require("net"));
+class HttpSession {
+    constructor(req, res, logger, configManager) {
+        this.req = req;
+        this.res = res;
+        this.logger = logger;
+        this.configManager = configManager;
+    }
+    processRequest() {
+        if (this.isWebSocketRequest()) {
+            this.handleWebSocketUpgrade();
+        }
+        else {
+            this.handleHttpRequest();
+        }
+    }
+    getHostnameFromURL(url) {
+        const hostname = new URL(url).hostname;
+        return hostname;
+    }
+    isWebSocketRequest() {
+        const upgradeHeader = this.req.headers['upgrade'];
+        return (upgradeHeader && upgradeHeader.toLowerCase() === 'websocket') || false;
+    }
+    handleWebSocketUpgrade() {
+        const targetUrl = new URL(this.req.url);
+        const targetPort = targetUrl.port ? parseInt(targetUrl.port) : (targetUrl.protocol === 'https:' ? 443 : 80);
+        const serverSocket = net.createConnection({
+            port: targetPort,
+            host: targetUrl.hostname
+        }, () => {
+            this.res.writeHead(101, Object.assign({ 'Upgrade': 'websocket', 'Connection': 'Upgrade' }, this.req.headers));
+            serverSocket.write(this.req.rawHeaders.join('\r\n') + '\r\n\r\n');
+        });
+        this.req.on('data', chunk => serverSocket.write(chunk));
+        serverSocket.on('data', chunk => this.req.socket.write(chunk));
+        this.req.on('end', () => serverSocket.end());
+        serverSocket.on('end', () => this.req.socket.end());
+        this.req.on('error', (err) => this.logger.error('Request error:', err));
+        serverSocket.on('error', (err) => this.logger.error('Server socket error:', err));
+    }
+    handleHttpRequest() {
+        const requestOptions = {
+            hostname: this.getHostnameFromURL(this.req.url),
+            port: parseInt(new URL(this.req.url).port) || 80,
+            path: new URL(this.req.url).pathname + new URL(this.req.url).search,
+            method: this.req.method,
+            headers: this.req.headers,
+        };
+        const proxyReq = http.request(requestOptions, (proxyRes) => {
+            this.res.writeHead(proxyRes.statusCode, proxyRes.headers);
+            proxyRes.pipe(this.res, { end: true });
+        });
+        proxyReq.on('error', (e) => {
+            this.logger.error(`HTTP request error: ${e}`);
+            this.res.writeHead(500);
+            this.res.end('Internal Server Error');
+        });
+        this.req.on('error', (e) => {
+            this.logger.error(`Client request error: ${e.message}`);
+        });
+        this.req.pipe(proxyReq, { end: true });
+    }
+}
+exports.HttpSession = HttpSession;
+class HttpsSession {
+    constructor(req, socket, head, logger, configManager) {
+        this.req = req;
+        this.socket = socket;
+        this.head = head;
+        this.logger = logger;
+        this.configManager = configManager;
+    }
+    processRequest() {
+        if (this.isWebSocketRequest()) {
+            this.handleWebSocketUpgrade();
+        }
+        else {
+            this.handleHttpsRequest();
+        }
+    }
+    isWebSocketRequest() {
+        const upgradeHeader = this.req.headers['upgrade'];
+        return (upgradeHeader && upgradeHeader.toLowerCase() === 'websocket') || false;
+    }
+    handleWebSocketUpgrade() {
+        const targetUrl = new URL(this.req.url);
+        const targetPort = targetUrl.port ? parseInt(targetUrl.port) : 443;
+        const serverSocket = net.createConnection({
+            port: targetPort,
+            host: targetUrl.hostname
+        }, () => {
+            this.socket.write('HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\n\r\n');
+            serverSocket.write(this.head);
+        });
+        this.socket.on('data', chunk => serverSocket.write(chunk));
+        serverSocket.on('data', chunk => this.socket.write(chunk));
+        this.socket.on('end', () => serverSocket.end());
+        serverSocket.on('end', () => this.socket.end());
+        this.socket.on('error', (err) => this.logger.error('Client socket error:', err));
+        serverSocket.on('error', (err) => this.logger.error('Server socket error:', err));
+    }
+    handleHttpsRequest() {
+        // Extract the hostname and port from the URL
+        const { hostname, port } = this.parseHostAndPort(this.req.url);
+        const serverSocket = net.connect({
+            port: port,
+            host: hostname
+        }, () => {
+            this.socket.write('HTTP/1.1 200 Connection Established\r\n\r\n');
+            serverSocket.write(this.head);
+            serverSocket.pipe(this.socket);
+            this.socket.pipe(serverSocket);
+        });
+        serverSocket.on('error', (err) => {
+            this.logger.error(`HTTPS tunneling error: ${err.message}`);
+            this.socket.write('HTTP/1.1 500 Internal Server Error\r\n\r\n');
+            this.socket.destroy();
+        });
+        this.socket.on('error', (err) => {
+            this.logger.error(`Client socket error: ${err.message}`);
+        });
+    }
+    parseHostAndPort(url) {
+        if (!url) {
+            throw new Error('URL is undefined');
+        }
+        const match = url.match(/^\[?([^\]]+)]?:(\d+)$/);
+        if (match) {
+            return { hostname: match[1], port: parseInt(match[2], 10) };
+        }
+        else {
+            throw new Error(`Invalid URL format: ${url}`);
+        }
+    }
+}
+exports.HttpsSession = HttpsSession;

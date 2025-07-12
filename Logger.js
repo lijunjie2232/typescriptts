@@ -1,1 +1,92 @@
-'use strict';var a3_0x2d2682=a3_0x4a48;function a3_0x4a48(_0x309744,_0x455068){var _0x2489d8=a3_0x2489();return a3_0x4a48=function(_0x4a480c,_0xfb955c){_0x4a480c=_0x4a480c-0x172;var _0x41e720=_0x2489d8[_0x4a480c];return _0x41e720;},a3_0x4a48(_0x309744,_0x455068);}(function(_0x331184,_0x1f55ad){var _0x4b2a6c=a3_0x4a48,_0x2691ae=_0x331184();while(!![]){try{var _0x596325=parseInt(_0x4b2a6c(0x194))/0x1+-parseInt(_0x4b2a6c(0x19e))/0x2*(-parseInt(_0x4b2a6c(0x186))/0x3)+parseInt(_0x4b2a6c(0x1a1))/0x4*(parseInt(_0x4b2a6c(0x19a))/0x5)+-parseInt(_0x4b2a6c(0x19b))/0x6+parseInt(_0x4b2a6c(0x183))/0x7*(parseInt(_0x4b2a6c(0x18f))/0x8)+-parseInt(_0x4b2a6c(0x19c))/0x9+-parseInt(_0x4b2a6c(0x172))/0xa;if(_0x596325===_0x1f55ad)break;else _0x2691ae['push'](_0x2691ae['shift']());}catch(_0x2a80be){_0x2691ae['push'](_0x2691ae['shift']());}}}(a3_0x2489,0x6758c));var __createBinding=this&&this['__createBinding']||(Object[a3_0x2d2682(0x199)]?function(_0x249528,_0x8f0200,_0x227362,_0x46dea4){var _0x420810=a3_0x2d2682;if(_0x46dea4===undefined)_0x46dea4=_0x227362;var _0x56ee93=Object[_0x420810(0x174)](_0x8f0200,_0x227362);(!_0x56ee93||(_0x420810(0x17a)in _0x56ee93?!_0x8f0200['__esModule']:_0x56ee93[_0x420810(0x19f)]||_0x56ee93[_0x420810(0x191)]))&&(_0x56ee93={'enumerable':!![],'get':function(){return _0x8f0200[_0x227362];}}),Object['defineProperty'](_0x249528,_0x46dea4,_0x56ee93);}:function(_0x5a864f,_0x55e6dc,_0x5c3ed2,_0x1475fb){if(_0x1475fb===undefined)_0x1475fb=_0x5c3ed2;_0x5a864f[_0x1475fb]=_0x55e6dc[_0x5c3ed2];}),__setModuleDefault=this&&this[a3_0x2d2682(0x18b)]||(Object[a3_0x2d2682(0x199)]?function(_0x2bec4f,_0x3f09fc){var _0x286199=a3_0x2d2682;Object[_0x286199(0x17e)](_0x2bec4f,_0x286199(0x1a3),{'enumerable':!![],'value':_0x3f09fc});}:function(_0x147ed5,_0x183437){var _0x18e0de=a3_0x2d2682;_0x147ed5[_0x18e0de(0x1a3)]=_0x183437;}),__importStar=this&&this[a3_0x2d2682(0x18d)]||function(_0x137b95){var _0x884ba7=a3_0x2d2682;if(_0x137b95&&_0x137b95['__esModule'])return _0x137b95;var _0x473b4f={};if(_0x137b95!=null){for(var _0x5727f1 in _0x137b95)if(_0x5727f1!==_0x884ba7(0x1a3)&&Object[_0x884ba7(0x1a4)][_0x884ba7(0x17d)][_0x884ba7(0x1a7)](_0x137b95,_0x5727f1))__createBinding(_0x473b4f,_0x137b95,_0x5727f1);}return __setModuleDefault(_0x473b4f,_0x137b95),_0x473b4f;};Object[a3_0x2d2682(0x17e)](exports,a3_0x2d2682(0x189),{'value':!![]}),exports[a3_0x2d2682(0x1a0)]=exports[a3_0x2d2682(0x195)]=exports['LogLevel']=void 0x0;const fs=__importStar(require('fs'));function a3_0x2489(){var _0x2d10da=['Error','create','5qtotqW','407304fFKOGZ','2859048sisfRc','Console','8752mDGcSb','writable','Logger','2000476VkclmV','Debug','default','prototype','None','indexOf','call','logMessage','3781570gSaqTk','appendFile','getOwnPropertyDescriptor','level','file','toISOString','warn','LogLevel','get','error','none','hasOwnProperty','defineProperty','logFilePath','both','output','\x20-\x20','1574678jZbgdx','join','Info','6dkmgSt','Warn','toUpperCase','__esModule','File','__setModuleDefault','logToFile','__importStar','debug','8WxyEbd','info','configurable','Both','Error\x20writing\x20to\x20log\x20file:','453196aAlloH','LogOutput','log','shouldLog'];a3_0x2489=function(){return _0x2d10da;};return a3_0x2489();}var LogLevel;(function(_0x5de8d1){var _0x455264=a3_0x2d2682;_0x5de8d1[_0x455264(0x1a2)]=_0x455264(0x18e),_0x5de8d1[_0x455264(0x185)]='info',_0x5de8d1['Warn']=_0x455264(0x178),_0x5de8d1[_0x455264(0x198)]=_0x455264(0x17b),_0x5de8d1[_0x455264(0x1a5)]=_0x455264(0x17c);}(LogLevel||(exports[a3_0x2d2682(0x179)]=LogLevel={})));var LogOutput;(function(_0x121e8e){var _0x58915e=a3_0x2d2682;_0x121e8e['Console']='console',_0x121e8e['File']=_0x58915e(0x176),_0x121e8e[_0x58915e(0x192)]=_0x58915e(0x180);}(LogOutput||(exports[a3_0x2d2682(0x195)]=LogOutput={})));class Logger{constructor(_0x4707d2,_0x55458d,_0x194b3a){var _0xc9421b=a3_0x2d2682;this[_0xc9421b(0x175)]=_0x4707d2,this['output']=_0x55458d,this[_0xc9421b(0x17f)]=_0x194b3a;}[a3_0x2d2682(0x197)](_0x445b20){var _0x5eccd6=a3_0x2d2682;if(this[_0x5eccd6(0x175)]===LogLevel[_0x5eccd6(0x1a5)])return![];const _0x4404de=[LogLevel[_0x5eccd6(0x1a2)],LogLevel[_0x5eccd6(0x185)],LogLevel[_0x5eccd6(0x187)],LogLevel[_0x5eccd6(0x198)]];return _0x4404de[_0x5eccd6(0x1a6)](_0x445b20)>=_0x4404de[_0x5eccd6(0x1a6)](this[_0x5eccd6(0x175)]);}[a3_0x2d2682(0x18c)](_0x5f2aad){var _0xe2ff08=a3_0x2d2682;fs[_0xe2ff08(0x173)](this[_0xe2ff08(0x17f)],_0x5f2aad+'\x0a',_0x1af2e0=>{var _0x41adea=_0xe2ff08;_0x1af2e0&&console[_0x41adea(0x17b)](_0x41adea(0x193),_0x1af2e0);});}['logMessage'](_0x82fb00,_0x55cbfb,..._0x6e660f){var _0x37b48d=a3_0x2d2682;const _0x27a57b='['+_0x82fb00[_0x37b48d(0x188)]()+']\x20'+new Date()[_0x37b48d(0x177)]()+_0x37b48d(0x182)+_0x55cbfb;(this[_0x37b48d(0x181)]===LogOutput[_0x37b48d(0x19d)]||this['output']===LogOutput['Both'])&&console[_0x37b48d(0x196)](_0x27a57b,..._0x6e660f),(this[_0x37b48d(0x181)]===LogOutput[_0x37b48d(0x18a)]||this['output']===LogOutput[_0x37b48d(0x192)])&&this[_0x37b48d(0x18c)](_0x27a57b+'\x20'+_0x6e660f[_0x37b48d(0x184)]('\x20'));}['debug'](_0x4f78f9,..._0x320fe0){var _0x866410=a3_0x2d2682;this[_0x866410(0x197)](LogLevel[_0x866410(0x1a2)])&&this[_0x866410(0x1a8)](LogLevel['Debug'],_0x4f78f9,..._0x320fe0);}[a3_0x2d2682(0x190)](_0x379696,..._0x453e40){var _0x41550d=a3_0x2d2682;this['shouldLog'](LogLevel[_0x41550d(0x185)])&&this['logMessage'](LogLevel['Info'],_0x379696,..._0x453e40);}[a3_0x2d2682(0x178)](_0x51f0fa,..._0x452ac7){var _0xbd3c5f=a3_0x2d2682;this[_0xbd3c5f(0x197)](LogLevel['Warn'])&&this['logMessage'](LogLevel[_0xbd3c5f(0x187)],_0x51f0fa,..._0x452ac7);}['error'](_0x5f4b78,..._0x40ef52){var _0x195bc6=a3_0x2d2682;this[_0x195bc6(0x197)](LogLevel[_0x195bc6(0x198)])&&this['logMessage'](LogLevel[_0x195bc6(0x198)],_0x5f4b78,..._0x40ef52);}}exports[a3_0x2d2682(0x1a0)]=Logger;
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Logger = exports.LogOutput = exports.LogLevel = void 0;
+const fs = __importStar(require("fs"));
+var LogLevel;
+(function (LogLevel) {
+    LogLevel["Debug"] = "debug";
+    LogLevel["Info"] = "info";
+    LogLevel["Warn"] = "warn";
+    LogLevel["Error"] = "error";
+    LogLevel["None"] = "none";
+})(LogLevel || (exports.LogLevel = LogLevel = {}));
+var LogOutput;
+(function (LogOutput) {
+    LogOutput["Console"] = "console";
+    LogOutput["File"] = "file";
+    LogOutput["Both"] = "both";
+})(LogOutput || (exports.LogOutput = LogOutput = {}));
+class Logger {
+    constructor(level, output, logFilePath) {
+        this.level = level;
+        this.output = output;
+        this.logFilePath = logFilePath;
+    }
+    shouldLog(level) {
+        if (this.level === LogLevel.None) {
+            return false;
+        }
+        const levels = [LogLevel.Debug, LogLevel.Info, LogLevel.Warn, LogLevel.Error];
+        return levels.indexOf(level) >= levels.indexOf(this.level);
+    }
+    logToFile(message) {
+        fs.appendFile(this.logFilePath, message + '\n', err => {
+            if (err) {
+                console.error('Error writing to log file:', err);
+            }
+        });
+    }
+    logMessage(level, message, ...optionalParams) {
+        const formattedMessage = `[${level.toUpperCase()}] ${new Date().toISOString()} - ${message}`;
+        if (this.output === LogOutput.Console || this.output === LogOutput.Both) {
+            console.log(formattedMessage, ...optionalParams);
+        }
+        if (this.output === LogOutput.File || this.output === LogOutput.Both) {
+            this.logToFile(formattedMessage + ' ' + optionalParams.join(' '));
+        }
+    }
+    debug(message, ...optionalParams) {
+        if (this.shouldLog(LogLevel.Debug)) {
+            this.logMessage(LogLevel.Debug, message, ...optionalParams);
+        }
+    }
+    info(message, ...optionalParams) {
+        if (this.shouldLog(LogLevel.Info)) {
+            this.logMessage(LogLevel.Info, message, ...optionalParams);
+        }
+    }
+    warn(message, ...optionalParams) {
+        if (this.shouldLog(LogLevel.Warn)) {
+            this.logMessage(LogLevel.Warn, message, ...optionalParams);
+        }
+    }
+    error(message, ...optionalParams) {
+        if (this.shouldLog(LogLevel.Error)) {
+            this.logMessage(LogLevel.Error, message, ...optionalParams);
+        }
+    }
+}
+exports.Logger = Logger;

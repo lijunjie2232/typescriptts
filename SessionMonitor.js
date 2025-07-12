@@ -1,1 +1,50 @@
-'use strict';const a4_0x440309=a4_0x4262;function a4_0x4262(_0x590fdd,_0x2664fa){const _0x22c21e=a4_0x22c2();return a4_0x4262=function(_0x4262f2,_0x30fc74){_0x4262f2=_0x4262f2-0xa9;let _0x1abbd5=_0x22c21e[_0x4262f2];return _0x1abbd5;},a4_0x4262(_0x590fdd,_0x2664fa);}(function(_0x5c2e44,_0xc19115){const _0x5afe3b=a4_0x4262,_0x1ce9a7=_0x5c2e44();while(!![]){try{const _0x456063=parseInt(_0x5afe3b(0xae))/0x1*(-parseInt(_0x5afe3b(0xad))/0x2)+-parseInt(_0x5afe3b(0xb1))/0x3+-parseInt(_0x5afe3b(0xb9))/0x4+parseInt(_0x5afe3b(0xb5))/0x5*(parseInt(_0x5afe3b(0xab))/0x6)+parseInt(_0x5afe3b(0xc3))/0x7*(-parseInt(_0x5afe3b(0xbc))/0x8)+parseInt(_0x5afe3b(0xb2))/0x9*(parseInt(_0x5afe3b(0xba))/0xa)+parseInt(_0x5afe3b(0xb7))/0xb*(parseInt(_0x5afe3b(0xb4))/0xc);if(_0x456063===_0xc19115)break;else _0x1ce9a7['push'](_0x1ce9a7['shift']());}catch(_0x327226){_0x1ce9a7['push'](_0x1ce9a7['shift']());}}}(a4_0x22c2,0x722a4));Object[a4_0x440309(0xc4)](exports,a4_0x440309(0xa9),{'value':!![]}),exports[a4_0x440309(0xac)]=void 0x0;class SessionMonitor{constructor(_0x184be1){const _0x331d4d=a4_0x440309;this[_0x331d4d(0xb8)]=_0x184be1,this[_0x331d4d(0xaf)]=0x0,this[_0x331d4d(0xb3)]=0x0,this['lastCheckedReadBytes']=0x0,this[_0x331d4d(0xaa)]=0x0,this['lastCheckedTime']=Date[_0x331d4d(0xbd)]();const _0x14c89=this[_0x331d4d(0xb8)][_0x331d4d(0xbf)][_0x331d4d(0xc0)](this[_0x331d4d(0xb8)]);this[_0x331d4d(0xb8)][_0x331d4d(0xbf)]=(_0x1df03d,..._0x5678d9)=>{const _0x45b7ee=_0x331d4d;return this[_0x45b7ee(0xb3)]+=_0x1df03d instanceof Buffer?_0x1df03d[_0x45b7ee(0xc1)]:Buffer['byteLength'](_0x1df03d),_0x14c89(_0x1df03d,..._0x5678d9);},this[_0x331d4d(0xb8)]['on'](_0x331d4d(0xb6),_0x1eee08=>{const _0x4d0510=_0x331d4d;this[_0x4d0510(0xaf)]+=_0x1eee08['length'];});}['getCurrentNetworkSpeed'](){const _0x1b31fc=a4_0x440309,_0x4c7f4c=Date['now'](),_0xffb73e=(_0x4c7f4c-this[_0x1b31fc(0xb0)])/0x3e8,_0x32e5e8=this[_0x1b31fc(0xaf)]-this[_0x1b31fc(0xbe)],_0x3149ef=this[_0x1b31fc(0xb3)]-this['lastCheckedWrittenBytes'],_0x250d91=_0x32e5e8/_0xffb73e,_0xbc3061=_0x3149ef/_0xffb73e;return this['lastCheckedTime']=_0x4c7f4c,this['lastCheckedReadBytes']=this['bytesRead'],this['lastCheckedWrittenBytes']=this[_0x1b31fc(0xb3)],{'readSpeed':_0x250d91,'writeSpeed':_0xbc3061};}[a4_0x440309(0xbb)](){const _0x3068ee=a4_0x440309;return{'totalRead':this[_0x3068ee(0xaf)],'totalWritten':this['bytesWritten']};}['getBytesRead'](){return this['bytesRead'];}[a4_0x440309(0xc2)](){const _0x362378=a4_0x440309;return this[_0x362378(0xb3)];}}exports[a4_0x440309(0xac)]=SessionMonitor;function a4_0x22c2(){const _0xfccc7e=['1hoWoDu','bytesRead','lastCheckedTime','1720101ZGQnBy','1917819LDMUCR','bytesWritten','24UvRJXK','2685605JLBOMk','data','7936819BoqxlM','clientSocket','2137472lVumKN','30BmZPGC','getTotalSessionBandwidth','320VCfSxx','now','lastCheckedReadBytes','write','bind','length','getBytesWritten','88718zzaOLu','defineProperty','__esModule','lastCheckedWrittenBytes','6UcGlMf','SessionMonitor','1074274tmWqQa'];a4_0x22c2=function(){return _0xfccc7e;};return a4_0x22c2();}
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SessionMonitor = void 0;
+class SessionMonitor {
+    constructor(clientSocket) {
+        this.clientSocket = clientSocket;
+        this.bytesRead = 0;
+        this.bytesWritten = 0;
+        this.lastCheckedReadBytes = 0;
+        this.lastCheckedWrittenBytes = 0;
+        this.lastCheckedTime = Date.now();
+        const originalWrite = this.clientSocket.write.bind(this.clientSocket);
+        this.clientSocket.write = (data, ...args) => {
+            //console.log('Overridden write called');
+            this.bytesWritten += data instanceof Buffer ? data.length : Buffer.byteLength(data);
+            //console.log('Updated bytesWritten:', this.bytesWritten);
+            return originalWrite(data, ...args);
+        };
+        // Handle 'data' event for bytesRead
+        this.clientSocket.on('data', (data) => {
+            this.bytesRead += data.length;
+        });
+    }
+    getCurrentNetworkSpeed() {
+        const currentTime = Date.now();
+        const timeElapsed = (currentTime - this.lastCheckedTime) / 1000; // Convert to seconds
+        const bytesReadSinceLastCheck = this.bytesRead - this.lastCheckedReadBytes;
+        const bytesWrittenSinceLastCheck = this.bytesWritten - this.lastCheckedWrittenBytes;
+        const readSpeed = bytesReadSinceLastCheck / timeElapsed; // Bytes per second
+        const writeSpeed = bytesWrittenSinceLastCheck / timeElapsed; // Bytes per second
+        // Update for next check
+        this.lastCheckedTime = currentTime;
+        this.lastCheckedReadBytes = this.bytesRead;
+        this.lastCheckedWrittenBytes = this.bytesWritten;
+        return { readSpeed, writeSpeed };
+    }
+    getTotalSessionBandwidth() {
+        return {
+            totalRead: this.bytesRead,
+            totalWritten: this.bytesWritten
+        };
+    }
+    getBytesRead() {
+        return this.bytesRead;
+    }
+    getBytesWritten() {
+        return this.bytesWritten;
+    }
+}
+exports.SessionMonitor = SessionMonitor;
